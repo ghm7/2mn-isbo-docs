@@ -118,6 +118,4 @@ public class App {
 
         System.out.println(accumulator);
     }
-
-    // [TD] : Hacer otros repartidos de esta folder
 }
