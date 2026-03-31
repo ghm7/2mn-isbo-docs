@@ -59,7 +59,5 @@ public class App {
         System.out.print((varEjercicio7_base * varEjercicio7_altura) / 2);
 
         input.close();
-
-        // [TD]: Terminar los ejercicios de este documento
     }
 }
