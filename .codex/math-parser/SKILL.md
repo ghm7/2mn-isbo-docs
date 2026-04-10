@@ -45,7 +45,7 @@ When this skill is used, follow these rules strictly:
 
 ```
 $$
-   \Large\operatorname{Sg}(f(x)) \quad \xrightarrow[\quad \frac{5}{4} \qquad x]{+\quad 0 \quad -}
+   \Large\operatorname{Sg}\ f(x) \quad \xrightarrow[\quad \frac{5}{4} \qquad x]{+\quad 0 \quad -}
 $$
 ```
 
