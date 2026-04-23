@@ -2,43 +2,43 @@
 
 ## 1. Definiciones de historia
 
-### Definicion 1 - Pierre Vilar
+### Definición 1 - Pierre Vilar
 
 _La historia es el único instrumento que puede abrir las puertas al conocimiento del mundo de una manera sino científica, por lo menos razonada_
 
 Idea central: la historia permite comprender el mundo de forma racional y fundamentada.
 
-### Definicion 2 - Manuel Moreno Fraginals
+### Definición 2 - Manuel Moreno Fraginals
 
 _Quien no sienta la alegría infinita de estar aquí en este mundo revuelto y cambiante, peligroso y bello, sangriento y doloroso como un parto, pero como un creador de nueva vida, está incapacitado para escribir historia_
 
 Idea central: para escribir historia hay que comprometerse con la vida, con los cambios y con los conflictos del mundo.
 
-### Definicion 3 - Marx y Engels
+### Definición 3 - Marx y Engels
 
-> _Marx y Engels en el "manifiesto comunista" sostienen que la historia de la humanidad es la historia de la lucha de clases. Hombres libre y esclavos, patricios y plebeyos, señores y siervos, maestros y oficiales, burgueses y proletariados, opresores y oprimidos se han enfrentado siempre algunas veces frente a frente y otras de maneras veladas_
+_Marx y Engels en el "manifiesto comunista" sostienen que la historia de la humanidad es la historia de la lucha de clases. Hombres libre y esclavos, patricios y plebeyos, señores y siervos, maestros y oficiales, burgueses y proletariados, opresores y oprimidos se han enfrentado siempre algunas veces frente a frente y otras de maneras veladas_
 
 Idea central: la historia avanza a traves de los enfrentamientos entre grupos sociales con intereses opuestos.
 
 ### Concepto vinculado: siervos
 
-En el feudalismo, el señor feudal dividía las tierras entre los siervos y luego estos debían retribuir con la produccion obtenida.
+En el feudalismo, el señor feudal dividía las tierras entre los siervos y luego estos debían retribuir con la producción obtenida.
 
 ## 2. Conceptos teóricos
 
 ### Economía
 
-Conjunto de fenómenos relativos a la produccion, distribución y consumo de bienes y servicios que son escasos y finitos.
+Conjunto de fenómenos relativos a la producción, distribución y consumo de bienes y servicios que son escasos y finitos.
 
 ### Capitalismo
 
 Sistema económico basado en:
 
-- la propiedad privada de los medios de produccion
+- la propiedad privada de los medios de producción
 - la búsqueda de altas tasas de ganancia
 - la economía de mercado
 
-Los medios de produccion son, por ejemplo, fabricas, industrias, herramientas, maquinas y tierras.
+Los medios de producción son, por ejemplo, fabricas, industrias, herramientas, maquinas y tierras.
 
 ### Imperialismo
 
@@ -77,14 +77,14 @@ Puede ser:
 
 ### Definición
 
-La incorporación de la produccion ovina transformo, a partir de 1860, el modelo agroexportador uruguayo.
+La incorporación de la producción ovina transformo, a partir de 1860, el modelo agroexportador uruguayo.
 
 Uruguay venia desde la colonia de una economía muy vinculada al cuero y mas tarde a la carne salada. Con la revolución del lanar, la lana paso a ocupar un lugar central.
 
 ### Características principales
 
 - comenzó alrededor de 1860
-- impulso la produccion ovina
+- impulso la producción ovina
 - modernizo la estructura económica
 - modifico la ganadería tradicional
 - cambio las bases economics de la sociedad
