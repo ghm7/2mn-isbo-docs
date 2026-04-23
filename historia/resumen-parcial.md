@@ -111,16 +111,16 @@ La raza merino australiana fue clave porque producía una lana de mejor calidad 
 
 ### Consecuencias
 
-- la lana llego a superar al cuero como principal rubro de venta
+- la lana llegó a superar al cuero como principal rubro de venta
 - se fortaleció el modelo agroexportador
 - se volvió mas racional y moderna la explotación ganadera
 - crecieron los ingresos vinculados al sector rural
 
 ### Contexto ganadero general
 
-En Uruguay predominaba la produccion de carne vacuna, aunque en un comienzo lo mas valioso habia sido el cuero. Con el tiempo se dio mas importancia a la carne y a la lana.
+En Uruguay predominaba la producción de carne vacuna, aunque en un comienzo lo mas valioso había sido el cuero. Con el tiempo se dio mas importancia a la carne y a la lana.
 
-La carne se conservaba con sal y se enviaba a Brasil. En 1904 se instalo el primer frigorifico en Montevideo, en el Cerro.
+La carne se conservaba con sal y se enviaba a Brasil. En 1904 se instalo el primer frigorífico en Montevideo, en el Cerro.
 
 ## 4. Gobierno de Lorenzo Latorre
 
@@ -130,9 +130,9 @@ Gobierno de Lorenzo Latorre: 1876-1880.
 
 ### Contexto
 
-En la decada de 1870 Uruguay atravesaba una profunda inestabilidad politica. Los sectores mas poderosos, como el sector rural, el capital extranjero, el alto comercio y la banca britanica, presionaron para que Latorre asumiera el control del pais.
+En la década de 1870 Uruguay atravesaba una profunda inestabilidad política. Los sectores mas poderosos, como el sector rural, el capital extranjero, el alto comercio y la banca británica, presionaron para que Latorre asumiera el control del país.
 
-Segun los apuntes, estos grupos utilizaron a Latorre y al ejercito para impulsar la modernizacion del Estado y de la economia.
+Según los apuntes, estos grupos utilizaron a Latorre y al ejercito para impulsar la modernización del Estado y de la economía.
 
 ### Dos objetivos centrales del gobierno
 
@@ -144,47 +144,47 @@ Segun los apuntes, estos grupos utilizaron a Latorre y al ejercito para impulsar
 #### Instrumentos utilizados
 
 1. Uso del ejercito en la campaña para combatir el abigeato.
-2. Mejora del armamento del ejercito y la policia: fusiles y carabinas Remington.
-3. Incorporacion de nuevos medios de comunicacion: telegrafos, ferrocarriles y correos.
-4. Tecnificacion del poder judicial:
-   - Codigo de Procedimiento Civil, de Joaquin Requena
-   - Codigo de Instruccion Criminal, de Laudelino Vazquez
+2. Mejora del armamento del ejercito y la policía: fusiles y carabinas Remington.
+3. Incorporación de nuevos medios de comunicación: telégrafos, ferrocarriles y correos.
+4. Tecnificación del poder judicial:
+   - Código de Procedimiento Civil, de Joaquin Requena
+   - Código de Instrucción Criminal, de Laudelino Vazquez
 
-### Afirmacion del derecho de propiedad
+### Afirmación del derecho de propiedad
 
 #### Instrumentos utilizados
 
 1. Alambramiento de los campos.
-2. Codigo Rural.
+2. Código Rural.
 3. Registro de propiedad departamental.
-4. Creacion de la oficina de marcas y señales.
+4. Creación de la oficina de marcas y señales.
 
 ### Alambramiento
 
-Aunque habia comenzado en 1872, fue a partir de 1876 que tomo gran impulso.
+Aunque había comenzado en 1872, fue a partir de 1876 que tomo gran impulso.
 
 Medidas que lo favorecieron:
 
-- eliminacion de impuestos aduaneros al alambre y a los postes
-- aumento de la contribucion inmobiliaria rural
+- eliminación de impuestos aduaneros al alambre y a los postes
+- aumento de la contribución inmobiliaria rural
 - alambramiento forzoso de hecho
 
 #### Objetivos del alambramiento
 
 1. Delimitar con exactitud la propiedad y asegurarla.
-2. Permitir una explotacion mas racional del ganado, especialmente la mestizacion.
+2. Permitir una explotación mas racional del ganado, especialmente la mestización.
 
-### Codigo Rural
+### Código Rural
 
-Fue redactado por la Asociacion Rural del Uruguay, fundada en 1871.
+Fue redactado por la Asociación Rural del Uruguay, fundada en 1871.
 
-La ARU y las llamadas fuerzas vivas presionaron al Estado para transformar el pais primitivo del estanciero caudillo en un pais moderno del estanciero empresario.
+La ARU y las llamadas fuerzas vivas presionaron al Estado para transformar el país primitivo del estanciero caudillo en un país moderno del estanciero empresario.
 
-#### Objetivos del Codigo Rural
+#### Objetivos del Código Rural
 
 1. Asegurar la propiedad de la tierra y del ganado.
-2. Mantener el orden, legislando incluso sobre la policia y admitiendo la policia privada.
-3. Dar seguridad juridica a la produccion agropecuaria.
+2. Mantener el orden, legislando incluso sobre la policía y admitiendo la policía privada.
+3. Dar seguridad jurídica a la producción agropecuaria.
 4. Endurecer las penas por abigeato, especialmente desde 1879.
 
 ### Conceptos vinculados
@@ -195,54 +195,8 @@ Robo de ganado.
 
 #### Proteccionismo
 
-Consiste en poner impuestos o generar dificultades para que los productos importados no compitan con tanta fuerza dentro del pais.
+Consiste en poner impuestos o generar dificultades para que los productos importados no compitan con tanta fuerza dentro del país.
 
 ### Idea general para responder en un parcial
 
-El gobierno de Latorre fue clave en la modernizacion del Uruguay rural porque busco imponer orden, fortalecer al Estado y asegurar la propiedad privada. Para eso utilizo al ejercito, mejoro las comunicaciones, tecnifico la justicia, impulso el alambramiento y aplico el Codigo Rural. Todo esto favorecio a los grandes sectores rurales y acompano la transformacion economica del pais.
-
-## 5. Repaso rapido
-
-### Fechas clave
-
-- 1860: comienzo de la revolucion del lanar
-- 1871: fundacion de la Asociacion Rural del Uruguay
-- 1876-1880: gobierno de Lorenzo Latorre
-- 1879: endurecimiento de penas por abigeato
-
-### Palabras clave que conviene memorizar
-
-- lucha de clases
-- propiedad privada
-- economia de mercado
-- predominio de un pais sobre otro
-- exportaciones e importaciones
-- ovinos
-- mestizacion
-- agroexportador
-- alambramiento
-- Codigo Rural
-- abigeato
-- derecho de propiedad
-
-## 6. Mini guia para estudiar
-
-Si te preguntan una definicion de historia, elegi una de las tres y explicala con su idea central.
-
-Si te preguntan conceptos teoricos, conviene responder con una definicion breve y precisa.
-
-Si te preguntan revolucion del lanar, menciona:
-
-- fecha aproximada de inicio
-- crecimiento de la produccion ovina
-- mestizacion
-- auge de la lana en las exportaciones
-- modernizacion economica
-
-Si te preguntan gobierno de Latorre, conviene ordenar la respuesta asi:
-
-1. contexto de crisis e inestabilidad
-2. objetivos centrales
-3. instrumentos para lograr la paz interna
-4. instrumentos para afirmar la propiedad
-5. conclusion sobre modernizacion del Estado y del campo
+El gobierno de Latorre fue clave en la modernización del Uruguay rural porque busco imponer orden, fortalecer al Estado y asegurar la propiedad privada. Para eso utilizo al ejercito, mejoro las comunicaciones, tecnifico la justicia, impulso el alambramiento y aplico el Código Rural. Todo esto favoreció a los grandes sectores rurales y acompañó la transformación económica del país.
