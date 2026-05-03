@@ -1,0 +1,9 @@
+interface:
+  display_name: "Generate ERD Drawio"
+  short_description: "Create Chen ERD diagrams.net files"
+  default_prompt: "Use $generate-erd-drawio to convert this ERD exercise into a diagrams.net .drawio file."
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "drawio"
+      description: "drawio MCP server for creating and editing diagrams.net files"
