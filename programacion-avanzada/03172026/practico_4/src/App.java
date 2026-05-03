@@ -74,6 +74,8 @@ public class App {
 
         if (variableEjercicio9 % 10 == 3) {
             System.out.println("el ultimo dígito es 3");
+        } else {
+            System.out.println("no termina en 3");
         }
 
 
