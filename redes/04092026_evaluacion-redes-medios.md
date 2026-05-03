@@ -12,7 +12,7 @@
 
 Puntaje: 8/8
 
-![Sistema de comunicaciones](<EVALUACION PARA REDES Y MEDIOS , abril 2026 _ Schoology_files/image.png>)
+![Sistema de comunicaciones](../_assets/redes/04092026_image.png)
 
 DEFINICIONES EN UN SISTEMA DE COMUNICACIONES
 
@@ -43,7 +43,7 @@ RELACIONE EL TIPO DE SEÑAL QUE SE UTILIZAN EN SUS CORREPONDIENTES MEDIO
 
 Puntaje: 5/5
 
-![Capas](<EVALUACION PARA REDES Y MEDIOS , abril 2026 _ Schoology_files/CAPA.jpg>)
+![Capas](../_assets/redes/04092026_CAPA.jpg)
 
 | Item          | Respuesta correcta                                         |
 | ------------- | ---------------------------------------------------------- |
@@ -84,7 +84,7 @@ RELACIONE LA CLASIFICACION DE REDES SEGUN SU ALCANCE
 
 Puntaje: 4/4
 
-![Clasificación de redes](<EVALUACION PARA REDES Y MEDIOS , abril 2026 _ Schoology_files/image(1).png>)
+![Clasificación de redes](<../_assets/redes/04092026_image(1).png>)
 
 RELACIONA CRITERIOS DE CLASIFICACION DE REDES
 
@@ -175,7 +175,7 @@ SEÑALE LAS OPCIONES CORRECTAS RESPECTO A LOS DISPOSITIVOS DE RED
 
 Puntaje: 5/5
 
-![Router](<EVALUACION PARA REDES Y MEDIOS , abril 2026 _ Schoology_files/ROUTER.jpg>)
+![Router](../_assets/redes/04092026_ROUTER.jpg)
 
 SEÑALE OPCIONES CORRECTAS
 
@@ -196,17 +196,17 @@ Puntaje: 3/3
 
 SEGUN EL USO DEL MEDIO LA TRANSMISION PUEDE SER
 
-| Item           | Respuesta correcta                                                                           |
-| -------------- | -------------------------------------------------------------------------------------------- |
-| 1. FULLDUPLEX  | ![Full duplex](<EVALUACION PARA REDES Y MEDIOS , abril 2026 _ Schoology_files/image.jpeg>)   |
-| 2. SIMPLEX     | ![Simplex](<EVALUACION PARA REDES Y MEDIOS , abril 2026 _ Schoology_files/image(2).png>)     |
-| 3. SEMI DUPLEX | ![Semi duplex](<EVALUACION PARA REDES Y MEDIOS , abril 2026 _ Schoology_files/image(3).png>) |
+| Item           | Respuesta correcta                                       |
+| -------------- | -------------------------------------------------------- |
+| 1. FULLDUPLEX  | ![Full duplex](../_assets/redes/04092026_image.jpeg)     |
+| 2. SIMPLEX     | ![Simplex](<../_assets/redes/04092026_image(2).png>)     |
+| 3. SEMI DUPLEX | ![Semi duplex](<../_assets/redes/04092026_image(3).png>) |
 
 ## Pregunta 16
 
 Puntaje: 5/5
 
-![Protocolos](<EVALUACION PARA REDES Y MEDIOS , abril 2026 _ Schoology_files/protocolos.jpg>)
+![Protocolos](../_assets/redes/04092026_protocolos.jpg)
 
 | Item      | Respuesta correcta |
 | --------- | ------------------ |
