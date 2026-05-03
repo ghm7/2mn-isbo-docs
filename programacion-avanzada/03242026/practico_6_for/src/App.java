@@ -25,7 +25,7 @@ public class App {
         }
 
         // 5. Imprimir en pantalla los números del 70 al 100.
-        for (int i = 70; i <= 200; i++) {
+        for (int i = 70; i <= 100; i++) {
             System.out.println(i);
         }
 
@@ -34,8 +34,8 @@ public class App {
             System.out.println(i);
         }
 
-        // 7. Imprimir los multiplso de 3 entre 0 y 100.
-        for (int i = 0; i < 100; i++) {
+        // 7. Imprimir los múltiplos de 3 entre 0 y 100.
+        for (int i = 0; i <= 100; i++) {
             if (i % 3 == 0) {
                 System.out.println(i);
             }
@@ -53,7 +53,7 @@ public class App {
         for (int i = 1; i <= 10; i++) {
             int x = i * 3;
 
-            System.out.println(i + " x 3 = " + x);
+            System.out.println("3 x " + i + " = " + x);
         }
 
         // 10. Imprimir todos los múltiplos de 4 entre 200 y 300, incluyendo a ambos en el rango.
@@ -99,7 +99,7 @@ public class App {
         }
     
         // 13 Imprimir todos los números que terminan en 4 entre 200 y 300
-        for (int i = 200; i < 300; i++) {
+        for (int i = 200; i <= 300; i++) {
             if (i % 10 == 4) {
                 System.out.println(i);
             }
@@ -111,11 +111,11 @@ public class App {
         System.out.println("Ingrese un numero:");
         int variable14 = input.nextInt();
 
-        for (int i = 0; i < variable14; i++) {
+        for (int i = 0; i <= variable14; i++) {
             accumulator += i;
         }
-        accumulator += variable14;
 
         System.out.println(accumulator);
+        input.close();
     }
 }
