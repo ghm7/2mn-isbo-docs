@@ -1,0 +1,1 @@
+codex mcp add drawio -- npx -y drawio-mcp-server --editor
