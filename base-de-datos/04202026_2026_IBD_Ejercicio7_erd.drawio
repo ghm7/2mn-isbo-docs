@@ -1,0 +1,85 @@
+<mxfile host="localhost">
+  <diagram name="Ejercicio 7" id="ejercicio7-erd">
+    <mxGraphModel dx="1900" dy="1150" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1900" pageHeight="1150" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="e_socio" value="Socio" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="260" y="420" width="140" height="60" as="geometry"/></mxCell>
+        <mxCell id="e_pareja" value="Pareja" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="680" y="420" width="140" height="60" as="geometry"/></mxCell>
+        <mxCell id="e_partido" value="Partido" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="1100" y="420" width="140" height="60" as="geometry"/></mxCell>
+        <mxCell id="e_cancha" value="Cancha" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="1510" y="420" width="140" height="60" as="geometry"/></mxCell>
+        <mxCell id="e_cuota" value="Cuota" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="260" y="820" width="140" height="60" as="geometry"/></mxCell>
+        <mxCell id="r_integra" value="integra" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="485" y="408" width="110" height="85" as="geometry"/></mxCell>
+        <mxCell id="r_disputa" value="disputa" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="890" y="408" width="110" height="85" as="geometry"/></mxCell>
+        <mxCell id="r_utiliza" value="utiliza" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="1310" y="408" width="110" height="85" as="geometry"/></mxCell>
+        <mxCell id="r_paga" value="paga" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="275" y="610" width="110" height="85" as="geometry"/></mxCell>
+        <mxCell id="a_socio_nro" value="nro socio" style="ellipse;whiteSpace=wrap;html=1;fontStyle=4" vertex="1" parent="1"><mxGeometry x="190" y="285" width="120" height="45" as="geometry"/></mxCell>
+        <mxCell id="a_socio_ci" value="ci" style="ellipse;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1"><mxGeometry x="330" y="295" width="80" height="45" as="geometry"/></mxCell>
+        <mxCell id="a_socio_nombre" value="nombre y apellido" style="ellipse;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1"><mxGeometry x="70" y="380" width="155" height="50" as="geometry"/></mxCell>
+        <mxCell id="a_socio_fecha_ingreso" value="fecha ingreso" style="ellipse;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1"><mxGeometry x="55" y="500" width="130" height="45" as="geometry"/></mxCell>
+        <mxCell id="a_socio_direccion" value="dirección" style="ellipse;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1"><mxGeometry x="205" y="550" width="115" height="45" as="geometry"/></mxCell>
+        <mxCell id="a_socio_telefono" value="teléfono" style="ellipse;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1"><mxGeometry x="360" y="545" width="105" height="45" as="geometry"/></mxCell>
+        <mxCell id="a_socio_sexo" value="sexo" style="ellipse;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1"><mxGeometry x="420" y="330" width="80" height="45" as="geometry"/></mxCell>
+        <mxCell id="a_pareja_nombre" value="nombre pareja" style="ellipse;whiteSpace=wrap;html=1;fontStyle=4" vertex="1" parent="1"><mxGeometry x="650" y="295" width="140" height="45" as="geometry"/></mxCell>
+        <mxCell id="a_partido_id" value="id partido" style="ellipse;whiteSpace=wrap;html=1;fontStyle=4" vertex="1" parent="1"><mxGeometry x="1075" y="295" width="120" height="45" as="geometry"/></mxCell>
+        <mxCell id="a_partido_fecha" value="fecha" style="ellipse;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1"><mxGeometry x="1015" y="535" width="85" height="45" as="geometry"/></mxCell>
+        <mxCell id="a_partido_hora" value="hora" style="ellipse;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1"><mxGeometry x="1130" y="535" width="80" height="45" as="geometry"/></mxCell>
+        <mxCell id="a_resultado" value="resultado" style="ellipse;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1"><mxGeometry x="1240" y="535" width="110" height="45" as="geometry"/></mxCell>
+        <mxCell id="a_resultado_set1" value="set 1" style="ellipse;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1"><mxGeometry x="1165" y="635" width="80" height="45" as="geometry"/></mxCell>
+        <mxCell id="a_resultado_set2" value="set 2" style="ellipse;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1"><mxGeometry x="1270" y="635" width="80" height="45" as="geometry"/></mxCell>
+        <mxCell id="a_resultado_set3" value="set 3" style="ellipse;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1"><mxGeometry x="1375" y="635" width="80" height="45" as="geometry"/></mxCell>
+        <mxCell id="a_cancha_nro" value="nro cancha" style="ellipse;whiteSpace=wrap;html=1;fontStyle=4" vertex="1" parent="1"><mxGeometry x="1450" y="295" width="120" height="45" as="geometry"/></mxCell>
+        <mxCell id="a_cancha_nombre" value="nombre" style="ellipse;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1"><mxGeometry x="1615" y="300" width="95" height="45" as="geometry"/></mxCell>
+        <mxCell id="a_cancha_capacidad" value="capacidad" style="ellipse;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1"><mxGeometry x="1450" y="545" width="115" height="45" as="geometry"/></mxCell>
+        <mxCell id="a_cancha_techada" value="techada" style="ellipse;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1"><mxGeometry x="1615" y="545" width="100" height="45" as="geometry"/></mxCell>
+        <mxCell id="a_cuota_nro" value="nro cuota" style="ellipse;whiteSpace=wrap;html=1;fontStyle=4" vertex="1" parent="1"><mxGeometry x="100" y="775" width="115" height="45" as="geometry"/></mxCell>
+        <mxCell id="a_cuota_mes" value="mes" style="ellipse;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1"><mxGeometry x="425" y="775" width="75" height="45" as="geometry"/></mxCell>
+        <mxCell id="a_cuota_vencimiento" value="fecha vencimiento" style="ellipse;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1"><mxGeometry x="55" y="920" width="155" height="45" as="geometry"/></mxCell>
+        <mxCell id="a_cuota_pago" value="fecha pago" style="ellipse;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1"><mxGeometry x="255" y="950" width="115" height="45" as="geometry"/></mxCell>
+        <mxCell id="a_cuota_monto" value="monto" style="ellipse;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1"><mxGeometry x="435" y="920" width="90" height="45" as="geometry"/></mxCell>
+        <mxCell id="c_integra_socio" value="N" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1"><mxGeometry x="430" y="430" width="40" height="26" as="geometry"/></mxCell>
+        <mxCell id="c_integra_pareja" value="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1"><mxGeometry x="620" y="430" width="40" height="26" as="geometry"/></mxCell>
+        <mxCell id="c_disputa_pareja" value="N" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1"><mxGeometry x="835" y="430" width="40" height="26" as="geometry"/></mxCell>
+        <mxCell id="c_disputa_partido" value="N" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1"><mxGeometry x="1035" y="430" width="40" height="26" as="geometry"/></mxCell>
+        <mxCell id="c_utiliza_partido" value="N" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1"><mxGeometry x="1250" y="430" width="40" height="26" as="geometry"/></mxCell>
+        <mxCell id="c_utiliza_cancha" value="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1"><mxGeometry x="1455" y="430" width="40" height="26" as="geometry"/></mxCell>
+        <mxCell id="c_paga_socio" value="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1"><mxGeometry x="350" y="510" width="40" height="26" as="geometry"/></mxCell>
+        <mxCell id="c_paga_cuota" value="N" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1"><mxGeometry x="350" y="750" width="40" height="26" as="geometry"/></mxCell>
+        <mxCell id="t_restriccion_pareja" value="2 socios, mixta" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=11;fontColor=#666666;" vertex="1" parent="1"><mxGeometry x="545" y="520" width="130" height="30" as="geometry"/></mxCell>
+        <mxCell id="t_restriccion_partido" value="2 parejas por partido" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=11;fontColor=#666666;" vertex="1" parent="1"><mxGeometry x="915" y="520" width="150" height="30" as="geometry"/></mxCell>
+        <mxCell id="l_socio_integra" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="e_socio" target="r_integra"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="l_integra_pareja" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="r_integra" target="e_pareja"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="l_pareja_disputa" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="e_pareja" target="r_disputa"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="l_disputa_partido" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="r_disputa" target="e_partido"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="l_partido_utiliza" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="e_partido" target="r_utiliza"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="l_utiliza_cancha" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="r_utiliza" target="e_cancha"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="l_socio_paga" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="e_socio" target="r_paga"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="l_paga_cuota" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="r_paga" target="e_cuota"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="l_socio_nro" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="e_socio" target="a_socio_nro"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="l_socio_ci" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="e_socio" target="a_socio_ci"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="l_socio_nombre" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="e_socio" target="a_socio_nombre"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="l_socio_fecha_ingreso" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="e_socio" target="a_socio_fecha_ingreso"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="l_socio_direccion" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="e_socio" target="a_socio_direccion"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="l_socio_telefono" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="e_socio" target="a_socio_telefono"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="l_socio_sexo" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="e_socio" target="a_socio_sexo"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="l_pareja_nombre" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="e_pareja" target="a_pareja_nombre"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="l_partido_id" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="e_partido" target="a_partido_id"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="l_partido_fecha" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="e_partido" target="a_partido_fecha"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="l_partido_hora" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="e_partido" target="a_partido_hora"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="l_partido_resultado" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="e_partido" target="a_resultado"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="l_resultado_set1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="a_resultado" target="a_resultado_set1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="l_resultado_set2" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="a_resultado" target="a_resultado_set2"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="l_resultado_set3" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="a_resultado" target="a_resultado_set3"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="l_cancha_nro" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="e_cancha" target="a_cancha_nro"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="l_cancha_nombre" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="e_cancha" target="a_cancha_nombre"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="l_cancha_capacidad" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="e_cancha" target="a_cancha_capacidad"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="l_cancha_techada" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="e_cancha" target="a_cancha_techada"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="l_cuota_nro" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="e_cuota" target="a_cuota_nro"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="l_cuota_mes" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="e_cuota" target="a_cuota_mes"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="l_cuota_vencimiento" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="e_cuota" target="a_cuota_vencimiento"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="l_cuota_pago" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="e_cuota" target="a_cuota_pago"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="l_cuota_monto" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="e_cuota" target="a_cuota_monto"><mxGeometry relative="1" as="geometry"/></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
