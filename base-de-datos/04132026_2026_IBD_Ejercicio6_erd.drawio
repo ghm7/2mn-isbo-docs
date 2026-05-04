@@ -1,0 +1,74 @@
+<mxfile host="localhost">
+  <diagram name="Ejercicio 6" id="ejercicio6-erd">
+    <mxGraphModel dx="1600" dy="1200" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="e_cliente" value="Cliente" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="120" y="460" width="140" height="60" as="geometry"/></mxCell>
+        <mxCell id="e_pedido" value="Pedido" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="760" y="460" width="140" height="60" as="geometry"/></mxCell>
+        <mxCell id="e_empleado" value="Empleado" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="760" y="120" width="140" height="60" as="geometry"/></mxCell>
+        <mxCell id="e_alimento" value="Alimento" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="1330" y="460" width="140" height="60" as="geometry"/></mxCell>
+        <mxCell id="r_realiza" value="realiza" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="415" y="448" width="105" height="85" as="geometry"/></mxCell>
+        <mxCell id="r_registra" value="registra" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="600" y="255" width="105" height="85" as="geometry"/></mxCell>
+        <mxCell id="r_entrega" value="entrega" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="960" y="255" width="105" height="85" as="geometry"/></mxCell>
+        <mxCell id="r_incluye" value="incluye" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="1075" y="448" width="105" height="85" as="geometry"/></mxCell>
+        <mxCell id="a_cliente_celular" value="celular" style="ellipse;whiteSpace=wrap;html=1;fontStyle=4" vertex="1" parent="1"><mxGeometry x="55" y="350" width="105" height="45" as="geometry"/></mxCell>
+        <mxCell id="a_cliente_nombre" value="nombre" style="ellipse;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1"><mxGeometry x="205" y="350" width="95" height="45" as="geometry"/></mxCell>
+        <mxCell id="a_cliente_direccion" value="dirección" style="ellipse;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1"><mxGeometry x="45" y="575" width="110" height="45" as="geometry"/></mxCell>
+        <mxCell id="a_cliente_observaciones" value="observaciones" style="ellipse;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1"><mxGeometry x="200" y="575" width="135" height="50" as="geometry"/></mxCell>
+        <mxCell id="a_pedido_numero" value="número" style="ellipse;whiteSpace=wrap;html=1;fontStyle=4" vertex="1" parent="1"><mxGeometry x="685" y="585" width="95" height="45" as="geometry"/></mxCell>
+        <mxCell id="a_pedido_fecha" value="fecha" style="ellipse;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1"><mxGeometry x="805" y="585" width="85" height="45" as="geometry"/></mxCell>
+        <mxCell id="a_pedido_hora" value="hora" style="ellipse;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1"><mxGeometry x="915" y="585" width="80" height="45" as="geometry"/></mxCell>
+        <mxCell id="a_empleado_ci" value="ci" style="ellipse;whiteSpace=wrap;html=1;fontStyle=4" vertex="1" parent="1"><mxGeometry x="620" y="40" width="75" height="45" as="geometry"/></mxCell>
+        <mxCell id="a_empleado_nombre" value="nombre" style="ellipse;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1"><mxGeometry x="735" y="25" width="95" height="45" as="geometry"/></mxCell>
+        <mxCell id="a_empleado_apellido" value="apellido" style="ellipse;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1"><mxGeometry x="860" y="25" width="100" height="45" as="geometry"/></mxCell>
+        <mxCell id="a_empleado_direccion" value="dirección" style="ellipse;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1"><mxGeometry x="935" y="115" width="110" height="45" as="geometry"/></mxCell>
+        <mxCell id="a_empleado_email" value="email" style="ellipse;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1"><mxGeometry x="955" y="185" width="85" height="45" as="geometry"/></mxCell>
+        <mxCell id="a_alimento_codigo" value="código" style="ellipse;whiteSpace=wrap;html=1;fontStyle=4" vertex="1" parent="1"><mxGeometry x="1260" y="350" width="95" height="45" as="geometry"/></mxCell>
+        <mxCell id="a_alimento_nombre" value="nombre" style="ellipse;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1"><mxGeometry x="1395" y="350" width="95" height="45" as="geometry"/></mxCell>
+        <mxCell id="a_alimento_precio" value="precio" style="ellipse;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1"><mxGeometry x="1245" y="575" width="90" height="45" as="geometry"/></mxCell>
+        <mxCell id="a_alimento_tipo" value="tipo" style="ellipse;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1"><mxGeometry x="1395" y="575" width="80" height="45" as="geometry"/></mxCell>
+        <mxCell id="a_entrega_fecha_salida" value="fecha salida" style="ellipse;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1"><mxGeometry x="1140" y="145" width="120" height="45" as="geometry"/></mxCell>
+        <mxCell id="a_entrega_hora_salida" value="hora salida" style="ellipse;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1"><mxGeometry x="1270" y="235" width="115" height="45" as="geometry"/></mxCell>
+        <mxCell id="a_entrega_fecha_entrega" value="fecha entrega" style="ellipse;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1"><mxGeometry x="1085" y="340" width="130" height="45" as="geometry"/></mxCell>
+        <mxCell id="a_entrega_hora_entrega" value="hora entrega" style="ellipse;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1"><mxGeometry x="1120" y="420" width="125" height="45" as="geometry"/></mxCell>
+        <mxCell id="c_realiza_cliente" value="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1"><mxGeometry x="325" y="466" width="40" height="26" as="geometry"/></mxCell>
+        <mxCell id="c_realiza_pedido" value="N" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1"><mxGeometry x="625" y="466" width="40" height="26" as="geometry"/></mxCell>
+        <mxCell id="c_registra_empleado" value="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1"><mxGeometry x="710" y="190" width="40" height="26" as="geometry"/></mxCell>
+        <mxCell id="c_registra_pedido" value="N" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1"><mxGeometry x="705" y="375" width="40" height="26" as="geometry"/></mxCell>
+        <mxCell id="c_entrega_empleado" value="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1"><mxGeometry x="925" y="190" width="40" height="26" as="geometry"/></mxCell>
+        <mxCell id="c_entrega_pedido" value="N" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1"><mxGeometry x="950" y="375" width="40" height="26" as="geometry"/></mxCell>
+        <mxCell id="c_incluye_pedido" value="N" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1"><mxGeometry x="970" y="466" width="40" height="26" as="geometry"/></mxCell>
+        <mxCell id="c_incluye_alimento" value="N" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1"><mxGeometry x="1235" y="466" width="40" height="26" as="geometry"/></mxCell>
+        <mxCell id="l_cliente_realiza" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="e_cliente" target="r_realiza"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="l_realiza_pedido" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="r_realiza" target="e_pedido"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="l_empleado_registra" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="e_empleado" target="r_registra"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="l_registra_pedido" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="r_registra" target="e_pedido"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="l_empleado_entrega" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="e_empleado" target="r_entrega"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="l_entrega_pedido" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="r_entrega" target="e_pedido"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="l_pedido_incluye" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="e_pedido" target="r_incluye"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="l_incluye_alimento" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="r_incluye" target="e_alimento"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="l_cliente_celular" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="e_cliente" target="a_cliente_celular"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="l_cliente_nombre" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="e_cliente" target="a_cliente_nombre"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="l_cliente_direccion" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="e_cliente" target="a_cliente_direccion"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="l_cliente_observaciones" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="e_cliente" target="a_cliente_observaciones"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="l_pedido_numero" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="e_pedido" target="a_pedido_numero"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="l_pedido_fecha" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="e_pedido" target="a_pedido_fecha"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="l_pedido_hora" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="e_pedido" target="a_pedido_hora"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="l_empleado_ci" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="e_empleado" target="a_empleado_ci"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="l_empleado_nombre" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="e_empleado" target="a_empleado_nombre"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="l_empleado_apellido" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="e_empleado" target="a_empleado_apellido"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="l_empleado_direccion" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="e_empleado" target="a_empleado_direccion"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="l_empleado_email" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="e_empleado" target="a_empleado_email"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="l_alimento_codigo" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="e_alimento" target="a_alimento_codigo"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="l_alimento_nombre" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="e_alimento" target="a_alimento_nombre"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="l_alimento_precio" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="e_alimento" target="a_alimento_precio"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="l_alimento_tipo" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="e_alimento" target="a_alimento_tipo"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="l_entrega_fecha_salida" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="r_entrega" target="a_entrega_fecha_salida"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="l_entrega_hora_salida" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="r_entrega" target="a_entrega_hora_salida"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="l_entrega_fecha_entrega" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="r_entrega" target="a_entrega_fecha_entrega"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="l_entrega_hora_entrega" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="r_entrega" target="a_entrega_hora_entrega"><mxGeometry relative="1" as="geometry"/></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
