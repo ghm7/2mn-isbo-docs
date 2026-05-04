@@ -36,12 +36,13 @@ description: Convert Entity-Relationship Diagram exercises from images, PDFs, sc
    - Check that all entities, attributes, keys, relationship names, and cardinalities from the exercise are present.
    - Check that the output uses Chen notation, not relational table notation or crow's-foot notation.
    - Validate the saved file parses as XML.
-   - Always render and inspect a visual preview before finishing. Prefer exporting SVG/PNG through drawio MCP and rendering with a browser/headless Chrome when available; ImageMagick may fail on drawio SVGs that contain modern `light-dark(...)` CSS.
+   - Always render and inspect a visual preview before finishing, but do not leave preview files next to the source exercise. Use an in-memory MCP export when possible, or write any temporary SVG/PNG preview under `/tmp` and delete it before finishing unless the user explicitly asks to keep preview artifacts. ImageMagick may fail on drawio SVGs that contain modern `light-dark(...)` CSS.
    - Refine with drawio MCP when the preview shows overlaps, crowded attributes, missing labels, or rotated/unreadable specialization labels.
 
 ## Output Rules
 
 - Save the file next to the source exercise unless the user gives a path. Use a clear suffix such as `_erd.drawio`.
+- Do not create persistent `.png`, `.svg`, or other preview files in the source folder. The `.drawio` file should be the only saved output unless the user requests additional exports.
 - Keep labels short and faithful to the exercise.
 - Use `1` and `N` cardinality labels near relationship connectors.
 - Add a short note in the final response with the output path and any assumptions made while inferring missing keys or cardinalities.
