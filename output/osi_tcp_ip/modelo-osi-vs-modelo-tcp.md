@@ -1,0 +1,221 @@
+# Modelo Osi Vs Modelo Tcp
+
+> PDF: `output/osi_tcp_ip/converted_pptx_pdf/MODELO_OSI_VS_MODELO_TCP.pdf`
+
+---
+
+## Table of Contents
+
+1. [Overview](#overview)
+2. [Concept Map](#concept-map)
+3. [Detailed Notes](#detailed-notes)
+4. [Key Concepts](#key-concepts)
+5. [Takeaways](#takeaways)
+6. [Quiz (4q)](#quiz)
+7. [Flashcards (5)](#flashcards)
+8. [Exercises (1)](#exercises)
+
+---
+
+## Overview
+
+MODELO OSI VS MODELO TCP/IP
+Estudio comparativo
+Comparativo con infraestructura de
+redes
+Descripción capa a capa
+encapsulado
+Estudio de cabeceras, protocolos y
+sus puertos
+Representación esquemática en
+simulador de redes
+Prácticos de captura
+
+Estudio
+comparativo
+http
+VLAN
+MPLS WiFi
+802. 1q
+892,11ax
+
+Protocolos
+VLAN
+802. 1q
+
+Descripción capa a
+capaL a Capa de Aplicación: En esta capa se encuentra el software necesario para
+posibilitar las distintas sesiones, presentación de datos y comunicación de las
+aplicaciones de usuario-Lo que en OSI se resolvia en 3 capas superiores a la de
+transporte
+La Capa de Transporte: es la que tiene aquellos procedimientos que
+garantizan una transmisión segura a nivel lógico ,segmentado, empaquetado
+identificación de puertos de transporte
+La Capa de Internet: El objetivo de esta capa es el de comunicar computadoras
+en redes distintas encargándose del direccionamiento y enrutamiento de los
+datos
+La Capa de Acceso a la Red: Es la responsable del intercambio de datos entre
+capas superiores y la red a la cual se esta conectado,. Se encuentra relacionada
+con el acceso y el encaminamiento de los datos
+Algunas interpretaciones de este modelo la unen a la capa 1
+La Capa Física: Define la interfaz física entre el dispositivo de transmisión
+de datos (por ejemplo, la estación del trabajo del computador) y el medio de
+transmisión o red. Esta capa se encarga de la especificación de las
+características del medio de transmisión, la naturaleza de las señales, la
+velocidad de los datos y cuestiones afines.
+
+---
+
+## Concept Map
+
+![Concept Map](modelo-osi-vs-modelo-tcp-concept-map.png)
+
+---
+
+## Detailed Notes
+
+## Page 1
+
+MODELO OSI VS MODELO TCP/IP
+Estudio comparativo
+Comparativo con infraestructura de
+redes
+Descripción capa a capa
+encapsulado
+Estudio de cabeceras, protocolos y
+sus puertos
+Representación esquemática en
+simulador de redes
+Prácticos de captura
+
+Estudio
+comparativo
+http
+VLAN
+MPLS WiFi
+802.1q
+892,11ax
+
+Protocolos
+VLAN
+802.1q
+
+Descripción capa a
+capaL a Capa de Aplicación: En esta capa se encuentra el software necesario para
+posibilitar las distintas sesiones, presentación de datos y comunicación de 
+
+---
+
+## Key Concepts
+
+**1.** Page 1: See corresponding section for details
+
+---
+
+## Takeaways
+
+- Review the core content of Page 1
+
+---
+
+## Quiz
+
+### Q1 [MCQ] (E)
+
+**En el modelo TCP/IP descrito, ¿qué capa se encarga principalmente del direccionamiento y enrutamiento de datos entre computadoras ubicadas en redes distintas?**
+
+- A. Capa de Aplicación
+- B. Capa de Transporte
+- C. Capa de Internet
+- D. Capa Física
+
+<details><summary>Answer</summary>
+
+**C. Capa de Internet**
+
+_La Capa de Internet tiene como objetivo comunicar computadoras que están en redes distintas. Para lograrlo, se ocupa del direccionamiento lógico y del enrutamiento de los datos. La Capa de Transporte trabaja con segmentación y puertos, la de Aplicación con servicios de usuario, y la Física con señales, medios y características eléctricas o inalámbricas._
+
+</details>
+
+### Q2 [T/F] (M)
+
+**En el modelo TCP/IP, la Capa de Aplicación agrupa funciones que en el modelo OSI se distribuyen entre las capas de aplicación, presentación y sesión.**
+
+<details><summary>Answer</summary>
+
+**True**
+
+_La afirmación es verdadera porque el contenido indica que en la Capa de Aplicación de TCP/IP se encuentra el software necesario para sesiones, presentación de datos y comunicación de aplicaciones de usuario. Esas funciones corresponden, en OSI, a las tres capas superiores: sesión, presentación y aplicación. Esta es una diferencia clave al comparar ambos modelos: TCP/IP agrupa funciones que OSI separa con mayor detalle._
+
+</details>
+
+### Q3 [Scenario] (H)
+
+**Estás analizando con Wireshark una comunicación HTTP desde una PC de una VLAN hacia un servidor ubicado en otra red. El enlace entre el switch y el router transporta varias VLAN mediante 802.1Q. ¿Cuál interpretación del encapsulado y de las capas es la más correcta?**
+
+- A. HTTP pertenece a la Capa Física; 802.1Q identifica los puertos de transporte y el router decide la ruta usando la cabecera HTTP.
+- B. HTTP viaja como datos de aplicación encapsulados en un segmento de transporte con puertos, luego en un paquete IP para direccionamiento entre redes, y finalmente en una trama de acceso a red que puede incluir etiqueta 802.1Q en el enlace troncal.
+- C. La VLAN 802.1Q sustituye a IP cuando el destino está en otra red, por lo que no se necesita direccionamiento de Capa de Internet.
+- D. El router conserva exactamente la misma trama Ethernet con la misma etiqueta 802.1Q de extremo a extremo, porque el encapsulado nunca cambia al pasar por dispositivos intermedios.
+
+<details><summary>Answer</summary>
+
+**B. HTTP viaja como datos de aplicación encapsulados en un segmento de transporte con puertos, luego en un paquete IP para direccionamiento entre redes, y finalmente en una trama de acceso a red que puede incluir etiqueta 802.1Q en el enlace troncal.**
+
+_La opción B integra correctamente varias ideas del contenido: HTTP corresponde a la Capa de Aplicación; la Capa de Transporte agrega segmentación e identificación de puertos; la Capa de Internet se encarga del direccionamiento y enrutamiento entre redes; y la Capa de Acceso a la Red usa tramas adecuadas al medio, donde puede aparecer una etiqueta VLAN 802.1Q. La opción A confunde HTTP con la Capa Física y atribuye funciones incorrectas a 802.1Q. La opción C es incorrecta porque VLAN no reemplaza a IP para comunicación entre redes. La opción D también es incorrecta: al cruzar routers, normalmente cambian las cabeceras de enlace de datos según la interfaz de salida, aunque el paquete IP pueda mantenerse lógicamente como unidad de encaminamiento._
+
+</details>
+
+### Q4 [Compare] (M)
+
+**Compara la Capa de Acceso a la Red y la Capa Física en el modelo TCP/IP descrito. ¿En qué se diferencian y por qué algunas interpretaciones pueden unirlas?**
+
+<details><summary>Answer</summary>
+
+**La Capa de Acceso a la Red se ocupa del intercambio de datos entre las capas superiores y la red conectada, incluyendo el acceso al medio y el encaminamiento local de los datos. La Capa Física define la interfaz física, las señales, la velocidad de transmisión y las características del medio. Algunas interpretaciones las unen porque ambas están muy ligadas al modo en que los datos salen realmente al medio de transmisión, aunque una trata aspectos lógicos de enlace/acceso y la otra aspectos físicos.**
+
+_La comparación exige distinguir niveles de responsabilidad. La Capa de Acceso a la Red trabaja con cómo se entregan los datos a la red local, por ejemplo mediante tramas o mecanismos de acceso como Ethernet, WiFi o VLAN. La Capa Física, en cambio, se centra en el soporte material o radioeléctrico: señales, interfaz, velocidad y medio. Se pueden agrupar porque en TCP/IP no siempre se separan con la misma precisión que en OSI, pero conceptualmente no resuelven exactamente el mismo problema._
+
+</details>
+
+---
+
+## Flashcards
+
+**1. ¿Qué capas del modelo OSI se integran en la capa de Aplicación del modelo TCP/IP?** `tcp-ip` `osi` `capas`
+> La capa de Aplicación de TCP/IP integra las funciones de las capas OSI de Aplicación, Presentación y Sesión.
+
+**2. ¿Por qué la capa de Transporte del modelo TCP/IP utiliza puertos?** `transporte` `puertos` `tcp-ip`
+> Utiliza puertos para identificar qué aplicación o servicio debe recibir los datos dentro de un host, permitiendo la comunicación lógica extremo a extremo.
+
+**3. ¿Cómo contribuye la capa de Internet del modelo TCP/IP a la comunicación entre redes distintas?** `internet` `enrutamiento` `tcp-ip`
+> La capa de Internet se encarga del direccionamiento y enrutamiento de los datos para comunicar computadoras ubicadas en redes diferentes.
+
+**4. Compara la capa de Acceso a la Red y la capa Física en el modelo TCP/IP.** `acceso-red` `fisica` `capas`
+> La capa de Acceso a la Red gestiona el intercambio de datos con la red conectada, mientras que la capa Física define las características del medio, señales y velocidad de transmisión.
+
+**5. En el encapsulado de datos, ¿qué función cumplen las cabeceras agregadas por cada capa?** `encapsulado` `cabeceras` `comunicacion`
+> Las cabeceras contienen información de control necesaria para que la capa homóloga en el dispositivo receptor interprete y procese correctamente los datos.
+
+---
+
+## Exercises
+
+### Exercise 1: Análisis capa a capa de una comunicación HTTP en una red con VLAN (M)
+
+Configura o utiliza un escenario simple de red en Packet Tracer o un simulador equivalente con al menos dos PCs, un switch, un router o switch capa 3, y dos VLAN distintas. El objetivo es analizar cómo una comunicación HTTP atraviesa las capas del modelo TCP/IP y cómo se relaciona con el modelo OSI. Debes crear una comunicación desde un cliente hacia un servidor web ubicado en otra VLAN, capturar el tráfico con Wireshark o la herramienta de simulación disponible, e identificar el proceso de encapsulado y las cabeceras principales. Entregables: 1) diagrama de la topología indicando dispositivos, interfaces, direcciones IP, VLAN ID y enlaces troncales 802.1Q si existen; 2) tabla comparativa OSI vs TCP/IP aplicada a tu escenario, indicando qué protocolos aparecen en cada capa; 3) captura o evidencia del tráfico HTTP, TCP, IP y Ethernet/802.1Q; 4) explicación del encapsulado desde la aplicación hasta la capa física; 5) identificación de puertos utilizados, direcciones IP, direcciones MAC, etiquetas VLAN y protocolos observados; 6) conclusión breve sobre qué funciones cumple cada capa durante la comunicación.
+
+**Hints:**
+- Hint 1: Usa dos VLAN, por ejemplo VLAN 10 para clientes y VLAN 20 para servidores. Si el cliente y el servidor están en VLAN diferentes, necesitarás enrutamiento inter-VLAN.
+- Hint 2: Para HTTP revisa especialmente el puerto TCP 80, el three-way handshake de TCP y las cabeceras Ethernet, IP y TCP.
+- Hint 3: Si usas un enlace troncal entre switch y router/switch capa 3, verifica si aparece la etiqueta 802.1Q en la captura o en la configuración.
+
+<details><summary>Solution</summary>
+
+Una solución correcta debe incluir una topología funcional donde un cliente de una VLAN pueda acceder por HTTP a un servidor ubicado en otra VLAN. Ejemplo: PC1 en VLAN 10 con IP 192.168.10.10/24, servidor web en VLAN 20 con IP 192.168.20.10/24, gateway VLAN 10: 192.168.10.1, gateway VLAN 20: 192.168.20.1. El switch debe tener puertos de acceso asignados a cada VLAN y un enlace troncal 802.1Q hacia el router o switch capa 3. La tabla OSI vs TCP/IP debería mapear: Aplicación TCP/IP con HTTP, equivalente a capas OSI aplicación/presentación/sesión; Transporte con TCP y puerto destino 80; Internet con IP y direccionamiento origen/destino; Acceso a red con Ethernet, MAC y opcionalmente 802.1Q; Física con el medio, cableado o enlace simulado. En la captura debe verse una solicitud HTTP, segmentos TCP, paquetes IP y tramas Ethernet. Si hay trunk, debe identificarse la VLAN mediante 802.1Q. El análisis de encapsulado debe explicar que los datos HTTP se encapsulan en un segmento TCP, luego en un paquete IP, después en una trama Ethernet con direcciones MAC y posiblemente etiqueta VLAN, y finalmente se transmiten como bits por el medio físico. La conclusión debe destacar que cada capa solo interpreta la información de su capa homóloga: HTTP en aplicación, TCP en transporte, IP en internet/red y Ethernet/802.1Q en acceso a red/enlace.
+
+</details>
+
+---
+
+*Generated by [Skill-Anything](https://github.com/SYuan03/Skill-Anything)*

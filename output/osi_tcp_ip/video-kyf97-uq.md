@@ -1,0 +1,313 @@
+# Video KYf97_uq
+
+> Video: `https://www.youtube.com/watch?v=KYf97_uqRWk`
+
+---
+
+## Table of Contents
+
+1. [Overview](#overview)
+2. [Concept Map](#concept-map)
+3. [Detailed Notes](#detailed-notes)
+4. [Key Concepts](#key-concepts)
+5. [Takeaways](#takeaways)
+6. [Quiz (4q)](#quiz)
+7. [Flashcards (5)](#flashcards)
+8. [Exercises (1)](#exercises)
+
+---
+
+## Overview
+
+Hola vamos a empezar a estudiar los
+puertos ser y
+paralelo donde vamos a comenzar el
+estudio de la comunicación entre
+equipos bien vamos a empezar el puerto
+paralelo dice consiste en utilizar
+varias líneas de comunicación lo que
+permite la información en forma de datos
+y control circular a la vez y en forma
+independiente quiere decir que este
+Puerto que es el puerto paralelo Puerto
+salida en general también puede ser un
+puerto de Comunicaciones y va a tener
+salidas de control y salidas de datos
+como sabemos este la codificación as
+utiliza 8 bits o sea un byte que van a
+ir de El un
+al o inclusive Perdón del dos al nu
+inclusive y el resto van a ser líneas de
+control que vamos a ver por ejemplo ahí
+tenemos la señal de str que es un pulso
+que sale cada vez que nuestro Puerto
+pone un dato en la línea línea de ocho
+Pines como recién decíamos y vamos a
+recibir a contrap un reconocimiento a
+través de
+la núo 10 en el acknowledge está el
+otro con el que nos estamos comunicando
+también puede trancar la comunicación a
+través de dos líneas más que se llaman
+de esta manera porque se utilizaban en
+puerta impresora y me estoy refiriendo a
+la línea de ocupado o la línea de sin
+papel el resto de la señales son
+tierras y también aquí hay otras señales
+de
+control por ejemplo de de entrada y
+salida cada flecha indica la la
+dirección que toman los datos la tenemos
+acá de otra manera En el entendido de
+que dos máquinas se comunican a través
+de esas de esos Pines y las señales de
+control nos inhiben o nos permiten
+seguirnos
+comunicando si confeccionamos de esta
+manera eh un cable podemos comunicar
+directamente un puerto paralelo con el
+otro y con un software asociado verdad
+esto es estrictamente un Hardware
+hablemos ahora de transmisión serie la
+transmisión serie consiste en la
+utilización de un único cable por donde
+circula toda la información a transmitir
+O sea que vamos a tener un cable para
+transmitir un cable para recibir y otras
+señales de control dentro de la Nosotros
+sabemos que la comunicación es en
+paralelo sea que vamos a tener un chip
+que se llama que nos convierte la
+señalización de más menos hab
+codificación Manchester en 0 y1 o 05 vol
+de la comunicación interna del
+pc acá tenemos el O sea la relación
+entre el número de y las
+funciones en el vamos a
+transmitir el p contrapartida vamos a
+recibir y luego tenemos señales de
+control cada vez que un equipo el P 4
+enciende lo que se llama el dtr el Data
+terminal ready a lo que es con el datas
+ready o sea el
+corresponsal el otro punto de conexiones
+nos indica que también está encendido
+alcanza con esto ya sabemos que para que
+se pueda comunicar necesitamos un
+software asociado y esas líneas nos van
+a permitir anunciarnos que estamos
+listos para
+transmitir y el corres nos va a indicar
+que está listo para que nosotros le
+transmitamos
+en s y 8 sea tenemos datos ahí y tenemos
+el control de flujo en losotros
+obviamente tenemos tierra
+que tienen que ser comunes y luego dos
+líneas más que son asociadas a lo que
+era la comunicación a través de un modem
+como ser la línea de llamada cuando nos
+llamaban al modem o si el modem estaba
+conectado con algún otro equipo teníamos
+una línea de detección de
+carrier lo que estudiamos nosotros en
+clase la otra vez del en el caso de los
+formatos datos sincrónicos como acá no
+tenemos presencia de reloj como recién
+Bueno vamos a tener que dar una
+velocidad a los datos la misma en el
+largo de palabra de bits en general o un
+chequeo de error a la vez que se va
+informar dentro de lo que asincronismo
+acu que el sincronismo se
+datos anunciar demp y terminada
+Y luego el
+controlware con las lías y recién
+decíamos con unas palabras x
+x o sea que acá tenemos la ventana de
+Windows una configuración de unal donde
+configuramos la velocidad la cantidad de
+datos la
+[Música]
+parad que nosotros vamos a hacer como
+práctica es justamente eso un cable que
+nos permita comunicar de un enlace de
+una de un puerto al otro a través del
+programa que todos tenemos llamado
+procom en el procom configuraremos
+los caracteres y las configuraciones que
+vimos recién y en el cable vamos a tener
+que soltar en los
+d9 de esta manera los
+Pines armemos el cable Entonces primero
+bueno preparamos los materiales
+desapare el
+cable luego estañ cada una de las puntas
+a soltar verdad estaños el conector
+estañ 5 mm del del
+conductor y luego soltamos los
+conectores de esta manera presionando
+con el soldador
+caliente sobre la punta que está
+tocando el extremo del
+conector como vemos en estos casos vamos
+soltando pin a pin considerando el color
+y cada uno de los Pines luego podemos
+ponerle por ejemplo un lo que se llama
+un espaguetti que puede ser un tubito
+por ejemplo un canuto de lapicera o
+cosas por el estilo el grafo la lapicera
+vacío y luego lo corremos y queda de
+esta manera muy
+prolijamente cubierto de falsos
+contactos etcétera Por último armamos el
+conector torneando el cable y
+asegurándonos que el del cable
+quede dentro de la
+carcasa hacemos la práctica entonces y
+nos convertimos en el amigo del cable
+Muchas gracias.
+
+---
+
+## Concept Map
+
+![Concept Map](video-kyf97-uq-concept-map.png)
+
+---
+
+## Detailed Notes
+
+## @00:00
+
+Hola vamos a empezar a estudiar los
+puertos ser y
+paralelo donde vamos a comenzar el
+estudio de la comunicación entre
+equipos bien vamos a empezar el puerto
+paralelo dice consiste en utilizar
+varias líneas de comunicación lo que
+permite la información en forma de datos
+y control circular a la vez y en forma
+independiente quiere decir que este
+Puerto que es el puerto paralelo Puerto
+salida en general también puede ser un
+puerto de Comunicaciones y va a tener
+salidas de control y salidas de datos
+
+
+---
+
+## Key Concepts
+
+**1.** @00:00: See corresponding section for details
+
+---
+
+## Takeaways
+
+- Review the core content of @00:00
+
+---
+
+## Quiz
+
+### Q1 [Fill] (E)
+
+**En el puerto paralelo descrito, las 8 líneas de datos ocupan los pines del ___ al ___ inclusive.**
+
+<details><summary>Answer</summary>
+
+**2 al 9**
+
+_El puerto paralelo transmite un byte completo usando 8 líneas de datos independientes. En la descripción se indica que esas líneas corresponden a los pines 2 al 9 inclusive; el resto de pines se destinan a señales de control, reconocimiento o tierra._
+
+</details>
+
+### Q2 [MCQ] (M)
+
+**¿Cuál de las siguientes opciones describe mejor el mecanismo de coordinación entre equipos en una comunicación por puerto paralelo?**
+
+- A. El emisor envía todos los bits por una sola línea y el receptor reconstruye el byte usando una señal de reloj interna.
+- B. El emisor coloca un dato en las 8 líneas, activa una señal de strobe, y el receptor responde con acknowledge; además puede inhibir la comunicación con señales como ocupado o sin papel.
+- C. El receptor activa DTR para indicar que recibió un byte, y el emisor responde con DSR para liberar las líneas de datos.
+- D. Las líneas de tierra se usan alternadamente como datos y control para evitar necesitar señales de reconocimiento.
+
+<details><summary>Answer</summary>
+
+**B. El emisor coloca un dato en las 8 líneas, activa una señal de strobe, y el receptor responde con acknowledge; además puede inhibir la comunicación con señales como ocupado o sin papel.**
+
+_En el puerto paralelo, los datos viajan simultáneamente por varias líneas, típicamente 8 líneas para formar un byte. La señal de strobe indica que el dato ya fue colocado en las líneas, mientras que acknowledge confirma desde el otro extremo que fue recibido. Señales como ocupado o sin papel, heredadas del uso con impresoras, pueden detener o condicionar la comunicación. Las opciones A y C describen rasgos más propios de transmisión serie o de señales serie como DTR/DSR, no del mecanismo paralelo explicado._
+
+</details>
+
+### Q3 [Scenario] (M)
+
+**Un técnico quiere conectar directamente dos computadoras antiguas usando sus puertos paralelos para transferir datos. Confecciona un cable que une las líneas de datos y de control necesarias, pero no instala ningún programa ni protocolo de comunicación en los equipos. ¿Qué resultado es más probable?**
+
+- A. La transferencia funcionará automáticamente porque el puerto paralelo ya define por hardware todo el intercambio de archivos.
+- B. Solo se podrán enviar datos en un sentido, porque el puerto paralelo nunca admite señales de retorno.
+- C. La conexión física puede ser correcta, pero no habrá comunicación útil sin un software asociado que interprete y gestione las señales.
+- D. La comunicación funcionará únicamente si se eliminan las señales de control y se dejan solo las ocho líneas de datos.
+
+<details><summary>Answer</summary>
+
+**C. La conexión física puede ser correcta, pero no habrá comunicación útil sin un software asociado que interprete y gestione las señales.**
+
+_El contenido distingue entre el hardware del cableado y la necesidad de un software asociado. Aunque se puede confeccionar un cable para conectar directamente un puerto paralelo con otro, las señales de datos y control por sí solas no definen una transferencia completa de información entre computadoras. Se necesita software para decidir cuándo enviar, cómo interpretar los datos, cómo responder a acknowledge, ocupado u otras señales, y cómo organizar la comunicación._
+
+</details>
+
+### Q4 [Compare] (H)
+
+**Compara la transmisión paralela y la transmisión serie descritas en el material. Explica cómo difieren en la forma de transportar los datos y en el papel de las señales de control.**
+
+<details><summary>Answer</summary>
+
+**En la transmisión paralela, varios bits del dato viajan al mismo tiempo por líneas separadas, por ejemplo 8 líneas para un byte, junto con señales de control como strobe, acknowledge, ocupado o sin papel. En la transmisión serie, la información se envía secuencialmente por una línea de transmisión y se recibe por otra, acompañada de señales de control como DTR/DSR y líneas de flujo como RTS/CTS. En ambos casos las señales de control no transportan el dato principal, sino que coordinan cuándo los equipos están listos, cuándo se recibió información o cuándo debe detenerse el envío.**
+
+_La diferencia central es la organización física y temporal del dato. El puerto paralelo usa múltiples líneas para mover varios bits simultáneamente, lo que permite separar claramente líneas de datos y líneas de control. La comunicación serie reduce el envío de datos a una secuencia por una línea de transmisión y otra de recepción, por lo que requiere circuitos o chips que adapten la señalización externa a los niveles internos del PC. Sin embargo, ambas formas de comunicación necesitan control: no basta con tener una ruta para los bits, también hace falta coordinar disponibilidad, reconocimiento y flujo._
+
+</details>
+
+---
+
+## Flashcards
+
+**1. ¿Qué caracteriza a la transmisión por puerto paralelo?** `puerto-paralelo` `definición`
+> Utiliza varias líneas de comunicación simultáneas, permitiendo que datos y señales de control circulen a la vez y de forma independiente.
+
+**2. ¿Qué pines del puerto paralelo se usan típicamente para transmitir los 8 bits de datos?** `puerto-paralelo` `pines` `datos`
+> Los pines 2 al 9 se usan como líneas de datos, transportando un byte completo en paralelo.
+
+**3. ¿Cómo confirma un dispositivo receptor que recibió un dato en una comunicación por puerto paralelo?** `puerto-paralelo` `control` `handshake`
+> Mediante la señal ACK o acknowledge, típicamente recibida por el pin 10.
+
+**4. ¿En qué se diferencia la transmisión serie de la transmisión paralela?** `puerto-serie` `puerto-paralelo` `comparación`
+> La transmisión serie envía la información bit a bit por una línea principal de transmisión, mientras que la paralela envía varios bits simultáneamente por varias líneas.
+
+**5. ¿Para qué sirven las señales DTR y DSR en una comunicación serie?** `puerto-serie` `control` `handshake`
+> DTR indica que el equipo local está listo, y DSR indica que el equipo remoto también está listo para la comunicación.
+
+---
+
+## Exercises
+
+### Exercise 1: Construcción y verificación de un cable serial tipo null-modem DB9 (M)
+
+Implementa un enlace de comunicación serial entre dos equipos usando conectores DB9, simulando la práctica de laboratorio descrita. Tu tarea es diseñar el cableado, construir o representar el cable, configurar el software de comunicación y verificar que el enlace funcione correctamente. Entregables: 1) tabla de conexión pin a pin para un cable null-modem DB9, indicando función de cada pin; 2) esquema simple del cableado; 3) configuración elegida del puerto serial, por ejemplo velocidad, bits de datos, paridad, bits de parada y control de flujo; 4) procedimiento de prueba usando Procomm, PuTTY, Tera Term u otro terminal serial; 5) breve informe explicando qué señales transportan datos, cuáles controlan el flujo y qué fallas aparecerían si TX/RX, GND o RTS/CTS estuvieran mal conectados. Si no tienes hardware real, puedes realizar la actividad con un simulador de puerto serial o describir el procedimiento de medición con multímetro.
+
+**Hints:**
+- Recuerda que en un cable null-modem las líneas de transmisión y recepción se cruzan: TX de un equipo debe llegar a RX del otro.
+- La tierra común es indispensable: sin GND compartido, la comunicación puede ser inestable o no funcionar.
+- Si activas control de flujo por hardware, debes cablear correctamente RTS/CTS y/o DTR/DSR; si no, usa control de flujo desactivado para una prueba básica.
+
+<details><summary>Solution</summary>
+
+Una solución correcta debe incluir, como mínimo, el cruce de datos DB9: pin 2 RXD de un conector al pin 3 TXD del otro, pin 3 TXD al pin 2 RXD, y pin 5 GND al pin 5 GND. Para una versión con control de flujo por hardware, se puede cablear pin 7 RTS al pin 8 CTS del otro extremo y pin 8 CTS al pin 7 RTS. También puede conectarse pin 4 DTR al pin 6 DSR y opcionalmente al pin 1 DCD del otro extremo, repitiendo el cruce en sentido inverso. Una configuración típica funcional es 9600 baudios, 8 bits de datos, sin paridad, 1 bit de parada, control de flujo ninguno para la primera prueba, o RTS/CTS si se cablearon esas líneas. El procedimiento esperado consiste en conectar ambos extremos, abrir un programa terminal en cada equipo, seleccionar el puerto COM correcto, aplicar la misma configuración en ambos lados y escribir caracteres en una terminal verificando que aparezcan en la otra. Las conclusiones deben indicar que TX/RX transportan los datos, GND establece la referencia común, RTS/CTS y DTR/DSR sirven para control o disponibilidad del equipo, y que errores típicos son: TX/RX sin cruzar produce ausencia de recepción; GND desconectado causa comunicación errática; velocidades o formatos distintos producen caracteres ilegibles; RTS/CTS mal cableados pueden bloquear la transmisión si el control de flujo está activado.
+
+</details>
+
+---
+
+*Generated by [Skill-Anything](https://github.com/SYuan03/Skill-Anything)*

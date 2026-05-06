@@ -1,0 +1,50 @@
+- question: 'Fill in the blank: The directory name shown in the path `create_assets/`
+    is `__________`.'
+  answer: create_assets
+  explanation: 'The slash at the end indicates that the path is referring to a directory,
+    but the actual directory name is the text before the slash: `create_assets`. The
+    trailing `/` is not part of the directory''s name; it is a path separator used
+    to signal or access the directory.'
+  difficulty: easy
+  type: fill_blank
+- question: 'True or False: `create_assets/` is an absolute path.'
+  answer: 'False'
+  explanation: '`create_assets/` does not begin with a root indicator such as `/`
+    on Unix-like systems or a drive/root prefix such as `C:\` on Windows. Therefore,
+    it is best interpreted as a relative path, meaning it is resolved from the current
+    working directory or another base location.'
+  difficulty: medium
+  type: true_false
+- question: A developer is writing a script from the root of a project. The script
+    should place generated image files into a folder named `create_assets` inside
+    that project, not into a system-level folder. Which path best represents that
+    destination?
+  answer: B. `create_assets/`
+  explanation: '`create_assets/` is a relative path, so if the script runs from the
+    project root, it refers to a folder named `create_assets` inside that project.
+    `/create_assets/` would point to a folder at the filesystem root on Unix-like
+    systems, `C:/create_assets/` would point to a drive-level folder on Windows, and
+    `../create_assets/` would point to a sibling location one level above the current
+    directory.'
+  difficulty: medium
+  type: scenario
+  options:
+  - A. `/create_assets/`
+  - B. `create_assets/`
+  - C. `C:/create_assets/`
+  - D. `../create_assets/`
+- question: Compare `create_assets/` and `/create_assets/`. How do they differ in
+    meaning and practical use?
+  answer: '`create_assets/` is a relative directory path, meaning it is resolved from
+    the current working directory or another specified base path. `/create_assets/`
+    is an absolute path on Unix-like systems, meaning it refers to a directory named
+    `create_assets` directly under the filesystem root. Practically, the relative
+    form is suitable for project-local folders, while the absolute form targets a
+    fixed system-level location and may require different permissions.'
+  explanation: The key difference is the leading slash. A trailing slash commonly
+    indicates a directory, but a leading slash changes how the path is resolved. Without
+    a leading slash, `create_assets/` depends on context; with a leading slash, `/create_assets/`
+    starts from the root of the filesystem. This affects portability, permissions,
+    and whether the path points inside a project or to a global location.
+  difficulty: hard
+  type: comparison

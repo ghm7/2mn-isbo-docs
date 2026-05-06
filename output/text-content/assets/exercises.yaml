@@ -1,0 +1,28 @@
+- title: Design and Implement a Reproducible Asset Creation Workflow
+  description: You have been given a project folder named `create_assets/`. Your task
+    is to design and document a practical workflow for generating, organizing, and
+    validating project assets inside this folder. Assume the folder will contain source
+    files, generated outputs, metadata, and any scripts needed to create assets consistently.
+    Create a proposed folder structure, define naming conventions, and describe a
+    repeatable process for adding new assets. As a deliverable, produce a short workflow
+    document and a sample directory tree showing how `create_assets/` should be organized.
+    Include at least one example asset entry with its source file, generated output,
+    and metadata.
+  difficulty: medium
+  type: design
+  hints:
+  - 'Hint 1: Think about separating editable source files from generated or exported
+    files.'
+  - 'Hint 2: Include metadata such as asset name, version, creator, license, and generation
+    date.'
+  - 'Hint 3: Consider how another team member could reproduce or verify an asset later.'
+  solution: A strong solution should propose a clear, maintainable structure such
+    as `create_assets/sources/`, `create_assets/outputs/`, `create_assets/scripts/`,
+    `create_assets/metadata/`, and `create_assets/docs/`. The workflow should explain
+    how assets are created, named, exported, reviewed, and updated. Naming conventions
+    should be consistent, for example `asset-category_name_version.ext`. Metadata
+    should make assets traceable and reproducible. A reference directory tree might
+    include `create_assets/sources/icons/home_icon_v1.svg`, `create_assets/outputs/icons/home_icon_v1.png`,
+    `create_assets/metadata/home_icon_v1.json`, and `create_assets/scripts/export_icons.py`.
+    The solution should also include validation steps such as checking file formats,
+    confirming metadata completeness, and ensuring generated assets match source versions.

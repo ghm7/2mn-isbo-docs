@@ -1,0 +1,167 @@
+# Introduccion A Redes Topologias Y Circuitos [7Tivpsdwyhe]
+
+> Video: `crea_assets/osi_tcp_ip/introduccion a redes topologias y circuitos [7TiVPSDWYhE].srt`
+
+---
+
+## Table of Contents
+
+1. [Overview](#overview)
+2. [Concept Map](#concept-map)
+3. [Detailed Notes](#detailed-notes)
+4. [Key Concepts](#key-concepts)
+5. [Takeaways](#takeaways)
+6. [Quiz (4q)](#quiz)
+7. [Flashcards (5)](#flashcards)
+8. [Exercises (1)](#exercises)
+
+---
+
+## Overview
+
+Hola vamos a narrar en este video la primer presentación de la Unidad 1 de Redis y
+308 de altos de el pasicentero de la Bordeaux de Tenericía Niquitales de INE
+y lo que nos esté, porque estamos viendo ahí es el estudio de cada una de los objetivos en
+los que queremos el sumergir para el estudio de la Bordeaux de Tenericía Niquitales de Tenericía
+El modelo de los objetivos ya fue de alguna manera estudiado del año pasado y se comparo con el
+modelo TCP. La idea es que este modelo de los objetivos tiene diferentes niveles y en cada nivel
+reciuelve una parte de lo que se refiere a la comunicación de datos a través de Redis. El nivel físico se encarga entonces de la conexión física del hardware y de su manera de
+tranquil esas inclusos eléctricos o de microondas que viajan a través de la aire o a través de cable. La capa de enlace es la que se apropia de ese aprende de datos y lo prepara para que sea
+interpretado por la capa de Red. Esa es la capa que se encargar de dirección a los datos para
+que sean redirigidos hacia otros destinos o si el destinatario es ese equipo lo traslada a
+las capas superiores.
+
+---
+
+## Concept Map
+
+![Concept Map](introduccion-a-redes-topologias-y-circuitos-7tivpsdwyhe-concept-map.png)
+
+---
+
+## Detailed Notes
+
+## @00:00
+
+Hola vamos a narrar en este video la primer presentación de la Unidad 1 de Redis y
+308 de altos de el pasicentero de la Bordeaux de Tenericía Niquitales de INE
+y lo que nos esté, porque estamos viendo ahí es el estudio de cada una de los objetivos en
+los que queremos el sumergir para el estudio de la Bordeaux de Tenericía Niquitales de Tenericía
+El modelo de los objetivos ya fue de alguna manera estudiado del año pasado y se comparo con el
+modelo TCP. La idea es que este modelo de los objetivos 
+
+---
+
+## Key Concepts
+
+**1.** @00:00: See corresponding section for details
+
+---
+
+## Takeaways
+
+- Review the core content of @00:00
+
+---
+
+## Quiz
+
+### Q1 [MCQ] (E)
+
+**¿Qué capa del modelo descrito se encarga principalmente de transmitir señales eléctricas o de microondas a través de cable o aire?**
+
+- A. Capa de transporte
+- B. Capa física
+- C. Capa de presentación
+- D. Capa de sesión
+
+<details><summary>Answer</summary>
+
+**B. Capa física**
+
+_La capa física se ocupa de la conexión material del hardware y de la transmisión de señales por el medio físico, como cables o el aire. No interpreta archivos, no ordena paquetes ni gestiona conexiones lógicas; esas funciones corresponden a capas superiores._
+
+</details>
+
+### Q2 [Scenario] (M)
+
+**Un usuario abre una aplicación de mensajería, pero durante varios minutos no envía ni recibe mensajes. Luego inicia una comunicación con un servidor remoto y el sistema operativo crea un socket para sostener esa conexión. Según el modelo explicado, ¿qué capa está más directamente relacionada con la creación y mantenimiento lógico de esa conexión?**
+
+- A. La capa física, porque establece el medio por donde viajan las señales
+- B. La capa de sesión, porque gestiona la conexión lógica entre aplicaciones o sistemas
+- C. La capa de presentación, porque decide si los datos son imagen o documento
+- D. La capa de enlace, porque prepara los datos para ser interpretados por la capa de red
+
+<details><summary>Answer</summary>
+
+**B. La capa de sesión, porque gestiona la conexión lógica entre aplicaciones o sistemas**
+
+_El contenido distingue entre tener una aplicación abierta y tener una transmisión activa. Cuando se inicia una conexión con el exterior, se genera un socket o identificador de conexión, y esa función se asocia con la capa de sesión. La capa física solo transporta señales, la de presentación interpreta formatos y la de enlace prepara tramas para la red._
+
+</details>
+
+### Q3 [Compare] (H)
+
+**Compara la función de la capa de transporte con la de la capa de red en el proceso de envío de datos. ¿Por qué ambas son necesarias si las dos participan en que la información llegue correctamente?**
+
+<details><summary>Answer</summary>
+
+**La capa de red se ocupa de colocar o interpretar la información de origen y destino para dirigir los datos hacia el equipo o red correcta. La capa de transporte, en cambio, organiza la transmisión completa: numera, ordena y controla los datos para que el envío sea recibido de forma confiable, incluso detectando si falta algún paquete. Ambas son necesarias porque la red decide hacia dónde deben ir los datos, mientras que el transporte se preocupa por que el contenido llegue completo y en orden.**
+
+_La diferencia clave está entre direccionamiento y confiabilidad. La capa de red permite que los datos sean encaminados o redirigidos entre equipos y redes, mientras que la capa de transporte trabaja sobre la integridad lógica del envío completo. Sin red, los paquetes no sabrían a qué destino dirigirse; sin transporte, podrían llegar desordenados o incompletos sin un mecanismo claro de control._
+
+</details>
+
+### Q4 [Short] (M)
+
+**Explica qué papel cumple la capa de presentación cuando los datos recibidos corresponden a formatos diferentes, como una imagen JPG o un documento.**
+
+<details><summary>Answer</summary>
+
+**La capa de presentación se encarga de que los datos recibidos puedan interpretarse según su formato. Por ejemplo, permite distinguir cómo mostrar una imagen JPG frente a un documento, traduciendo o preparando la información para que la aplicación pueda usarla correctamente.**
+
+_El contenido señala que, una vez que el dato llega, es necesario preocuparse por el formato para interpretarlo. Esa es la función de la capa de presentación: no transporta físicamente la información ni decide la ruta, sino que facilita que los datos tengan un significado utilizable para las capas superiores y para la aplicación._
+
+</details>
+
+---
+
+## Flashcards
+
+**1. ¿Qué función cumple la capa física en el modelo OSI?** `redes` `modelo-osi` `capa-fisica`
+> La capa física se encarga de la conexión física del hardware y de transmitir señales eléctricas, ópticas o inalámbricas a través del medio.
+
+**2. ¿Por qué la capa de transporte es importante para una transmisión confiable?** `redes` `modelo-osi` `transporte`
+> Porque ordena y controla los datos enviados, verifica la secuencia de los paquetes y ayuda a detectar si falta alguno.
+
+**3. ¿Cómo participa la capa de red en el envío de datos entre equipos?** `redes` `modelo-osi` `capa-red`
+> La capa de red agrega información de origen y destino para dirigir los datos hacia el equipo correcto o hacia otras redes.
+
+**4. ¿Cuál es la diferencia principal entre la capa de sesión y la capa de aplicación?** `redes` `modelo-osi` `comparacion`
+> La capa de sesión establece y mantiene la conexión lógica entre sistemas, mientras que la capa de aplicación gestiona la interacción directa con los procesos o programas del usuario.
+
+**5. Si un equipo recibe un archivo JPG y debe interpretarlo como imagen, ¿qué capa del modelo OSI interviene principalmente?** `redes` `modelo-osi` `presentacion`
+> Interviene la capa de presentación, porque se encarga del formato de los datos para que puedan ser interpretados correctamente.
+
+---
+
+## Exercises
+
+### Exercise 1: Diseño y análisis de una red corporativa usando capas OSI, topologías y tipos de enlace (M)
+
+Una empresa mediana tiene una sede principal con 80 empleados, una sucursal a 15 km con 25 empleados y varios trabajadores remotos. La sede principal necesita conectar PCs, impresoras, servidores internos y acceso a Internet. La sucursal debe acceder a los servidores de la sede principal. Además, la empresa quiere que la red sea confiable: si falla un enlace importante, no debería quedar completamente incomunicada. Tu tarea es diseñar una propuesta de red y justificarla usando los conceptos vistos: modelo OSI, topologías físicas y lógicas, alcance de red, tipos de enlace y tecnologías cableadas o inalámbricas. Entrega un documento breve o diagrama anotado que incluya: 1) clasificación de cada parte de la red como LAN, MAN o WAN; 2) topología física recomendada para la sede principal, la sucursal y la conexión entre sedes; 3) tipo de enlace recomendado: punto a punto, punto multipunto, broadcast, circuito virtual, enlace permanente o conmutado; 4) explicación de cómo viajaría un archivo desde una PC de la sucursal hasta un servidor de la sede principal, mencionando al menos cinco capas del modelo OSI; 5) identificación de dos posibles puntos de falla y una mejora para aumentar redundancia o seguridad.
+
+**Hints:**
+- Piensa en una topología estrella para redes locales con switches o concentradores, y en topologías malladas o enlaces redundantes para conexiones críticas.
+- Para clasificar LAN, MAN y WAN, observa si los equipos comparten una misma red local, si conectan redes dentro de una misma organización en un área metropolitana, o si atraviesan redes externas como Internet.
+- Al explicar el viaje del archivo, recorre el modelo OSI desde aplicación hacia físico en el origen y desde físico hacia aplicación en el destino.
+
+<details><summary>Solution</summary>
+
+Una solución esperada podría proponer una LAN en estrella en la sede principal, usando switches centrales o de distribución para conectar PCs, impresoras y servidores. La sucursal también podría tener una LAN en estrella más pequeña. La conexión entre sede y sucursal, al estar a 15 km y pertenecer a la misma empresa, puede clasificarse como MAN si se usa un enlace metropolitano privado; si se usa Internet o un proveedor externo de larga distancia, puede tratarse como WAN. Para unir las sedes se puede recomendar un enlace punto a punto dedicado, fibra óptica o VPN sobre Internet. Si se requiere mayor disponibilidad, se puede agregar un segundo enlace por otro proveedor o una conexión inalámbrica de respaldo. La sede principal tendría salida WAN hacia Internet para trabajadores remotos, idealmente mediante VPN segura. El tráfico dentro de cada LAN puede funcionar como broadcast a nivel de enlace cuando corresponda, pero los datos finales deben ser aceptados solo por el equipo cuya dirección MAC/IP coincida. Para enlaces entre sedes se puede mencionar un circuito virtual permanente, como MPLS, o una VPN que crea un circuito lógico sobre una infraestructura compartida. En el recorrido de un archivo desde la sucursal al servidor: en la capa de aplicación, el usuario solicita o envía el archivo mediante una aplicación; en presentación, los datos pueden codificarse, comprimirse o cifrarse; en sesión, se establece y mantiene la comunicación lógica entre cliente y servidor; en transporte, TCP segmenta, numera y asegura la entrega ordenada; en red, IP agrega direcciones de origen y destino y permite el enrutamiento entre redes; en enlace, se encapsulan tramas para el medio local y se usan direcciones MAC; en físico, los bits viajan como señales eléctricas, ópticas o inalámbricas. Dos puntos de falla posibles son el switch central de la sede principal y el enlace único entre sede y sucursal. Mejoras: usar switches redundantes, enlaces troncales duplicados, doble proveedor de Internet, VPN de respaldo, topología parcialmente mallada entre routers críticos y políticas de seguridad como firewall y segmentación por VLAN.
+
+</details>
+
+---
+
+*Generated by [Skill-Anything](https://github.com/SYuan03/Skill-Anything)*
