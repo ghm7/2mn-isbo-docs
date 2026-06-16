@@ -1,3 +1,10 @@
+<!--
+filename: 05062026_ejercicios.md
+date: 05, May of 2026
+tag: teacher-source
+last-update: 7, May of 2026
+-->
+
 EJERCICIOS: RECONOCER PERMISOS DE ARCHIVOS EN LINUX
 =====================================================
 
