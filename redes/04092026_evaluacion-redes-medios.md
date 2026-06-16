@@ -1,3 +1,10 @@
+<!--
+filename: 04092026_evaluacion-redes-medios.md
+date: 9, April of 2026
+tag: notes
+last-update: 8, May of 2026
+-->
+
 # Evaluación para Redes y Medios - respuestas correctas
 
 - Puntaje de referencia: 68/68
