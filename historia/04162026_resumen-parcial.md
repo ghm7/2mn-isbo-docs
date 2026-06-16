@@ -1,34 +1,53 @@
+<!--
+filename: 04162026_resumen-parcial.md
+date: 16, April of 2026
+tag: notes
+last-update: 8, May of 2026
+-->
+
 # Resumen de estudio - Parcial de Historia
 
 ## 1. Definiciones de historia
 
 ### Definición 1 - Pierre Vilar
 
-_La historia es el único instrumento que puede abrir las puertas al conocimiento del mundo de una manera sino científica, por lo menos razonada_
+_La historia es el único instrumento que puede abrir las puertas al conocimiento
+del mundo de una manera sino científica, por lo menos razonada_
 
-Idea central: la historia permite comprender el mundo de forma racional y fundamentada.
+Idea central: la historia permite comprender el mundo de forma racional y
+fundamentada.
 
 ### Definición 2 - Manuel Moreno Fraginals
 
-_Quien no sienta la alegría infinita de estar aquí en este mundo revuelto y cambiante, peligroso y bello, sangriento y doloroso como un parto, pero como un creador de nueva vida, está incapacitado para escribir historia_
+_Quien no sienta la alegría infinita de estar aquí en este mundo revuelto y
+cambiante, peligroso y bello, sangriento y doloroso como un parto, pero como un
+creador de nueva vida, está incapacitado para escribir historia_
 
-Idea central: para escribir historia hay que comprometerse con la vida, con los cambios y con los conflictos del mundo.
+Idea central: para escribir historia hay que comprometerse con la vida, con los
+cambios y con los conflictos del mundo.
 
 ### Definición 3 - Marx y Engels
 
-_Marx y Engels en el "manifiesto comunista" sostienen que la historia de la humanidad es la historia de la lucha de clases. Hombres libre y esclavos, patricios y plebeyos, señores y siervos, maestros y oficiales, burgueses y proletariados, opresores y oprimidos se han enfrentado siempre algunas veces frente a frente y otras de maneras veladas_
+_Marx y Engels en el "manifiesto comunista" sostienen que la historia de la
+humanidad es la historia de la lucha de clases. Hombres libre y esclavos,
+patricios y plebeyos, señores y siervos, maestros y oficiales, burgueses y
+proletariados, opresores y oprimidos se han enfrentado siempre algunas veces
+frente a frente y otras de maneras veladas_
 
-Idea central: la historia avanza a traves de los enfrentamientos entre grupos sociales con intereses opuestos.
+Idea central: la historia avanza a traves de los enfrentamientos entre grupos
+sociales con intereses opuestos.
 
 ### Concepto vinculado: siervos
 
-En el feudalismo, el señor feudal dividía las tierras entre los siervos y luego estos debían retribuir con la producción obtenida.
+En el feudalismo, el señor feudal dividía las tierras entre los siervos y luego
+estos debían retribuir con la producción obtenida.
 
 ## 2. Conceptos teóricos
 
 ### Economía
 
-Conjunto de fenómenos relativos a la producción, distribución y consumo de bienes y servicios que son escasos y finitos.
+Conjunto de fenómenos relativos a la producción, distribución y consumo de
+bienes y servicios que son escasos y finitos.
 
 ### Capitalismo
 
@@ -38,7 +57,8 @@ Sistema económico basado en:
 - la búsqueda de altas tasas de ganancia
 - la economía de mercado
 
-Los medios de producción son, por ejemplo, fabricas, industrias, herramientas, maquinas y tierras.
+Los medios de producción son, por ejemplo, fabricas, industrias, herramientas,
+maquinas y tierras.
 
 ### Imperialismo
 
@@ -51,9 +71,15 @@ Puede ser:
 
 ### Revolución
 
-_Todo cambio o intento de cambio brusco y profundo en la ubicación del poder político que implique el uso o la amenaza de la violencia y que, si tiene éxito, se traduce en la transformación manifiesta, y tal vez radical del proceso de gobierno de los fundamentos aceptados de la soberanía o la legitimidad y de la concepción del orden político y/o social._
+_Todo cambio o intento de cambio brusco y profundo en la ubicación del poder
+político que implique el uso o la amenaza de la violencia y que, si tiene éxito,
+se traduce en la transformación manifiesta, y tal vez radical del proceso de
+gobierno de los fundamentos aceptados de la soberanía o la legitimidad y de la
+concepción del orden político y/o social._
 
-Cambio o intento de cambio brusco y profundo en la ubicación del poder politico, que implica el uso o la amenaza de la violencia y que, si triunfa, transforma el proceso de gobierno y las bases del orden politico y/o social.
+Cambio o intento de cambio brusco y profundo en la ubicación del poder politico,
+que implica el uso o la amenaza de la violencia y que, si triunfa, transforma el
+proceso de gobierno y las bases del orden politico y/o social.
 
 Palabras clave para recordar:
 
@@ -77,9 +103,12 @@ Puede ser:
 
 ### Definición
 
-La incorporación de la producción ovina transformo, a partir de 1860, el modelo agroexportador uruguayo.
+La incorporación de la producción ovina transformo, a partir de 1860, el modelo
+agroexportador uruguayo.
 
-Uruguay venia desde la colonia de una economía muy vinculada al cuero y mas tarde a la carne salada. Con la revolución del lanar, la lana paso a ocupar un lugar central.
+Uruguay venia desde la colonia de una economía muy vinculada al cuero y mas
+tarde a la carne salada. Con la revolución del lanar, la lana paso a ocupar un
+lugar central.
 
 ### Características principales
 
@@ -100,14 +129,16 @@ Uruguay venia desde la colonia de una economía muy vinculada al cuero y mas tar
 
 ### Como se logro ese cambio
 
-Se produjo un proceso de mestización del ganado ovino mediante reproductores traídos de:
+Se produjo un proceso de mestización del ganado ovino mediante reproductores
+traídos de:
 
 - Francia
 - Alemania
 - Australia
 - Argentina
 
-La raza merino australiana fue clave porque producía una lana de mejor calidad y mayor rendimiento.
+La raza merino australiana fue clave porque producía una lana de mejor calidad y
+mayor rendimiento.
 
 ### Consecuencias
 
@@ -118,9 +149,12 @@ La raza merino australiana fue clave porque producía una lana de mejor calidad 
 
 ### Contexto ganadero general
 
-En Uruguay predominaba la producción de carne vacuna, aunque en un comienzo lo mas valioso había sido el cuero. Con el tiempo se dio mas importancia a la carne y a la lana.
+En Uruguay predominaba la producción de carne vacuna, aunque en un comienzo lo
+mas valioso había sido el cuero. Con el tiempo se dio mas importancia a la carne
+y a la lana.
 
-La carne se conservaba con sal y se enviaba a Brasil. En 1904 se instalo el primer frigorífico en Montevideo, en el Cerro.
+La carne se conservaba con sal y se enviaba a Brasil. En 1904 se instalo el
+primer frigorífico en Montevideo, en el Cerro.
 
 ## 4. Gobierno de Lorenzo Latorre
 
@@ -130,9 +164,13 @@ Gobierno de Lorenzo Latorre: 1876-1880.
 
 ### Contexto
 
-En la década de 1870 Uruguay atravesaba una profunda inestabilidad política. Los sectores mas poderosos, como el sector rural, el capital extranjero, el alto comercio y la banca británica, presionaron para que Latorre asumiera el control del país.
+En la década de 1870 Uruguay atravesaba una profunda inestabilidad política. Los
+sectores mas poderosos, como el sector rural, el capital extranjero, el alto
+comercio y la banca británica, presionaron para que Latorre asumiera el control
+del país.
 
-Según los apuntes, estos grupos utilizaron a Latorre y al ejercito para impulsar la modernización del Estado y de la economía.
+Según los apuntes, estos grupos utilizaron a Latorre y al ejercito para impulsar
+la modernización del Estado y de la economía.
 
 ### Dos objetivos centrales del gobierno
 
@@ -144,8 +182,10 @@ Según los apuntes, estos grupos utilizaron a Latorre y al ejercito para impulsa
 #### Instrumentos utilizados
 
 1. Uso del ejercito en la campaña para combatir el abigeato.
-2. Mejora del armamento del ejercito y la policía: fusiles y carabinas Remington.
-3. Incorporación de nuevos medios de comunicación: telégrafos, ferrocarriles y correos.
+2. Mejora del armamento del ejercito y la policía: fusiles y carabinas
+   Remington.
+3. Incorporación de nuevos medios de comunicación: telégrafos, ferrocarriles y
+   correos.
 4. Tecnificación del poder judicial:
    - Código de Procedimiento Civil, de Joaquin Requena
    - Código de Instrucción Criminal, de Laudelino Vazquez
@@ -172,18 +212,22 @@ Medidas que lo favorecieron:
 #### Objetivos del alambramiento
 
 1. Delimitar con exactitud la propiedad y asegurarla.
-2. Permitir una explotación mas racional del ganado, especialmente la mestización.
+2. Permitir una explotación mas racional del ganado, especialmente la
+   mestización.
 
 ### Código Rural
 
 Fue redactado por la Asociación Rural del Uruguay, fundada en 1871.
 
-La ARU y las llamadas fuerzas vivas presionaron al Estado para transformar el país primitivo del estanciero caudillo en un país moderno del estanciero empresario.
+La ARU y las llamadas fuerzas vivas presionaron al Estado para transformar el
+país primitivo del estanciero caudillo en un país moderno del estanciero
+empresario.
 
 #### Objetivos del Código Rural
 
 1. Asegurar la propiedad de la tierra y del ganado.
-2. Mantener el orden, legislando incluso sobre la policía y admitiendo la policía privada.
+2. Mantener el orden, legislando incluso sobre la policía y admitiendo la
+   policía privada.
 3. Dar seguridad jurídica a la producción agropecuaria.
 4. Endurecer las penas por abigeato, especialmente desde 1879.
 
@@ -195,8 +239,13 @@ Robo de ganado.
 
 #### Proteccionismo
 
-Consiste en poner impuestos o generar dificultades para que los productos importados no compitan con tanta fuerza dentro del país.
+Consiste en poner impuestos o generar dificultades para que los productos
+importados no compitan con tanta fuerza dentro del país.
 
 ### Idea general para responder en un parcial
 
-El gobierno de Latorre fue clave en la modernización del Uruguay rural porque busco imponer orden, fortalecer al Estado y asegurar la propiedad privada. Para eso utilizo al ejercito, mejoro las comunicaciones, tecnifico la justicia, impulso el alambramiento y aplico el Código Rural. Todo esto favoreció a los grandes sectores rurales y acompañó la transformación económica del país.
+El gobierno de Latorre fue clave en la modernización del Uruguay rural porque
+busco imponer orden, fortalecer al Estado y asegurar la propiedad privada. Para
+eso utilizo al ejercito, mejoro las comunicaciones, tecnifico la justicia,
+impulso el alambramiento y aplico el Código Rural. Todo esto favoreció a los
+grandes sectores rurales y acompañó la transformación económica del país.
