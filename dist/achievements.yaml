@@ -1,0 +1,80 @@
+achievements:
+  - id: first-subject
+    name: First Subject
+    description: Add your first subject to Curio
+    icon: "📚"
+    iconColor: primary
+    condition: "subjects.count >= 1"
+    xpReward: 50
+
+  - id: first-document
+    name: First Note
+    description: Create your very first document
+    icon: "📝"
+    iconColor: teal
+    condition: "documents.count >= 1"
+    xpReward: 50
+
+  - id: ten-documents
+    name: Bookworm
+    description: Create 10 documents
+    icon: "📖"
+    iconColor: amber
+    condition: "documents.count >= 10"
+    xpReward: 200
+
+  - id: twenty-five-documents
+    name: Scholar
+    description: Create 25 documents
+    icon: "🎓"
+    iconColor: purple
+    condition: "documents.count >= 25"
+    xpReward: 400
+
+  - id: all-passing
+    name: Honor Roll
+    description: Have all subjects passing at the same time
+    icon: "🏆"
+    iconColor: amber
+    condition: "subjects.allPassing == true"
+    xpReward: 300
+
+  - id: study-streak-7
+    name: Week Warrior
+    description: Create documents 7 days in a row
+    icon: "🔥"
+    iconColor: coral
+    condition: "streak.daysWithDocumentCreated >= 7"
+    xpReward: 250
+
+  - id: five-subjects
+    name: Full Schedule
+    description: Add 5 or more subjects
+    icon: "🎯"
+    iconColor: purple
+    condition: "subjects.count >= 5"
+    xpReward: 150
+
+  - id: first-grade
+    name: Graded
+    description: Record your first grade
+    icon: "✅"
+    iconColor: teal
+    condition: "grades.itemCount >= 1"
+    xpReward: 50
+
+  - id: ten-grades
+    name: Assessment Pro
+    description: Record 10 graded assessments
+    icon: "📊"
+    iconColor: primary
+    condition: "grades.itemCount >= 10"
+    xpReward: 200
+
+  - id: high-average
+    name: Top Performer
+    description: Achieve an overall average of 9 or above
+    icon: "⭐"
+    iconColor: amber
+    condition: "grades.overallAverage >= 9"
+    xpReward: 500
