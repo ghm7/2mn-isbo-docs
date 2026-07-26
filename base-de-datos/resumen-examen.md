@@ -12,6 +12,9 @@ docente: A/S Leonardo Carámbula — DGETP / ISBO / BT - TI - 2026
 > las notas de clase. Material de consulta permitido para la evaluación.
 >
 > **Docente:** A/S Leonardo Carámbula · correo: leonardocarambula@gmail.com
+>
+> 🖼️ Las figuras son recortes de las diapositivas del curso (notación de Chen).
+> Se encuentran en `../_assets/base-de-datos/` (junto al resto de imágenes del curso).
 
 ## Índice
 
@@ -103,6 +106,8 @@ NIVEL INTERNO      →  ESQUEMA INTERNO
 - **Nivel conceptual:** el esquema conceptual (visión global de los datos).
 - **Nivel interno:** el esquema interno (cómo se almacena físicamente).
 
+<p align="center"><img src="../_assets/base-de-datos/db_intro_arquitectura.png" alt="Arquitectura de B.D. en 3 niveles: nivel externo, conceptual e interno" width="560"></p>
+
 ### 2.5. Modelos de datos
 
 | Modelo | Orientación | Uso |
@@ -150,6 +155,9 @@ NIVEL INTERNO      →  ESQUEMA INTERNO
 **Flujo del diseño:**
 `situación del mundo real → (modelado conceptual) → D. E-R → (diseño del sistema) → esquema físico (CREATE TABLE ...)`
 
+<p align="center"><img src="../_assets/base-de-datos/db_mer_diagrama_completo.png" alt="Ejemplo de un Diagrama Entidad-Relación completo" width="640"></p>
+<p align="center"><em>Ejemplo de un D. E-R completo (Funcionario, Chofer, Técnico, Proyecto…).</em></p>
+
 ### 3.2. Modelo Entidad-Relación
 
 - Permite describir la realidad mediante representaciones **gráficas y
@@ -183,6 +191,15 @@ con **bolitas/elipses** que salen de la entidad o relación.
 | **Compuesto o derivado** | Se puede dividir en componentes más pequeños con significado propio (ej. `nombreCompleto` → nombre + apellido; `dirección` → calle, número, esquina) | sub-atributos colgando |
 | **Multivaluado o multivalor** | Tiene un **conjunto de valores** para una entidad (ej. teléfono, color de auto) | **asterisco** `*` |
 
+<p align="center"><img src="../_assets/base-de-datos/db_mer_atributos_clave.png" alt="Entidad Estudiante con atributos; CI subrayado como determinante" width="540"></p>
+<p align="center"><em>Atributo determinante o clave: se <strong>subraya</strong> (CI).</em></p>
+
+<p align="center"><img src="../_assets/base-de-datos/db_mer_atributo_compuesto.png" alt="Atributo compuesto: nombreCompleto y dirección se dividen" width="540"></p>
+<p align="center"><em>Atributos compuestos / derivados (nombreCompleto → nombre + apellido).</em></p>
+
+<p align="center"><img src="../_assets/base-de-datos/db_mer_atributo_multivaluado.png" alt="Atributo multivaluado teléfono marcado con asterisco" width="540"></p>
+<p align="center"><em>Atributo multivaluado: se marca con <strong>*</strong> (teléfono*).</em></p>
+
 ### 3.5. Relación (interrelación)
 
 - Correspondencia o asociación entre **dos o más** entidades.
@@ -193,6 +210,9 @@ con **bolitas/elipses** que salen de la entidad o relación.
 - Grado 2 → **relación binaria**.
 - Grado 3 → **relación ternaria**.
 (El curso se centra principalmente en relaciones binarias.)
+
+<p align="center"><img src="../_assets/base-de-datos/db_mer_relacion.png" alt="Relación pertenece (rombo) entre Estudiante y Grupo" width="540"></p>
+<p align="center"><em>La relación se dibuja con un <strong>rombo</strong> (pertenece).</em></p>
 
 ### 3.6. Restricciones sobre las relaciones
 
@@ -207,11 +227,19 @@ relación (cuántos elementos de cada entidad pueden vincularse).
 | **1 : N** | Un país tiene muchos estudiantes; un estudiante nació en un solo país |
 | **N : M** (muchos a muchos) | Un empleado trabaja en muchos proyectos y un proyecto tiene muchos empleados |
 
+<p align="center"><img src="../_assets/base-de-datos/db_mer_card_1n.png" alt="Cardinalidad 1:N entre Estudiante y País" width="460">
+<img src="../_assets/base-de-datos/db_mer_card_11.png" alt="Cardinalidad 1:1 entre Empleado y Sucursal" width="460"></p>
+<p align="center"><img src="../_assets/base-de-datos/db_mer_card_nm.png" alt="Cardinalidad N:M entre Empleado y Proyecto" width="460"></p>
+<p align="center"><em>Cardinalidades: 1:N (nació), 1:1 (dirige) y N:M (trabaja).</em></p>
+
 #### Totalidad
 
 - Representa la **obligación** de una entidad a relacionarse con otra.
 - Ejemplo: *"TODOS los empleados pertenecen a un departamento"*.
 - Se dibuja con **doble línea** del lado de la entidad obligada.
+
+<p align="center"><img src="../_assets/base-de-datos/db_mer_totalidad.png" alt="Totalidad: doble línea del lado Empleado en la relación pertenece" width="540"></p>
+<p align="center"><em>Totalidad: <strong>doble línea</strong> del lado obligado (todos los empleados pertenecen a un departamento).</em></p>
 
 ### 3.7. Atributos en una relación
 
@@ -229,6 +257,9 @@ relación (cuántos elementos de cada entidad pueden vincularse).
 - **Importante (de las notas):** una agregación solo puede contener **una**
   relación.
 
+<p align="center"><img src="../_assets/base-de-datos/db_mer_agregacion.png" alt="Agregación: se enmarca Material-tiene-Requerimiento y se relaciona con Pedido" width="600"></p>
+<p align="center"><em>Agregación: se <strong>enmarca</strong> la relación <code>tiene</code> y se la usa como una entidad para relacionarla con <code>Pedido</code>.</em></p>
+
 ### 3.9. Categorización / Generalización
 
 - Permite representar **subagrupaciones** (subclases) de una entidad.
@@ -239,6 +270,9 @@ relación (cuántos elementos de cada entidad pueden vincularse).
 - Ejemplo: `Persona` **es** `Director` / `Alumno` / `Docente` / `Adscripto`
   (cada categoría con sus atributos propios: Alumno→grupo, NºLista; Docente→materia\*).
 
+<p align="center"><img src="../_assets/base-de-datos/db_mer_categorizacion.png" alt="Categorización: Persona es Director, Alumno, Docente o Adscripto" width="600"></p>
+<p align="center"><em>Categorización / generalización: triángulo <strong>es</strong> (Persona → Director, Alumno, Docente, Adscripto).</em></p>
+
 ### 3.10. Entidad débil
 
 - Caso particular de entidad.
@@ -248,6 +282,9 @@ relación (cuántos elementos de cada entidad pueden vincularse).
 - Se dibuja con **rectángulo doble**.
 - Ejemplos: `Estudiante` (el NºLista solo no identifica; se necesita el grupo);
   `Jugador` (el Nº de camiseta solo no identifica; se necesita el equipo).
+
+<p align="center"><img src="../_assets/base-de-datos/db_mer_entidad_debil.png" alt="Entidad débil Estudiante (rectángulo doble) que depende de Grupo" width="540"></p>
+<p align="center"><em>Entidad débil: <strong>rectángulo doble</strong>; el NºLista (subrayado punteado) solo identifica junto al Grupo.</em></p>
 
 ### 3.11. Auto-relación (relación recursiva) y Roles
 
@@ -260,6 +297,9 @@ relación (cuántos elementos de cada entidad pueden vincularse).
   - `Funcionario` **supervisa** Funcionario → roles `jefe` (1) y `empleado` (N).
   - `Materia` **previa** Materia → una materia *tiene* previas y *es* previa de
     otras (N:N).
+
+<p align="center"><img src="../_assets/base-de-datos/db_mer_autorelacion.png" alt="Auto-relación: Funcionario supervisa Funcionario con roles jefe y empleado" width="560"></p>
+<p align="center"><em>Auto-relación con <strong>roles</strong>: un funcionario (jefe, 1) supervisa a muchos funcionarios (empleado, N).</em></p>
 
 ---
 
@@ -291,6 +331,9 @@ Estudiante(CId, nombre, fechaNac, dirección)
   `Estudiante(CId, nombre, fechaNac, teléfono*)`
   *(luego, al normalizar en 1FN, genera una tabla aparte).*
 
+<p align="center"><img src="../_assets/base-de-datos/db_pt_entidad.png" alt="Entidad Estudiante convertida en tabla Estudiante(CId, nombre, fechaNac, dirección)" width="540"></p>
+<p align="center"><em>Cada entidad → una tabla con el mismo nombre; el determinante es la clave primaria.</em></p>
+
 ### 4.2. Relación → Tabla (regla general)
 
 - En general, la relación se representa con una **tabla** formada por los
@@ -316,6 +359,9 @@ A-B(a1, a2, b1)   →    pertenece(ci, idG, nºLista)
 
 > De las notas: *las relaciones N a N siempre van a generar tabla.*
 
+<p align="center"><img src="../_assets/base-de-datos/db_pt_nn.png" alt="Pasaje a tablas de relación N:N: Estudiante, Grupo y pertenece con clave compuesta" width="560"></p>
+<p align="center"><em>N:N → la tabla <code>pertenece</code> tiene clave compuesta (ci + idG).</em></p>
+
 #### N : 1 (o 1 : N) **sin totalidad** — genera tabla
 
 Se representa con tabla porque **no todos** los elementos del lado N se relacionan.
@@ -326,6 +372,9 @@ N a 1:  A-B(a1, a2, b1)      → clave = det. del lado N (A)
 1 a N:  A-B(b1, a1, a2)      → clave = det. del lado N (B)
 Ej: PC(código, marca, año) / Laboratorio(número, sillas) / esta(código, número)
 ```
+
+<p align="center"><img src="../_assets/base-de-datos/db_pt_n1_sin_totalidad.png" alt="Pasaje a tablas N:1 sin totalidad: PC, Laboratorio y esta" width="540"></p>
+<p align="center"><em>N:1 sin totalidad → genera tabla <code>esta(código, número)</code>; la clave es la del lado N.</em></p>
 
 #### N : 1 (o 1 : N) **con totalidad** — **NO genera tabla** (se hereda la clave)
 
@@ -348,6 +397,10 @@ Ejemplo (N a 1): Grupo(idG, nombre, idT) / Turno(idT, nombre)   idT -> Turno
 > relación se simplifica poniendo la clave foránea en la tabla que tiene la
 > totalidad y la N.
 
+<p align="center"><img src="../_assets/base-de-datos/db_pt_totalidad_1n.png" alt="Totalidad 1 a N: B hereda la clave de A" width="460">
+<img src="../_assets/base-de-datos/db_pt_totalidad_n1.png" alt="Totalidad N a 1: Grupo hereda la clave de Turno" width="460"></p>
+<p align="center"><em>Con totalidad, la entidad del lado N <strong>hereda la clave</strong> (no se crea tabla de la relación).</em></p>
+
 #### 1 : 1 — se elige una de las dos
 
 - **Sin totalidad:** puede representarse como tabla eligiendo **cualquiera** de
@@ -355,6 +408,9 @@ Ejemplo (N a 1): Grupo(idG, nombre, idT) / Turno(idT, nombre)   idT -> Turno
 - **Con totalidad:** la relación se representa **en la entidad que tiene la
   totalidad**, que **hereda** la clave de la otra.
   `Director(ci, nombre, apellido)` / `UTU(id, nombre, ci)` → `ci -> Director`.
+
+<p align="center"><img src="../_assets/base-de-datos/db_pt_totalidad_11.png" alt="Totalidad 1 a 1: UTU hereda la clave de Director" width="540"></p>
+<p align="center"><em>1:1 con totalidad → la entidad con totalidad (UTU) hereda la clave de la otra (Director).</em></p>
 
 #### Relación **ternaria**
 
@@ -364,6 +420,9 @@ compuesta).
 ```
 A-B-C(a1, a2, b1, c1, c2)   ← todos subrayados
 ```
+
+<p align="center"><img src="../_assets/base-de-datos/db_pt_ternaria.png" alt="Relación ternaria A-B-C con clave compuesta por las tres entidades" width="540"></p>
+<p align="center"><em>Relación ternaria → tabla con los determinantes de las 3 entidades.</em></p>
 
 ### 4.4. Categorización → Tablas
 
@@ -382,6 +441,9 @@ A-B-C(a1, a2, b1, c1, c2)   ← todos subrayados
   Contenido(id, título, URL, login)   login -> Premium
   ```
 
+<p align="center"><img src="../_assets/base-de-datos/db_pt_categoria_con.png" alt="Categorización con atributos: Usuario, Básico, Premium y Contenido" width="600"></p>
+<p align="center"><em>Categoría <strong>con</strong> atributos/relaciones → cada subclase es una tabla que hereda la clave del padre.</em></p>
+
 ### 4.5. Agregación → Tablas
 
 - La relación agregada se trata como una entidad. Cuando otra entidad se relaciona
@@ -396,6 +458,9 @@ A-B-C(a1, a2, b1, c1, c2)   ← todos subrayados
 - **De las notas:** cuando hay una agregación y hay que definir una clave foránea,
   la misma se define **por la relación** que haya dentro de esa agregación.
 
+<p align="center"><img src="../_assets/base-de-datos/db_pt_agregacion.png" alt="Agregación en pasaje a tablas: dicta usa la clave de tiene" width="600"></p>
+<p align="center"><em>La relación <code>dicta</code> incluye la clave de la relación agregada <code>tiene(idMat, idG)</code>.</em></p>
+
 ### 4.6. Auto-relación → Tabla
 
 Genera una tabla con **dos columnas que referencian el determinante** de la
@@ -408,6 +473,9 @@ R(rol1, rol2)      ← NO se escribe R(a1, a1)
 Ej: Materia(id, nombre, horas) / previa(tiene, es)
 ```
 
+<p align="center"><img src="../_assets/base-de-datos/db_pt_autorelacion.png" alt="Auto-relación previa con dos columnas de rol: tiene y es" width="540"></p>
+<p align="center"><em>Auto-relación → tabla <code>previa(tiene, es)</code>; nunca dos columnas con el mismo nombre.</em></p>
+
 ### 4.7. Entidad débil → Tabla
 
 - La relación de la entidad débil con la entidad fuerte **NO genera tabla**.
@@ -419,6 +487,9 @@ A(a1, a2, a3)                 Grupo(id, nombre, turno)
 B(a1, b1, b2)            →     Estudiante(id, noLista, nombre, apellido)
    ↑ (a1 y b1 subrayados = clave compuesta)
 ```
+
+<p align="center"><img src="../_assets/base-de-datos/db_pt_entidad_debil.png" alt="Entidad débil en pasaje a tablas: Estudiante hereda la clave de Grupo" width="600"></p>
+<p align="center"><em>La entidad débil hereda la clave del fuerte → determinante compuesto (id + noLista).</em></p>
 
 ### 4.8. Clave foránea (externa)
 
@@ -464,6 +535,9 @@ Normalizando (1ª FN):
    PersonaTelefono(Cid, Teléfono)              ← multivaluado en tabla aparte
 ```
 
+<p align="center"><img src="../_assets/base-de-datos/db_norm_1fn.png" alt="Primera Forma Normal: se descompone el compuesto y el multivaluado va a otra tabla" width="560"></p>
+<p align="center"><em>1ª FN: el compuesto se descompone; el multivaluado (teléfono*) va a una tabla aparte.</em></p>
+
 ### 5.2. Conceptos previos para 2ª y 3ª FN
 
 - **Atributo primo:** atributo (o conjunto de atributos) que, igual que la clave
@@ -506,6 +580,9 @@ Normalizando (2ª FN):
    Clientes(IdCliente, NomCliente)
 ```
 
+<p align="center"><img src="../_assets/base-de-datos/db_norm_2fn_parcial.png" alt="Segunda Forma Normal: IdLibro determina Título, dependencia parcial" width="560"></p>
+<p align="center"><em>2ª FN: <code>IdLibro —» Título…</code> es dependencia <strong>parcial</strong> → no cumple; se separa en otra tabla.</em></p>
+
 ### 5.4. Tercera Forma Normal (3ª FN)
 
 Una tabla está en 3ª FN **si y solo si**:
@@ -530,6 +607,12 @@ Normalizando (3ª FN):
 redundancia**.
 `Pedidos(IdLibro, IdCliente, Fecha, Cantidad)` · `Clientes(IdCliente, NomCliente)`
 · `Libros(IdLibro, Título, IdAutor, Precio)` · `Autores(IdAutor, NomAutor)`.
+
+<p align="center"><img src="../_assets/base-de-datos/db_norm_3fn_transitiva.png" alt="Tercera Forma Normal: IdAutor determina NomAutor, dependencia transitiva" width="560"></p>
+<p align="center"><em>3ª FN: <code>IdAutor —» NomAutor</code> es dependencia <strong>transitiva</strong> → se saca a la tabla <code>Autores</code>.</em></p>
+
+<p align="center"><img src="../_assets/base-de-datos/db_norm_comparacion.png" alt="Comparación de la tabla sin normalizar contra el resultado tras 2FN y 3FN" width="680"></p>
+<p align="center"><em>Antes (una tabla redundante) vs. después de 2ª + 3ª FN (más tablas, menos redundancia).</em></p>
 
 ---
 
