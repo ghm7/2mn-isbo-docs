@@ -1,9 +1,8 @@
 <!--
-filename: resumen-examen.md
-tag: resumen
-fuentes: PDFs teóricos (Introducción, MER, Pasaje a Tablas, Normalización,
-         Prueba Diagnóstica) + notas de clase (03/09 a 06/08)
-docente: A/S Leonardo Carámbula — DGETP / ISBO / BT - TI - 2026
+filename: 07262026_resumen-examen.md
+date: 26, July of 2026
+tag: notes
+last-update: 03, August of 2026
 -->
 
 # Introducción a Bases de Datos — Resumen para el escrito
@@ -11,10 +10,11 @@ docente: A/S Leonardo Carámbula — DGETP / ISBO / BT - TI - 2026
 > Resumen completo de teoría (basado en los PowerPoint del curso) combinado con
 > las notas de clase. Material de consulta permitido para la evaluación.
 >
-> **Docente:** A/S Leonardo Carámbula · correo: leonardocarambula@gmail.com
+> **Docente:** A/S Leonardo Carámbula · correo: <leonardocarambula@gmail.com>
 >
 > 🖼️ Las figuras son recortes de las diapositivas del curso (notación de Chen).
-> Se encuentran en `../_assets/base-de-datos/` (junto al resto de imágenes del curso).
+> Se encuentran en `../_assets/base-de-datos/` (junto al resto de imágenes del
+> curso).
 
 ## Índice
 
@@ -30,23 +30,23 @@ docente: A/S Leonardo Carámbula — DGETP / ISBO / BT - TI - 2026
 
 ## 1. Convenciones gráficas del D. E-R
 
-| Elemento | Cómo se dibuja | Cómo se escribe en el esquema relacional |
-| --- | --- | --- |
-| **Entidad** | Rectángulo (nombre adentro) | `Entidad(...)` |
-| **Atributo** | Elipse / bolita que sale de la entidad o relación | se lista dentro del `( )` |
-| **Atributo determinante (clave)** | Se **subraya** | subrayado, es la clave primaria |
-| **Atributo compuesto / derivado** | Elipse punteada que se divide en sub-atributos | `dirección{calle, número, esquina}` |
-| **Atributo multivaluado** | Se marca con un **asterisco** `*` (doble elipse) | `teléfono*` |
-| **Relación (interrelación)** | Rombo (nombre adentro) | tabla `nombre(...)` o clave foránea |
-| **Cardinalidad** | Números `1`, `N`, `M` sobre las líneas | define cómo se pasa a tablas |
-| **Totalidad** | **Doble línea** (roja) del lado obligatorio | evita crear tabla de la relación |
-| **Entidad débil** | Rectángulo doble; determinante subrayado punteado | determinante compuesto |
-| **Categorización / Generalización** | Triángulo con la palabra `es` | atributo tipo o tablas hijas |
-| **Agregación** | Recuadro que **enmarca** 2 entidades + su relación | se usa como si fuera entidad |
+| Elemento                            | Cómo se dibuja                                     | Cómo se escribe en el esquema relacional |
+| ----------------------------------- | -------------------------------------------------- | ---------------------------------------- |
+| **Entidad**                         | Rectángulo (nombre adentro)                        | `Entidad(...)`                           |
+| **Atributo**                        | Elipse / bolita que sale de la entidad o relación  | se lista dentro del `( )`                |
+| **Atributo determinante (clave)**   | Se **subraya**                                     | subrayado, es la clave primaria          |
+| **Atributo compuesto / derivado**   | Elipse punteada que se divide en sub-atributos     | `dirección{calle, número, esquina}`      |
+| **Atributo multivaluado**           | Se marca con un **asterisco** `*` (doble elipse)   | `teléfono*`                              |
+| **Relación (interrelación)**        | Rombo (nombre adentro)                             | tabla `nombre(...)` o clave foránea      |
+| **Cardinalidad**                    | Números `1`, `N`, `M` sobre las líneas             | define cómo se pasa a tablas             |
+| **Totalidad**                       | **Doble línea** (roja) del lado obligatorio        | evita crear tabla de la relación         |
+| **Entidad débil**                   | Rectángulo doble; determinante subrayado punteado  | determinante compuesto                   |
+| **Categorización / Generalización** | Triángulo con la palabra `es`                      | atributo tipo o tablas hijas             |
+| **Agregación**                      | Recuadro que **enmarca** 2 entidades + su relación | se usa como si fuera entidad             |
 
 > **Regla de oro de nombres:** en el esquema conceptual **el nombre de una
-> entidad y el nombre de una relación no se pueden repetir**. Y en una tabla **no
-> pueden existir dos atributos con el mismo nombre** (importante en
+> entidad y el nombre de una relación no se pueden repetir**. Y en una tabla
+> **no pueden existir dos atributos con el mismo nombre** (importante en
 > auto-relaciones).
 
 ---
@@ -64,22 +64,22 @@ prolongado período de tiempo. Una base de datos:
 
 ### 2.2. Elementos que la componen
 
-| Elemento | Qué es | Cómo cambia |
-| --- | --- | --- |
-| **Esquema** | Descripción de los datos y las relaciones entre ellos | Cambia **muy poco** con el tiempo |
-| **Instancia** | El conjunto de datos de la base en un instante dado | Cambia con cada **inserción, borrado o modificación** |
+| Elemento      | Qué es                                                | Cómo cambia                                           |
+| ------------- | ----------------------------------------------------- | ----------------------------------------------------- |
+| **Esquema**   | Descripción de los datos y las relaciones entre ellos | Cambia **muy poco** con el tiempo                     |
+| **Instancia** | El conjunto de datos de la base en un instante dado   | Cambia con cada **inserción, borrado o modificación** |
 
 ### 2.3. SGBD / DBMS
 
 - **SGBD** = Sistema Gestor de Base de Datos.
-- **DBMS** = *Data Base Management System*.
+- **DBMS** = _Data Base Management System_.
 - Es el **software especializado** en la administración de bases de datos.
 - Ejemplos: **MariaDB, MySQL, Oracle, SQL Server**.
 
 **Herramientas / ventajas que brinda un SGBD:**
 
-- **Aislamiento de los datos:** simplifica el cruzamiento de datos a través de un
-  lenguaje de consulta.
+- **Aislamiento de los datos:** simplifica el cruzamiento de datos a través de
+  un lenguaje de consulta.
 - **Independencia de datos:** independencia de las implementaciones (lógica y
   física).
 - **Acceso concurrente:** varios usuarios pueden acceder simultáneamente a los
@@ -110,20 +110,20 @@ NIVEL INTERNO      →  ESQUEMA INTERNO
 
 ### 2.5. Modelos de datos
 
-| Modelo | Orientación | Uso |
-| --- | --- | --- |
-| **Conceptual (M. E-R)** | Definición de estructuras y restricciones | Diseño conceptual; **independiente del SGBD** |
-| **Lógico (M. R.)** | Implementación y operaciones | Implementación de la B. D. |
-| **Físico** | Estructuras de datos sobre las que se implementan los otros | Dentro de los gestores (SGBD), con poco control desde afuera |
+| Modelo                  | Orientación                                                 | Uso                                                          |
+| ----------------------- | ----------------------------------------------------------- | ------------------------------------------------------------ |
+| **Conceptual (M. E-R)** | Definición de estructuras y restricciones                   | Diseño conceptual; **independiente del SGBD**                |
+| **Lógico (M. R.)**      | Implementación y operaciones                                | Implementación de la B. D.                                   |
+| **Físico**              | Estructuras de datos sobre las que se implementan los otros | Dentro de los gestores (SGBD), con poco control desde afuera |
 
 ### 2.6. Lenguajes de especificación
 
-- **DDL** (*Data Definition Language*): describe el **esquema** de la B. D.
+- **DDL** (_Data Definition Language_): describe el **esquema** de la B. D.
   (estructuras y restricciones de integridad). Permite crear, modificar y
   eliminar **tablas, claves (primarias/externas/únicas), índices y vistas**.
-- **DML** (*Data Manipulation Language*): manipula las **instancias** →
+- **DML** (_Data Manipulation Language_): manipula las **instancias** →
   inserción, borrado y modificación de datos.
-- **SQL** (*Structured Query Language*): orientado a **extraer o consultar**
+- **SQL** (_Structured Query Language_): orientado a **extraer o consultar**
   información de la B. D.
 
 ### 2.7. Conceptos de tabla (elemento fundamental)
@@ -182,14 +182,14 @@ NIVEL INTERNO      →  ESQUEMA INTERNO
 
 ### 3.4. Atributos
 
-Característica de interés o hecho sobre una entidad o una relación. Se representan
-con **bolitas/elipses** que salen de la entidad o relación.
+Característica de interés o hecho sobre una entidad o una relación. Se
+representan con **bolitas/elipses** que salen de la entidad o relación.
 
-| Tipo de atributo | Definición | Notación |
-| --- | --- | --- |
-| **Determinante o clave** | Su valor es distinto para cada elemento; identifica de forma única | se **subraya** |
-| **Compuesto o derivado** | Se puede dividir en componentes más pequeños con significado propio (ej. `nombreCompleto` → nombre + apellido; `dirección` → calle, número, esquina) | sub-atributos colgando |
-| **Multivaluado o multivalor** | Tiene un **conjunto de valores** para una entidad (ej. teléfono, color de auto) | **asterisco** `*` |
+| Tipo de atributo              | Definición                                                                                                                                           | Notación               |
+| ----------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------- |
+| **Determinante o clave**      | Su valor es distinto para cada elemento; identifica de forma única                                                                                   | se **subraya**         |
+| **Compuesto o derivado**      | Se puede dividir en componentes más pequeños con significado propio (ej. `nombreCompleto` → nombre + apellido; `dirección` → calle, número, esquina) | sub-atributos colgando |
+| **Multivaluado o multivalor** | Tiene un **conjunto de valores** para una entidad (ej. teléfono, color de auto)                                                                      | **asterisco** `*`      |
 
 <p align="center"><img src="../_assets/base-de-datos/db_mer_atributos_clave.png" alt="Entidad Estudiante con atributos; CI subrayado como determinante" width="540"></p>
 <p align="center"><em>Atributo determinante o clave: se <strong>subraya</strong> (CI).</em></p>
@@ -207,9 +207,10 @@ con **bolitas/elipses** que salen de la entidad o relación.
 - Se representa con un **rombo**; el nombre no se puede repetir.
 
 **Grado de la relación:** cantidad de entidades que participan.
+
 - Grado 2 → **relación binaria**.
-- Grado 3 → **relación ternaria**.
-(El curso se centra principalmente en relaciones binarias.)
+- Grado 3 → **relación ternaria**. (El curso se centra principalmente en
+  relaciones binarias.)
 
 <p align="center"><img src="../_assets/base-de-datos/db_mer_relacion.png" alt="Relación pertenece (rombo) entre Estudiante y Grupo" width="540"></p>
 <p align="center"><em>La relación se dibuja con un <strong>rombo</strong> (pertenece).</em></p>
@@ -221,10 +222,10 @@ con **bolitas/elipses** que salen de la entidad o relación.
 Especifica el número de vínculos en los que puede participar cada entidad de una
 relación (cuántos elementos de cada entidad pueden vincularse).
 
-| Cardinalidad | Ejemplo |
-| --- | --- |
-| **1 : 1** | Un empleado dirige una sucursal y una sucursal es dirigida por un empleado |
-| **1 : N** | Un país tiene muchos estudiantes; un estudiante nació en un solo país |
+| Cardinalidad                | Ejemplo                                                                      |
+| --------------------------- | ---------------------------------------------------------------------------- |
+| **1 : 1**                   | Un empleado dirige una sucursal y una sucursal es dirigida por un empleado   |
+| **1 : N**                   | Un país tiene muchos estudiantes; un estudiante nació en un solo país        |
 | **N : M** (muchos a muchos) | Un empleado trabaja en muchos proyectos y un proyecto tiene muchos empleados |
 
 <p align="center"><img src="../_assets/base-de-datos/db_mer_card_1n.png" alt="Cardinalidad 1:N entre Estudiante y País" width="460">
@@ -235,7 +236,7 @@ relación (cuántos elementos de cada entidad pueden vincularse).
 #### Totalidad
 
 - Representa la **obligación** de una entidad a relacionarse con otra.
-- Ejemplo: *"TODOS los empleados pertenecen a un departamento"*.
+- Ejemplo: _"TODOS los empleados pertenecen a un departamento"_.
 - Se dibuja con **doble línea** del lado de la entidad obligada.
 
 <p align="center"><img src="../_assets/base-de-datos/db_mer_totalidad.png" alt="Totalidad: doble línea del lado Empleado en la relación pertenece" width="540"></p>
@@ -252,8 +253,8 @@ relación (cuántos elementos de cada entidad pueden vincularse).
 - **Objetivo:** representar asociaciones entre elementos de una relación y otras
   entidades, manteniendo relaciones binarias (evita relaciones de grado alto).
 - **Constructor:** se "reinterpreta" una **relación como si fuera una entidad**;
-  esa nueva entidad se usa como cualquier otra. Gráficamente se **enmarcan** las 2
-  entidades y su relación.
+  esa nueva entidad se usa como cualquier otra. Gráficamente se **enmarcan** las
+  2 entidades y su relación.
 - **Importante (de las notas):** una agregación solo puede contener **una**
   relación.
 
@@ -265,10 +266,11 @@ relación (cuántos elementos de cada entidad pueden vincularse).
 - Permite representar **subagrupaciones** (subclases) de una entidad.
 - Se usa cuando esas subagrupaciones son significativas y **tienen atributos y/o
   relaciones particulares**.
-- Se dibuja con un triángulo con la palabra **`es`** entre la entidad padre y sus
-  categorías.
+- Se dibuja con un triángulo con la palabra **`es`** entre la entidad padre y
+  sus categorías.
 - Ejemplo: `Persona` **es** `Director` / `Alumno` / `Docente` / `Adscripto`
-  (cada categoría con sus atributos propios: Alumno→grupo, NºLista; Docente→materia\*).
+  (cada categoría con sus atributos propios: Alumno→grupo, NºLista;
+  Docente→materia\*).
 
 <p align="center"><img src="../_assets/base-de-datos/db_mer_categorizacion.png" alt="Categorización: Persona es Director, Alumno, Docente o Adscripto" width="600"></p>
 <p align="center"><em>Categorización / generalización: triángulo <strong>es</strong> (Persona → Director, Alumno, Docente, Adscripto).</em></p>
@@ -291,11 +293,11 @@ relación (cuántos elementos de cada entidad pueden vincularse).
 - **Auto-relación:** relación entre un elemento de una entidad con otro(s)
   elemento(s) **de la misma entidad**.
 - **Roles / Papeles:** cuando una entidad participa más de una vez en una
-  relación desempeñando papeles distintos, se debe **diferenciar los roles** y se
-  colocan sobre los conectores (líneas).
+  relación desempeñando papeles distintos, se debe **diferenciar los roles** y
+  se colocan sobre los conectores (líneas).
 - Ejemplos:
   - `Funcionario` **supervisa** Funcionario → roles `jefe` (1) y `empleado` (N).
-  - `Materia` **previa** Materia → una materia *tiene* previas y *es* previa de
+  - `Materia` **previa** Materia → una materia _tiene_ previas y _es_ previa de
     otras (N:N).
 
 <p align="center"><img src="../_assets/base-de-datos/db_mer_autorelacion.png" alt="Auto-relación: Funcionario supervisa Funcionario con roles jefe y empleado" width="560"></p>
@@ -305,15 +307,16 @@ relación (cuántos elementos de cada entidad pueden vincularse).
 
 ## 4. Modelo Lógico — Esquema Relacional (Pasaje a Tablas)
 
-- El **Esquema Relacional** es la representación mediante **tablas** de un D. E-R.
+- El **Esquema Relacional** es la representación mediante **tablas** de un D.
+  E-R.
 - Está conformado por: **(1) el Pasaje a Tablas** del D. E-R. y **(2) el proceso
   de Normalización**.
 - Antes de pasar a tablas, el D. E-R debe tener: **Entidades, Relaciones,
   Atributos y Atributos Determinantes (claves), y Restricciones (cardinalidad y
   totalidad)**.
 
-**Notación:** `Tabla(clave_subrayada, atributo, atributo, clave_foránea)`.
-Para las claves foráneas se indica **de dónde vienen**: `atributo -> Tabla`.
+**Notación:** `Tabla(clave_subrayada, atributo, atributo, clave_foránea)`. Para
+las claves foráneas se indica **de dónde vienen**: `atributo -> Tabla`.
 
 ### 4.1. Entidad → Tabla
 
@@ -324,12 +327,12 @@ columnas; el determinante es la **clave primaria** (subrayada).
 Estudiante(CId, nombre, fechaNac, dirección)
 ```
 
-- **Atributo compuesto/derivado:** se lista con sus componentes (se descomponen en
-  la misma tabla):
+- **Atributo compuesto/derivado:** se lista con sus componentes (se descomponen
+  en la misma tabla):
   `Estudiante(CId, nombre, dirección{calle, número, esquina})`
 - **Atributo multivaluado:** se marca con asterisco:
-  `Estudiante(CId, nombre, fechaNac, teléfono*)`
-  *(luego, al normalizar en 1FN, genera una tabla aparte).*
+  `Estudiante(CId, nombre, fechaNac, teléfono*)` _(luego, al normalizar en 1FN,
+  genera una tabla aparte)._
 
 <p align="center"><img src="../_assets/base-de-datos/db_pt_entidad.png" alt="Entidad Estudiante convertida en tabla Estudiante(CId, nombre, fechaNac, dirección)" width="540"></p>
 <p align="center"><em>Cada entidad → una tabla con el mismo nombre; el determinante es la clave primaria.</em></p>
@@ -339,16 +342,16 @@ Estudiante(CId, nombre, fechaNac, dirección)
 - En general, la relación se representa con una **tabla** formada por los
   **determinantes de las entidades** que participan.
 - **El determinante de la tabla de la relación depende de la cardinalidad.**
-- Si la relación tiene **atributos propios**, éstos también van en la tabla que la
-  representa.
-  `pertenece(ci, idG, nºLista)` — `nºLista` es atributo propio de la relación.
+- Si la relación tiene **atributos propios**, éstos también van en la tabla que
+  la representa. `pertenece(ci, idG, nºLista)` — `nºLista` es atributo propio de
+  la relación.
 
 ### 4.3. Reglas según cardinalidad
 
 #### N : N — **siempre genera tabla**
 
-La tabla de la relación tiene un **determinante compuesto** por el determinante de
-A **y** el de B.
+La tabla de la relación tiene un **determinante compuesto** por el determinante
+de A **y** el de B.
 
 ```
 A(a1, a2, a3)          Estudiante(ci, nombre, apellido)
@@ -357,15 +360,15 @@ A-B(a1, a2, b1)   →    pertenece(ci, idG, nºLista)
        ↑ (a1,a2,b1 subrayados = clave compuesta)
 ```
 
-> De las notas: *las relaciones N a N siempre van a generar tabla.*
+> De las notas: _las relaciones N a N siempre van a generar tabla._
 
 <p align="center"><img src="../_assets/base-de-datos/db_pt_nn.png" alt="Pasaje a tablas de relación N:N: Estudiante, Grupo y pertenece con clave compuesta" width="560"></p>
 <p align="center"><em>N:N → la tabla <code>pertenece</code> tiene clave compuesta (ci + idG).</em></p>
 
 #### N : 1 (o 1 : N) **sin totalidad** — genera tabla
 
-Se representa con tabla porque **no todos** los elementos del lado N se relacionan.
-El determinante de la tabla de la relación es el del **lado N**.
+Se representa con tabla porque **no todos** los elementos del lado N se
+relacionan. El determinante de la tabla de la relación es el del **lado N**.
 
 ```
 N a 1:  A-B(a1, a2, b1)      → clave = det. del lado N (A)
@@ -379,8 +382,8 @@ Ej: PC(código, marca, año) / Laboratorio(número, sillas) / esta(código, núm
 #### N : 1 (o 1 : N) **con totalidad** — **NO genera tabla** (se hereda la clave)
 
 La relación **no** genera tabla: se agrega la **clave foránea en la entidad del
-lado N** (la que tiene la totalidad y la N). Esa entidad **hereda** la clave de la
-entidad del lado 1.
+lado N** (la que tiene la totalidad y la N). Esa entidad **hereda** la clave de
+la entidad del lado 1.
 
 ```
 Totalidad 1 a N:  A(a1, a2, a3)        B hereda la clave de A
@@ -404,7 +407,8 @@ Ejemplo (N a 1): Grupo(idG, nombre, idT) / Turno(idT, nombre)   idT -> Turno
 #### 1 : 1 — se elige una de las dos
 
 - **Sin totalidad:** puede representarse como tabla eligiendo **cualquiera** de
-  los dos determinantes como clave: `controla(ci, idS)` **o** `controla(idS, ci)`.
+  los dos determinantes como clave: `controla(ci, idS)` **o**
+  `controla(idS, ci)`.
 - **Con totalidad:** la relación se representa **en la entidad que tiene la
   totalidad**, que **hereda** la clave de la otra.
   `Director(ci, nombre, apellido)` / `UTU(id, nombre, ci)` → `ci -> Director`.
@@ -428,11 +432,12 @@ A-B-C(a1, a2, b1, c1, c2)   ← todos subrayados
 
 - **Categorías SIN atributos ni relaciones:** se agrega un atributo a la entidad
   padre que indica la categoría/tipo (`es`). **No** se crean tablas por
-  subcategoría.
-  `A(a1, a2, es)` · `Materia(idMat, nombre, tipo)` / `Grupo(idG, nombre, turno)`
-- **Categorías CON atributos y/o relaciones:** cada categoría (subclase) genera su
-  **propia tabla**, que hereda el determinante de la entidad padre. Las relaciones
-  de las subclases se tratan normalmente.
+  subcategoría. `A(a1, a2, es)` · `Materia(idMat, nombre, tipo)` /
+  `Grupo(idG, nombre, turno)`
+- **Categorías CON atributos y/o relaciones:** cada categoría (subclase) genera
+  su **propia tabla**, que hereda el determinante de la entidad padre. Las
+  relaciones de las subclases se tratan normalmente.
+
   ```
   A(a1, a2)   C(a1, c1)   D(a1, d1)
   Usuario(login, pass, nombre)
@@ -446,17 +451,20 @@ A-B-C(a1, a2, b1, c1, c2)   ← todos subrayados
 
 ### 4.5. Agregación → Tablas
 
-- La relación agregada se trata como una entidad. Cuando otra entidad se relaciona
-  con la agregación, la tabla de esa nueva relación **incluye el determinante de la
-  relación agregada**.
+- La relación agregada se trata como una entidad. Cuando otra entidad se
+  relaciona con la agregación, la tabla de esa nueva relación **incluye el
+  determinante de la relación agregada**.
+
   ```
   A-B(a1, a2, b1)
   AB-C(c1, c2, a1, a2, b1)
   ```
+
 - Ejemplo: `tiene(idMat, idG)` (relación agregada) y `dicta(idMat, idG, ci)` —
   `dicta` usa la clave de `tiene`.
-- **De las notas:** cuando hay una agregación y hay que definir una clave foránea,
-  la misma se define **por la relación** que haya dentro de esa agregación.
+- **De las notas:** cuando hay una agregación y hay que definir una clave
+  foránea, la misma se define **por la relación** que haya dentro de esa
+  agregación.
 
 <p align="center"><img src="../_assets/base-de-datos/db_pt_agregacion.png" alt="Agregación en pasaje a tablas: dicta usa la clave de tiene" width="600"></p>
 <p align="center"><em>La relación <code>dicta</code> incluye la clave de la relación agregada <code>tiene(idMat, idG)</code>.</em></p>
@@ -464,8 +472,8 @@ A-B-C(a1, a2, b1, c1, c2)   ← todos subrayados
 ### 4.6. Auto-relación → Tabla
 
 Genera una tabla con **dos columnas que referencian el determinante** de la
-entidad, pero con **nombres distintos** (los roles), porque en una tabla no puede
-haber dos atributos con el mismo nombre.
+entidad, pero con **nombres distintos** (los roles), porque en una tabla no
+puede haber dos atributos con el mismo nombre.
 
 ```
 A(a1, a2, a3)
@@ -493,7 +501,8 @@ B(a1, b1, b2)            →     Estudiante(id, noLista, nombre, apellido)
 
 ### 4.8. Clave foránea (externa)
 
-- Atributo que **proviene de otra tabla** para representar una relación o vínculo.
+- Atributo que **proviene de otra tabla** para representar una relación o
+  vínculo.
 - Es **clave en su tabla** de origen.
 - El **SGBD controla la integridad referencial** a través de ellas.
 - **Siempre** indicar de dónde viene: `atributo -> Tabla`.
@@ -502,8 +511,8 @@ B(a1, b1, b2)            →     Estudiante(id, noLista, nombre, apellido)
 
 ## 5. Normalización
 
-Luego del pasaje a tablas hay que verificar que **cada tabla** cumpla una serie de
-normas básicas que buscan evitar:
+Luego del pasaje a tablas hay que verificar que **cada tabla** cumpla una serie
+de normas básicas que buscan evitar:
 
 - **Redundancia de datos:** repetir datos de forma innecesaria.
 - **Inconsistencias:** el mismo dato repetido y con valores distintos.
@@ -514,8 +523,8 @@ A este proceso se lo denomina **normalización**.
 
 Una tabla está en 1ª FN **si y solo si**:
 
-1. **No existen dos filas idénticas** → cada tabla/entidad debe tener un **atributo
-   determinante**.
+1. **No existen dos filas idénticas** → cada tabla/entidad debe tener un
+   **atributo determinante**.
 2. **Todos sus atributos son atómicos** → de **único valor** e **indivisibles**.
    - **No cumplen los multivaluados** (`*`) → único valor.
    - **No cumplen los compuestos** (`{ }`) → indivisibles.
@@ -542,18 +551,17 @@ Normalizando (1ª FN):
 
 - **Atributo primo:** atributo (o conjunto de atributos) que, igual que la clave
   primaria, **determina la unicidad** en la tabla; identifica una fila. Es o
-  conforma una **clave candidata**.
-  *(Ej.: en Estudiante, CId, CC y NºEstudiante podrían identificar; uno es el
-  determinante y los otros son primos.)*
+  conforma una **clave candidata**. _(Ej.: en Estudiante, CId, CC y NºEstudiante
+  podrían identificar; uno es el determinante y los otros son primos.)_
 - **Dependencia funcional (X —» Y):** Y **depende funcionalmente** de X si X lo
   **determina** (conociendo X obtengo Y).
   - Ej.: `Matrícula —» modelo`, `CI —» nombre`.
 
-| Tipo de dependencia funcional | Definición | Rompe... |
-| --- | --- | --- |
-| **Total** | El atributo depende de **toda** la clave primaria (compuesta) | (correcta para 2ª FN) |
-| **Parcial** | El atributo depende solo de **parte** de la clave | la **2ª FN** |
-| **Transitiva** | Un atributo **no primo** depende de **otro no primo** | la **3ª FN** |
+| Tipo de dependencia funcional | Definición                                                    | Rompe...              |
+| ----------------------------- | ------------------------------------------------------------- | --------------------- |
+| **Total**                     | El atributo depende de **toda** la clave primaria (compuesta) | (correcta para 2ª FN) |
+| **Parcial**                   | El atributo depende solo de **parte** de la clave             | la **2ª FN**          |
+| **Transitiva**                | Un atributo **no primo** depende de **otro no primo**         | la **3ª FN**          |
 
 ### 5.3. Segunda Forma Normal (2ª FN)
 
@@ -563,7 +571,8 @@ Una tabla está en 2ª FN **si y solo si**:
 2. **Todos sus atributos NO primos dependen funcionalmente de forma TOTAL de la
    clave primaria** (no hay dependencias funcionales **parciales**).
 
-**Cómo normalizar:** por **cada dependencia funcional parcial** se genera una tabla.
+**Cómo normalizar:** por **cada dependencia funcional parcial** se genera una
+tabla.
 
 ```
 Pedidos(IdLibro, IdCliente, Fecha, Título, IdAutor, NomAutor, Precio,
@@ -604,9 +613,9 @@ Normalizando (3ª FN):
 ```
 
 **Resultado final del ejemplo (2ª + 3ª FN):** más tablas, pero **menos
-redundancia**.
-`Pedidos(IdLibro, IdCliente, Fecha, Cantidad)` · `Clientes(IdCliente, NomCliente)`
-· `Libros(IdLibro, Título, IdAutor, Precio)` · `Autores(IdAutor, NomAutor)`.
+redundancia**. `Pedidos(IdLibro, IdCliente, Fecha, Cantidad)` ·
+`Clientes(IdCliente, NomCliente)` · `Libros(IdLibro, Título, IdAutor, Precio)` ·
+`Autores(IdAutor, NomAutor)`.
 
 <p align="center"><img src="../_assets/base-de-datos/db_norm_3fn_transitiva.png" alt="Tercera Forma Normal: IdAutor determina NomAutor, dependencia transitiva" width="560"></p>
 <p align="center"><em>3ª FN: <code>IdAutor —» NomAutor</code> es dependencia <strong>transitiva</strong> → se saca a la tabla <code>Autores</code>.</em></p>
@@ -621,16 +630,15 @@ redundancia**.
 - **Conjunto:** agrupación, colección o clase de objetos del mismo tipo,
   denominados **elementos** del conjunto.
 - **Por extensión:** se **enumeran** los elementos.
-  `A = {0, 1, 2, 3, 4, 5, 6, 7}` (números naturales menores que 8).
-  *(Si en el curso 0 no se considera natural, sería `{1, 2, 3, 4, 5, 6, 7}`.)*
-- **Por comprensión:** se describen por una **propiedad**.
-  `B = {x ∈ ℕ | x < 8}`
+  `A = {0, 1, 2, 3, 4, 5, 6, 7}` (números naturales menores que 8). _(Si en el
+  curso 0 no se considera natural, sería `{1, 2, 3, 4, 5, 6, 7}`.)_
+- **Por comprensión:** se describen por una **propiedad**. `B = {x ∈ ℕ | x < 8}`
 
-| Operación | Símbolo | Definición |
-| --- | --- | --- |
-| **Unión** | `A ∪ B` | elementos que están en A **o** en B |
-| **Intersección** | `A ∩ B` | elementos que están en A **y** en B |
-| **Diferencia / resta** | `A − B` | elementos que están en A y **no** en B |
+| Operación               | Símbolo | Definición                                        |
+| ----------------------- | ------- | ------------------------------------------------- |
+| **Unión**               | `A ∪ B` | elementos que están en A **o** en B               |
+| **Intersección**        | `A ∩ B` | elementos que están en A **y** en B               |
+| **Diferencia / resta**  | `A − B` | elementos que están en A y **no** en B            |
 | **Producto cartesiano** | `A × B` | todos los **pares ordenados** (a, b) con a∈A, b∈B |
 
 **Ejercicio resuelto** — `A = {1, 3, 5, 7}` · `B = {1, 2, 3}`:
@@ -639,7 +647,7 @@ redundancia**.
 - `A ∩ B = {1, 3}`
 - `A − B = {5, 7}`
 - `A × B = {(1,1),(1,2),(1,3), (3,1),(3,2),(3,3), (5,1),(5,2),(5,3), (7,1),(7,2),(7,3)}`
-  *(4 × 3 = 12 pares ordenados)*
+  _(4 × 3 = 12 pares ordenados)_
 
 ---
 
@@ -647,26 +655,26 @@ redundancia**.
 
 ### 7.1. Pasaje a tablas — ¿cuándo se crea tabla para la relación?
 
-| Caso | ¿Genera tabla? | Clave / dónde va |
-| --- | --- | --- |
-| **N : N** | **Sí, siempre** | clave compuesta (det. de A + det. de B) |
-| **N : 1 / 1 : N sin totalidad** | Sí | clave = determinante del **lado N** |
-| **N : 1 / 1 : N con totalidad** | **No** | clave foránea en la entidad del **lado N**, que hereda la clave del lado 1 |
-| **1 : 1 sin totalidad** | Sí (o clave foránea) | se elige cualquiera de los dos determinantes |
-| **1 : 1 con totalidad** | No | la entidad con totalidad hereda la clave de la otra |
-| **Ternaria** | Sí | clave compuesta con las 3 entidades |
-| **Entidad débil** | No (la relación débil no genera tabla) | la débil hereda la clave del fuerte → clave compuesta |
-| **Auto-relación** | Sí | 2 columnas con nombres de rol distintos |
-| **Categoría con atributos/relaciones** | Sí (una por subclase) | hereda el determinante del padre |
-| **Categoría sin atributos/relaciones** | No | atributo "tipo" en la entidad padre |
+| Caso                                   | ¿Genera tabla?                         | Clave / dónde va                                                           |
+| -------------------------------------- | -------------------------------------- | -------------------------------------------------------------------------- |
+| **N : N**                              | **Sí, siempre**                        | clave compuesta (det. de A + det. de B)                                    |
+| **N : 1 / 1 : N sin totalidad**        | Sí                                     | clave = determinante del **lado N**                                        |
+| **N : 1 / 1 : N con totalidad**        | **No**                                 | clave foránea en la entidad del **lado N**, que hereda la clave del lado 1 |
+| **1 : 1 sin totalidad**                | Sí (o clave foránea)                   | se elige cualquiera de los dos determinantes                               |
+| **1 : 1 con totalidad**                | No                                     | la entidad con totalidad hereda la clave de la otra                        |
+| **Ternaria**                           | Sí                                     | clave compuesta con las 3 entidades                                        |
+| **Entidad débil**                      | No (la relación débil no genera tabla) | la débil hereda la clave del fuerte → clave compuesta                      |
+| **Auto-relación**                      | Sí                                     | 2 columnas con nombres de rol distintos                                    |
+| **Categoría con atributos/relaciones** | Sí (una por subclase)                  | hereda el determinante del padre                                           |
+| **Categoría sin atributos/relaciones** | No                                     | atributo "tipo" en la entidad padre                                        |
 
 ### 7.2. Formas normales — de un vistazo
 
-| Forma | Requisito clave |
-| --- | --- |
-| **1ª FN** | Sin filas idénticas (hay determinante) + atributos atómicos (sin `*` ni `{ }`) |
+| Forma     | Requisito clave                                                                                      |
+| --------- | ---------------------------------------------------------------------------------------------------- |
+| **1ª FN** | Sin filas idénticas (hay determinante) + atributos atómicos (sin `*` ni `{ }`)                       |
 | **2ª FN** | 1ª FN + atributos no primos dependen de forma **total** de la clave (sin dependencias **parciales**) |
-| **3ª FN** | 2ª FN + sin dependencias **transitivas** entre atributos no primos |
+| **3ª FN** | 2ª FN + sin dependencias **transitivas** entre atributos no primos                                   |
 
 ### 7.3. Símbolos rápidos
 
