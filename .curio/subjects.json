@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-09-13T18:29:55.139Z",
+  "records": [
+    {
+      "id": "1de2c4bb-5529-4935-a87f-fb3898e9bcc6",
+      "name": "Base De Datos",
+      "color": "biology",
+      "description": "",
+      "passThreshold": 5,
+      "repoPath": "base-de-datos",
+      "createdAt": "2026-09-13T16:01:51.587Z",
+      "updatedAt": "2026-09-13T16:01:51.587Z"
+    },
+    {
+      "id": "1e5135fc-a515-4d9f-8f8c-41cc238c49b1",
+      "name": "Matematicas Cts",
+      "color": "algebra",
+      "description": "",
+      "passThreshold": 5,
+      "repoPath": "matematicas-cts",
+      "createdAt": "2026-09-13T16:01:51.607Z",
+      "updatedAt": "2026-09-13T16:01:51.607Z"
+    },
+    {
+      "id": "3d0183e4-10f2-4259-a68c-5b75fb4a42aa",
+      "name": "Legislacion",
+      "color": "cs",
+      "description": "",
+      "passThreshold": 5,
+      "repoPath": "legislacion",
+      "createdAt": "2026-09-13T16:01:51.604Z",
+      "updatedAt": "2026-09-13T16:01:51.604Z"
+    },
+    {
+      "id": "6a59c444-be84-4109-814b-c7beca98c133",
+      "name": "Ingles",
+      "color": "art",
+      "description": "",
+      "passThreshold": 5,
+      "repoPath": "ingles",
+      "createdAt": "2026-09-13T16:01:51.600Z",
+      "updatedAt": "2026-09-13T16:01:51.600Z"
+    },
+    {
+      "id": "73a797d7-8b01-430b-b0df-9b52674863fe",
+      "name": "Sistema Operativo",
+      "color": "art",
+      "description": "",
+      "passThreshold": 5,
+      "repoPath": "sistema-operativo",
+      "createdAt": "2026-09-13T16:01:51.615Z",
+      "updatedAt": "2026-09-13T16:01:51.615Z"
+    },
+    {
+      "id": "aefff7f1-5182-4511-946f-65421b435efb",
+      "name": "Redes",
+      "color": "history",
+      "description": "",
+      "passThreshold": 5,
+      "repoPath": "redes",
+      "createdAt": "2026-09-13T16:01:51.613Z",
+      "updatedAt": "2026-09-13T16:01:51.613Z"
+    },
+    {
+      "id": "cc2d670a-6e7f-413f-836c-059907225e3c",
+      "name": "Apt",
+      "color": "algebra",
+      "description": "",
+      "passThreshold": 5,
+      "repoPath": "apt",
+      "createdAt": "2026-09-13T16:01:51.582Z",
+      "updatedAt": "2026-09-13T16:01:51.582Z"
+    },
+    {
+      "id": "db7d6fbc-2335-4983-bf31-d9a64a645b9b",
+      "name": "Derecho",
+      "color": "english",
+      "description": "",
+      "passThreshold": 5,
+      "repoPath": "derecho",
+      "createdAt": "2026-09-13T16:01:51.591Z",
+      "updatedAt": "2026-09-13T16:01:51.591Z"
+    },
+    {
+      "id": "ef3965e7-8a71-4be5-a8af-a45ae4cc7f0e",
+      "name": "Programacion Avanzada",
+      "color": "english",
+      "description": "",
+      "passThreshold": 5,
+      "repoPath": "programacion-avanzada",
+      "createdAt": "2026-09-13T16:01:51.611Z",
+      "updatedAt": "2026-09-13T16:01:51.611Z"
+    },
+    {
+      "id": "effe329f-65b9-4195-a3d9-1b9cc154b955",
+      "name": "ZZZ Test Subject (delete me)",
+      "color": "algebra",
+      "description": "",
+      "passThreshold": 5,
+      "createdAt": "2026-09-13T18:29:44.567Z",
+      "updatedAt": "2026-09-13T18:29:44.567Z"
+    },
+    {
+      "id": "fc5f8fbf-c4c0-4c05-b35b-795bfb68ae9e",
+      "name": "Historia",
+      "color": "history",
+      "description": "",
+      "passThreshold": 5,
+      "repoPath": "historia",
+      "createdAt": "2026-09-13T16:01:51.597Z",
+      "updatedAt": "2026-09-13T16:01:51.597Z"
+    },
+    {
+      "id": "fd31164c-3b72-4935-ae83-154b315829dd",
+      "name": "Matematicas",
+      "color": "biology",
+      "description": "",
+      "passThreshold": 5,
+      "repoPath": "matematicas",
+      "createdAt": "2026-09-13T16:01:51.609Z",
+      "updatedAt": "2026-09-13T16:01:51.609Z"
+    }
+  ],
+  "deleted": []
+}
