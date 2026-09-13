@@ -1,8 +1,12 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-13T18:32:00.128Z",
+  "updatedAt": "2026-09-13T22:23:55.836Z",
   "records": [],
   "deleted": [
+    {
+      "id": "120dcef0-5496-4c12-919d-1e7f148e36ef",
+      "deletedAt": "2026-09-13T22:23:51.904Z"
+    },
     {
       "id": "a9f9d060-e8e4-4937-bcfa-b862ca7e9ef7",
       "deletedAt": "2026-09-13T18:31:49.165Z"
