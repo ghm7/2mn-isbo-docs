@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-13T18:29:55.139Z",
+  "updatedAt": "2026-09-13T18:32:51.131Z",
   "records": [
     {
       "id": "1de2c4bb-5529-4935-a87f-fb3898e9bcc6",
@@ -93,15 +93,6 @@
       "updatedAt": "2026-09-13T16:01:51.611Z"
     },
     {
-      "id": "effe329f-65b9-4195-a3d9-1b9cc154b955",
-      "name": "ZZZ Test Subject (delete me)",
-      "color": "algebra",
-      "description": "",
-      "passThreshold": 5,
-      "createdAt": "2026-09-13T18:29:44.567Z",
-      "updatedAt": "2026-09-13T18:29:44.567Z"
-    },
-    {
       "id": "fc5f8fbf-c4c0-4c05-b35b-795bfb68ae9e",
       "name": "Historia",
       "color": "history",
@@ -122,5 +113,10 @@
       "updatedAt": "2026-09-13T16:01:51.609Z"
     }
   ],
-  "deleted": []
+  "deleted": [
+    {
+      "id": "effe329f-65b9-4195-a3d9-1b9cc154b955",
+      "deletedAt": "2026-09-13T18:32:40.800Z"
+    }
+  ]
 }
