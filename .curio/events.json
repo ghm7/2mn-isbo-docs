@@ -1,7 +1,25 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-13T22:23:55.836Z",
-  "records": [],
+  "updatedAt": "2026-09-13T22:24:30.324Z",
+  "records": [
+    {
+      "id": "76b3f172-f0a8-45a8-a24c-3ae5aab35276",
+      "title": "Introducción a base de datos",
+      "type": "class",
+      "startDate": "2026-09-14",
+      "recurrence": {
+        "frequency": "weekly",
+        "daysOfWeek": [
+          1
+        ]
+      },
+      "createdAt": "2026-09-13T22:24:20.307Z",
+      "updatedAt": "2026-09-13T22:24:20.307Z",
+      "subjectId": "1de2c4bb-5529-4935-a87f-fb3898e9bcc6",
+      "startTime": "18:00",
+      "endTime": "20:00"
+    }
+  ],
   "deleted": [
     {
       "id": "120dcef0-5496-4c12-919d-1e7f148e36ef",
