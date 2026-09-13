@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-09-13T18:30:38.130Z",
+  "records": [
+    {
+      "id": "a9f9d060-e8e4-4937-bcfa-b862ca7e9ef7",
+      "title": "ZZZ Test Event (delete me)",
+      "type": "class",
+      "startDate": "2026-09-13",
+      "recurrence": null,
+      "createdAt": "2026-09-13T18:30:27.265Z",
+      "updatedAt": "2026-09-13T18:30:27.265Z",
+      "startTime": "09:00",
+      "endTime": "10:00"
+    }
+  ],
+  "deleted": []
+}
