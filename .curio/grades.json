@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-14T03:21:40.259Z",
+  "updatedAt": "2026-09-14T03:21:57.945Z",
   "records": [
     {
       "id": "3a6a5ec1-47e1-4d37-9add-a9af98e26062",
@@ -11,6 +11,16 @@
       "date": "2026-07-14",
       "createdAt": "2026-09-14T03:19:55.412Z",
       "updatedAt": "2026-09-14T03:19:55.412Z"
+    },
+    {
+      "id": "3f5cf451-d81a-40e3-9af5-233d5ea817a8",
+      "subjectId": "cc2d670a-6e7f-413f-836c-059907225e3c",
+      "name": "Segunda entrega",
+      "grade": 7,
+      "weight": 100,
+      "date": "2026-07-14",
+      "createdAt": "2026-09-14T03:21:47.929Z",
+      "updatedAt": "2026-09-14T03:21:47.929Z"
     },
     {
       "id": "5b7dcec1-664f-476f-8cdf-0abf693d5745",
