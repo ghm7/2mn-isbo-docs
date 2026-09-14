@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-13T22:25:29.998Z",
+  "updatedAt": "2026-09-14T02:44:56.496Z",
   "records": [
     {
       "id": "76b3f172-f0a8-45a8-a24c-3ae5aab35276",
@@ -21,12 +21,12 @@
     },
     {
       "id": "8a1613f2-5cb1-402d-89bb-bdca914a824e",
-      "title": "Escrito base de datos",
+      "title": "Base de datos",
       "type": "exam",
       "startDate": "2026-09-14",
       "recurrence": null,
       "createdAt": "2026-09-13T22:25:19.992Z",
-      "updatedAt": "2026-09-13T22:25:19.992Z",
+      "updatedAt": "2026-09-14T02:44:46.476Z",
       "subjectId": "1de2c4bb-5529-4935-a87f-fb3898e9bcc6",
       "startTime": "18:00",
       "endTime": "20:00"
