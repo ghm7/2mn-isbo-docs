@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-09-14T04:39:58.424Z",
+  "records": [
+    {
+      "id": "0bf8cfae-e3a1-4b7a-b2b4-1516911fbba5",
+      "definitionId": "first-subject",
+      "unlockedAt": "2026-09-14T04:39:48.407Z"
+    },
+    {
+      "id": "22b1714d-0465-4dab-94b7-adf01fba4a88",
+      "definitionId": "twenty-five-documents",
+      "unlockedAt": "2026-09-14T04:39:48.411Z"
+    },
+    {
+      "id": "3437b240-1635-416a-b2ce-f44c67338c9a",
+      "definitionId": "five-subjects",
+      "unlockedAt": "2026-09-14T04:39:48.411Z"
+    },
+    {
+      "id": "4d70bf20-d5f3-4906-a4f1-524415ffd10e",
+      "definitionId": "ten-grades",
+      "unlockedAt": "2026-09-14T04:39:48.412Z"
+    },
+    {
+      "id": "509f68fc-a429-4082-8e07-a730c84006bd",
+      "definitionId": "ten-documents",
+      "unlockedAt": "2026-09-14T04:39:48.410Z"
+    },
+    {
+      "id": "690602bd-3507-4b8d-b5d6-eccdb5c2fbe1",
+      "definitionId": "first-grade",
+      "unlockedAt": "2026-09-14T04:39:48.412Z"
+    },
+    {
+      "id": "96fb8db6-ec0b-4afa-b7f2-86f70b33948a",
+      "definitionId": "twenty-five-documents",
+      "unlockedAt": "2026-09-14T04:39:48.410Z"
+    },
+    {
+      "id": "9fca089f-35c8-4a3f-98d2-0ac1b997ac73",
+      "definitionId": "ten-grades",
+      "unlockedAt": "2026-09-14T04:39:48.412Z"
+    },
+    {
+      "id": "ad0880c1-8493-4ab9-8888-c6b27d3b340d",
+      "definitionId": "first-grade",
+      "unlockedAt": "2026-09-14T04:39:48.412Z"
+    },
+    {
+      "id": "c3e6950e-31ca-4eda-a9ad-fa50805e0dbf",
+      "definitionId": "first-subject",
+      "unlockedAt": "2026-09-14T04:39:48.406Z"
+    },
+    {
+      "id": "d6eb62ab-2051-42b1-82db-669f6ad2bb87",
+      "definitionId": "ten-documents",
+      "unlockedAt": "2026-09-14T04:39:48.409Z"
+    },
+    {
+      "id": "e1765bb6-6013-487f-a6a2-29539f46e815",
+      "definitionId": "first-document",
+      "unlockedAt": "2026-09-14T04:39:48.409Z"
+    },
+    {
+      "id": "f70ac105-63cb-48ea-bc49-3ea81913710e",
+      "definitionId": "five-subjects",
+      "unlockedAt": "2026-09-14T04:39:48.412Z"
+    },
+    {
+      "id": "f71ce3a3-0622-46d9-8c1d-29dde42dce81",
+      "definitionId": "first-document",
+      "unlockedAt": "2026-09-14T04:39:48.409Z"
+    }
+  ],
+  "deleted": []
+}
