@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-14T03:19:56.545Z",
+  "updatedAt": "2026-09-14T03:20:25.440Z",
   "records": [
     {
       "id": "3a6a5ec1-47e1-4d37-9add-a9af98e26062",
@@ -23,6 +23,16 @@
       "updatedAt": "2026-09-14T03:19:20.187Z"
     },
     {
+      "id": "652ac6d0-9a96-4b96-a4d0-791537db4e2d",
+      "subjectId": "73a797d7-8b01-430b-b0df-9b52674863fe",
+      "name": "Primer entrega",
+      "grade": 8,
+      "weight": 100,
+      "date": "2026-05-14",
+      "createdAt": "2026-09-14T03:20:15.425Z",
+      "updatedAt": "2026-09-14T03:20:15.425Z"
+    },
+    {
       "id": "7fad96ff-32f5-4cea-8117-c5f819a67581",
       "subjectId": "1e5135fc-a515-4d9f-8f8c-41cc238c49b1",
       "name": "Primer entrega",
@@ -31,6 +41,16 @@
       "date": "2026-05-14",
       "createdAt": "2026-09-14T03:19:04.674Z",
       "updatedAt": "2026-09-14T03:19:04.674Z"
+    },
+    {
+      "id": "940263d2-3b8e-4f72-83c7-4e6ee3fce7b4",
+      "subjectId": "73a797d7-8b01-430b-b0df-9b52674863fe",
+      "name": "Segunda entrega",
+      "grade": 8,
+      "weight": 100,
+      "date": "2026-07-14",
+      "createdAt": "2026-09-14T03:20:25.142Z",
+      "updatedAt": "2026-09-14T03:20:25.142Z"
     },
     {
       "id": "ad31db1b-c717-4ee8-b6a1-8905b887ff64",
