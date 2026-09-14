@@ -1,7 +1,18 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-13T18:31:35.130Z",
-  "records": [],
+  "updatedAt": "2026-09-14T03:18:31.245Z",
+  "records": [
+    {
+      "id": "c950d415-6159-480c-8806-040453dbfd5a",
+      "subjectId": "1de2c4bb-5529-4935-a87f-fb3898e9bcc6",
+      "name": "Primer entrega",
+      "grade": 7,
+      "weight": 100,
+      "date": "2026-06-01",
+      "createdAt": "2026-09-14T03:18:21.236Z",
+      "updatedAt": "2026-09-14T03:18:21.236Z"
+    }
+  ],
   "deleted": [
     {
       "id": "1b739b62-a5a2-4245-85b3-3f4db0265845",
