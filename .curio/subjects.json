@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-14T04:44:40.119Z",
+  "updatedAt": "2026-09-14T04:44:58.078Z",
   "records": [
     {
       "id": "1de2c4bb-5529-4935-a87f-fb3898e9bcc6",
@@ -40,8 +40,8 @@
       "passThreshold": 5,
       "repoPath": "ingles",
       "createdAt": "2026-09-13T16:01:51.600Z",
-      "updatedAt": "2026-09-14T04:44:30.104Z",
-      "includeInOverallAverage": false
+      "updatedAt": "2026-09-14T04:44:53.345Z",
+      "includeInOverallAverage": true
     },
     {
       "id": "73a797d7-8b01-430b-b0df-9b52674863fe",
@@ -71,7 +71,8 @@
       "passThreshold": 5,
       "repoPath": "apt",
       "createdAt": "2026-09-13T16:01:51.582Z",
-      "updatedAt": "2026-09-13T16:01:51.582Z"
+      "updatedAt": "2026-09-14T04:44:53.345Z",
+      "includeInOverallAverage": true
     },
     {
       "id": "db7d6fbc-2335-4983-bf31-d9a64a645b9b",
@@ -81,8 +82,8 @@
       "passThreshold": 5,
       "repoPath": "derecho",
       "createdAt": "2026-09-13T16:01:51.591Z",
-      "updatedAt": "2026-09-14T04:44:30.104Z",
-      "includeInOverallAverage": false
+      "updatedAt": "2026-09-14T04:44:53.345Z",
+      "includeInOverallAverage": true
     },
     {
       "id": "ef3965e7-8a71-4be5-a8af-a45ae4cc7f0e",
@@ -112,8 +113,8 @@
       "passThreshold": 5,
       "repoPath": "matematicas",
       "createdAt": "2026-09-13T16:01:51.609Z",
-      "updatedAt": "2026-09-14T04:44:30.104Z",
-      "includeInOverallAverage": false
+      "updatedAt": "2026-09-14T04:44:53.345Z",
+      "includeInOverallAverage": true
     }
   ],
   "deleted": [
