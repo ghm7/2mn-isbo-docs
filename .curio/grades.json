@@ -1,7 +1,17 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-14T03:19:30.196Z",
+  "updatedAt": "2026-09-14T03:19:56.545Z",
   "records": [
+    {
+      "id": "3a6a5ec1-47e1-4d37-9add-a9af98e26062",
+      "subjectId": "3d0183e4-10f2-4259-a68c-5b75fb4a42aa",
+      "name": "Segunda entrega",
+      "grade": 8,
+      "weight": 100,
+      "date": "2026-07-14",
+      "createdAt": "2026-09-14T03:19:55.412Z",
+      "updatedAt": "2026-09-14T03:19:55.412Z"
+    },
     {
       "id": "5c7fe0b8-4596-4f0f-abc5-07874da301d9",
       "subjectId": "1e5135fc-a515-4d9f-8f8c-41cc238c49b1",
@@ -41,6 +51,16 @@
       "date": "2026-06-01",
       "createdAt": "2026-09-14T03:18:21.236Z",
       "updatedAt": "2026-09-14T03:18:21.236Z"
+    },
+    {
+      "id": "ee9a6a16-b82f-4e5b-b1e2-c7d383655a07",
+      "subjectId": "3d0183e4-10f2-4259-a68c-5b75fb4a42aa",
+      "name": "Primer entrega",
+      "grade": 6,
+      "weight": 100,
+      "date": "2026-05-14",
+      "createdAt": "2026-09-14T03:19:46.529Z",
+      "updatedAt": "2026-09-14T03:19:46.529Z"
     }
   ],
   "deleted": [
