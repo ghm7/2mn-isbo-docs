@@ -8,12 +8,28 @@
     "back": "Desde los 16 años."
   },
   {
+    "front": "¿Qué puede hacer quien tiene capacidad de ejercicio atenuada?",
+    "back": "Dirigir su vida y administrar sus negocios, con ciertas restricciones."
+  },
+  {
     "front": "¿Hasta qué edad un varón es menor impúber?",
     "back": "Hasta antes de cumplir 14 años."
   },
   {
     "front": "¿Hasta qué edad una mujer es menor impúber?",
     "back": "Hasta antes de cumplir 12 años."
+  },
+  {
+    "front": "¿Entre qué edades un varón es menor púber?",
+    "back": "De 14 a 18 años."
+  },
+  {
+    "front": "¿Entre qué edades una mujer es menor púber?",
+    "back": "De 12 a 18 años."
+  },
+  {
+    "front": "¿Qué tipo de incapaz es un varón de 13 años?",
+    "back": "Incapaz absoluto (menor impúber)."
   },
   {
     "front": "¿Qué tipo de incapaces son los menores impúberes?",
@@ -30,6 +46,10 @@
   {
     "front": "¿Cómo son los actos de los incapaces relativos?",
     "back": "Relativamente nulos: pueden validarse en determinadas condiciones."
+  },
+  {
+    "front": "¿De qué depende la capacidad de un incapaz relativo para realizar un acto?",
+    "back": "Del acto y de las condiciones previstas por la ley."
   },
   {
     "front": "¿En qué registro se inscribe la sentencia del juicio de interdicción?",
@@ -72,8 +92,16 @@
     "back": "La aptitud para actuar por sí mismo en la vida jurídica, sin actuar a través de otros."
   },
   {
+    "front": "¿Tienen todas las personas capacidad de ejercicio?",
+    "back": "No."
+  },
+  {
     "front": "¿A qué edad se adquiere la capacidad de ejercicio plena?",
     "back": "A los 18 años."
+  },
+  {
+    "front": "¿Qué excepción tiene la capacidad de ejercicio plena?",
+    "back": "La incapacidad legal."
   },
   {
     "front": "Entre capacidad e incapacidad, ¿cuál es la regla y cuál la excepción?",

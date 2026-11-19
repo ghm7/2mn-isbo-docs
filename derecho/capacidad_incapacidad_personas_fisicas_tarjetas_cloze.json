@@ -8,12 +8,28 @@
     "back": "16"
   },
   {
+    "front": "Quien tiene capacidad de ejercicio atenuada puede {{...}} y {{...}}, con ciertas restricciones.",
+    "back": "dirigir su vida; administrar sus negocios"
+  },
+  {
     "front": "Un varón es menor impúber si tiene menos de {{...}} años.",
     "back": "14"
   },
   {
     "front": "Una mujer es menor impúber si tiene menos de {{...}} años.",
     "back": "12"
+  },
+  {
+    "front": "Un varón es menor púber entre los {{...}} y los {{...}} años.",
+    "back": "14; 18"
+  },
+  {
+    "front": "Una mujer es menor púber entre los {{...}} y los {{...}} años.",
+    "back": "12; 18"
+  },
+  {
+    "front": "Un varón de 13 años es menor {{...}} y, por lo tanto, incapaz absoluto.",
+    "back": "impúber"
   },
   {
     "front": "Los menores impúberes son incapaces {{...}}.",
@@ -30,6 +46,10 @@
   {
     "front": "Los actos de los incapaces relativos son {{...}} y pueden validarse en determinadas condiciones.",
     "back": "relativamente nulos"
+  },
+  {
+    "front": "La capacidad de un incapaz relativo para realizar un acto depende del {{...}} y de las condiciones previstas por la ley.",
+    "back": "acto"
   },
   {
     "front": "La sentencia del juicio de interdicción se inscribe en el {{...}}.",
@@ -72,8 +92,16 @@
     "back": "ejercicio"
   },
   {
+    "front": "A diferencia de la capacidad de goce, la capacidad de ejercicio {{...}} la tienen todas las personas.",
+    "back": "no"
+  },
+  {
     "front": "La capacidad de ejercicio plena se adquiere a los {{...}} años.",
     "back": "18"
+  },
+  {
+    "front": "Quien tiene capacidad de ejercicio plena ejerce sus derechos por sí mismo, salvo {{...}}.",
+    "back": "incapacidad legal"
   },
   {
     "front": "La {{...}} es la regla y la {{...}} es la excepción.",
