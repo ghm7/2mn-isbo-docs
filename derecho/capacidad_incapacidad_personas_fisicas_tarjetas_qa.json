@@ -1,0 +1,174 @@
+[
+  {
+    "front": "¿Quién tiene capacidad de ejercicio atenuada, según el apunte?",
+    "back": "El menor habilitado por matrimonio."
+  },
+  {
+    "front": "¿Desde qué edad se adquiere la capacidad de ejercicio atenuada, según el apunte?",
+    "back": "Desde los 16 años."
+  },
+  {
+    "front": "¿Hasta qué edad un varón es menor impúber?",
+    "back": "Hasta antes de cumplir 14 años."
+  },
+  {
+    "front": "¿Hasta qué edad una mujer es menor impúber?",
+    "back": "Hasta antes de cumplir 12 años."
+  },
+  {
+    "front": "¿Qué tipo de incapaces son los menores impúberes?",
+    "back": "Incapaces absolutos."
+  },
+  {
+    "front": "¿Qué efecto jurídico producen los actos de los incapaces absolutos?",
+    "back": "Ninguno: no producen efectos jurídicos."
+  },
+  {
+    "front": "¿Qué tipo de incapaces son los menores púberes?",
+    "back": "Incapaces relativos."
+  },
+  {
+    "front": "¿Cómo son los actos de los incapaces relativos?",
+    "back": "Relativamente nulos: pueden validarse en determinadas condiciones."
+  },
+  {
+    "front": "¿En qué registro se inscribe la sentencia del juicio de interdicción?",
+    "back": "En el Registro de Actos Personales."
+  },
+  {
+    "front": "¿A quién asigna el juez al declarar incapaz a una persona en el juicio de interdicción?",
+    "back": "Un curador."
+  },
+  {
+    "front": "¿Qué ocurre con los actos del incapaz posteriores a la inscripción de la sentencia de incapacidad?",
+    "back": "Son nulos."
+  },
+  {
+    "front": "¿A quiénes protege la tutela?",
+    "back": "A los menores que no están bajo patria potestad."
+  },
+  {
+    "front": "¿Qué es el peculio profesional o industrial?",
+    "back": "Los bienes que el menor adquiere mediante su trabajo o industria."
+  },
+  {
+    "front": "¿A quién corresponden la propiedad, el usufructo y la administración del peculio profesional?",
+    "back": "Al menor."
+  },
+  {
+    "front": "¿Qué es la capacidad jurídica?",
+    "back": "La aptitud para producir consecuencias jurídicas mediante los propios actos."
+  },
+  {
+    "front": "¿Qué es la capacidad de goce?",
+    "back": "La aptitud para poseer derechos subjetivos y deberes jurídicos."
+  },
+  {
+    "front": "¿Quiénes tienen capacidad de goce?",
+    "back": "Todas las personas."
+  },
+  {
+    "front": "¿Qué es la capacidad de ejercicio?",
+    "back": "La aptitud para actuar por sí mismo en la vida jurídica, sin actuar a través de otros."
+  },
+  {
+    "front": "¿A qué edad se adquiere la capacidad de ejercicio plena?",
+    "back": "A los 18 años."
+  },
+  {
+    "front": "Entre capacidad e incapacidad, ¿cuál es la regla y cuál la excepción?",
+    "back": "La capacidad es la regla; la incapacidad, la excepción."
+  },
+  {
+    "front": "¿Qué es la incapacidad jurídica?",
+    "back": "La falta de capacidad de ejercicio."
+  },
+  {
+    "front": "¿Cómo actúa un incapaz en la vida jurídica?",
+    "back": "Mediante representación o asistencia legal."
+  },
+  {
+    "front": "¿De qué puede derivar la incapacidad?",
+    "back": "De la falta de edad o de una enfermedad que afecta el discernimiento."
+  },
+  {
+    "front": "¿Cómo se clasifica la incapacidad según su origen?",
+    "back": "Natural o patológica."
+  },
+  {
+    "front": "¿Cómo se clasifica la incapacidad según su duración?",
+    "back": "Temporal o permanente."
+  },
+  {
+    "front": "¿Cómo se clasifica la incapacidad según sus efectos?",
+    "back": "Absoluta o relativa."
+  },
+  {
+    "front": "¿Qué requisito deben cumplir los dementes para ser incapaces absolutos?",
+    "back": "Ser declarados incapaces por sentencia judicial."
+  },
+  {
+    "front": "¿Qué sordomudos son incapaces absolutos?",
+    "back": "Los que no pueden comunicarse por escrito ni por lengua de señas."
+  },
+  {
+    "front": "¿Es incapaz absoluto un sordomudo que puede comunicarse por escrito?",
+    "back": "No, porque puede darse a entender."
+  },
+  {
+    "front": "¿Qué tipo de incapaz es una mujer de 13 años?",
+    "back": "Incapaz relativa (menor púber)."
+  },
+  {
+    "front": "¿Puede un menor púber contraer matrimonio?",
+    "back": "Sí."
+  },
+  {
+    "front": "¿Puede un menor púber hacer testamento?",
+    "back": "Sí."
+  },
+  {
+    "front": "¿Puede un menor púber celebrar capitulaciones matrimoniales?",
+    "back": "Sí."
+  },
+  {
+    "front": "¿Puede un menor púber administrar por sí mismo su peculio profesional?",
+    "back": "Sí."
+  },
+  {
+    "front": "¿Quiénes son los únicos que transitan los dos tipos de incapacidad, absoluta y relativa?",
+    "back": "Los menores de edad."
+  },
+  {
+    "front": "¿Por qué los menores pasan de la incapacidad absoluta a la relativa?",
+    "back": "Porque la autoconciencia se desarrolla progresivamente."
+  },
+  {
+    "front": "¿Qué obligaciones producen los actos de los incapaces absolutos?",
+    "back": "Ninguna: ni obligaciones civiles ni naturales."
+  },
+  {
+    "front": "¿Admiten caución los actos de los incapaces absolutos?",
+    "back": "No."
+  },
+  {
+    "front": "¿Qué es una obligación civil?",
+    "back": "Una obligación exigible judicialmente."
+  },
+  {
+    "front": "¿Qué es una obligación natural?",
+    "back": "Una obligación que no confiere acción para exigir su cumplimiento."
+  },
+  {
+    "front": "¿A quiénes protege la patria potestad?",
+    "back": "A los hijos menores."
+  },
+  {
+    "front": "¿A quiénes protege la curatela?",
+    "back": "A las personas adultas declaradas incapaces."
+  },
+  {
+    "front": "¿A quiénes se aplica el juicio de interdicción?",
+    "back": "A los dementes y a los sordomudos que no pueden darse a entender."
+  }
+]

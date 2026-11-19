@@ -1,0 +1,174 @@
+[
+  {
+    "front": "Según el apunte, tiene capacidad de ejercicio atenuada el menor habilitado por {{...}}.",
+    "back": "matrimonio"
+  },
+  {
+    "front": "Según el apunte, la capacidad de ejercicio atenuada se adquiere desde los {{...}} años.",
+    "back": "16"
+  },
+  {
+    "front": "Un varón es menor impúber si tiene menos de {{...}} años.",
+    "back": "14"
+  },
+  {
+    "front": "Una mujer es menor impúber si tiene menos de {{...}} años.",
+    "back": "12"
+  },
+  {
+    "front": "Los menores impúberes son incapaces {{...}}.",
+    "back": "absolutos"
+  },
+  {
+    "front": "Los actos de los incapaces absolutos no producen {{...}}.",
+    "back": "efectos jurídicos"
+  },
+  {
+    "front": "Los menores púberes son incapaces {{...}}.",
+    "back": "relativos"
+  },
+  {
+    "front": "Los actos de los incapaces relativos son {{...}} y pueden validarse en determinadas condiciones.",
+    "back": "relativamente nulos"
+  },
+  {
+    "front": "La sentencia del juicio de interdicción se inscribe en el {{...}}.",
+    "back": "Registro de Actos Personales"
+  },
+  {
+    "front": "En el juicio de interdicción, el juez declara incapaz a la persona y le asigna un {{...}}.",
+    "back": "curador"
+  },
+  {
+    "front": "Los actos del incapaz posteriores a la inscripción de la sentencia de incapacidad son {{...}}.",
+    "back": "nulos"
+  },
+  {
+    "front": "La tutela protege a los menores que no están bajo {{...}}.",
+    "back": "patria potestad"
+  },
+  {
+    "front": "El peculio {{...}} está formado por los bienes que el menor adquiere mediante su trabajo o industria.",
+    "back": "profesional o industrial"
+  },
+  {
+    "front": "La propiedad, el usufructo y la administración del peculio profesional corresponden al {{...}}.",
+    "back": "menor"
+  },
+  {
+    "front": "La capacidad jurídica es la aptitud para producir {{...}} mediante los propios actos.",
+    "back": "consecuencias jurídicas"
+  },
+  {
+    "front": "La capacidad de {{...}} es la aptitud para poseer derechos subjetivos y deberes jurídicos.",
+    "back": "goce"
+  },
+  {
+    "front": "La capacidad de goce la poseen {{...}}.",
+    "back": "todas las personas"
+  },
+  {
+    "front": "La capacidad de {{...}} es la aptitud para actuar por sí mismo en la vida jurídica.",
+    "back": "ejercicio"
+  },
+  {
+    "front": "La capacidad de ejercicio plena se adquiere a los {{...}} años.",
+    "back": "18"
+  },
+  {
+    "front": "La {{...}} es la regla y la {{...}} es la excepción.",
+    "back": "capacidad; incapacidad"
+  },
+  {
+    "front": "La incapacidad jurídica es la falta de capacidad de {{...}}.",
+    "back": "ejercicio"
+  },
+  {
+    "front": "El incapaz solo puede actuar en la vida jurídica mediante {{...}} o {{...}} legal.",
+    "back": "representación; asistencia"
+  },
+  {
+    "front": "La incapacidad deriva de la falta de {{...}} o de una enfermedad que afecta el {{...}}.",
+    "back": "edad; discernimiento"
+  },
+  {
+    "front": "Según su origen, la incapacidad puede ser {{...}} o {{...}}.",
+    "back": "natural; patológica"
+  },
+  {
+    "front": "Según su duración, la incapacidad puede ser {{...}} o {{...}}.",
+    "back": "temporal; permanente"
+  },
+  {
+    "front": "Según sus efectos, la incapacidad puede ser {{...}} o {{...}}.",
+    "back": "absoluta; relativa"
+  },
+  {
+    "front": "Los dementes son incapaces absolutos cuando son declarados incapaces por {{...}}.",
+    "back": "sentencia judicial"
+  },
+  {
+    "front": "Son incapaces absolutos los sordomudos que no pueden comunicarse por {{...}} ni por {{...}}.",
+    "back": "escrito; lengua de señas"
+  },
+  {
+    "front": "Un sordomudo que puede comunicarse por escrito {{...}} es incapaz absoluto, porque puede darse a entender.",
+    "back": "no"
+  },
+  {
+    "front": "Una mujer de 13 años es menor {{...}} y, por lo tanto, incapaz relativa.",
+    "back": "púber"
+  },
+  {
+    "front": "El menor púber puede contraer {{...}}.",
+    "back": "matrimonio"
+  },
+  {
+    "front": "El menor púber puede hacer {{...}}.",
+    "back": "testamento"
+  },
+  {
+    "front": "El menor púber puede celebrar {{...}} matrimoniales.",
+    "back": "capitulaciones"
+  },
+  {
+    "front": "El menor púber puede administrar por sí mismo su peculio {{...}}.",
+    "back": "profesional"
+  },
+  {
+    "front": "Los {{...}} son los únicos que transitan los dos tipos de incapacidad, absoluta y relativa.",
+    "back": "menores de edad"
+  },
+  {
+    "front": "Los menores pasan de la incapacidad absoluta a la relativa porque la {{...}} se desarrolla progresivamente.",
+    "back": "autoconciencia"
+  },
+  {
+    "front": "Los actos de los incapaces absolutos no producen obligaciones {{...}} ni {{...}}.",
+    "back": "civiles; naturales"
+  },
+  {
+    "front": "Los actos de los incapaces absolutos no admiten {{...}}.",
+    "back": "caución"
+  },
+  {
+    "front": "La obligación {{...}} es exigible judicialmente.",
+    "back": "civil"
+  },
+  {
+    "front": "La obligación {{...}} no confiere acción para exigir su cumplimiento.",
+    "back": "natural"
+  },
+  {
+    "front": "La {{...}} es el instituto de protección de los hijos menores.",
+    "back": "patria potestad"
+  },
+  {
+    "front": "La {{...}} es el instituto de protección de las personas adultas declaradas incapaces.",
+    "back": "curatela"
+  },
+  {
+    "front": "El juicio de interdicción se aplica a los {{...}} y a los {{...}} que no pueden darse a entender.",
+    "back": "dementes; sordomudos"
+  }
+]
