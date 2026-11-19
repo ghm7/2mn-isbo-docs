@@ -1,0 +1,170 @@
+[
+  {
+    "front": "Según el artículo 313, la tutela está destinada a la guarda de la persona y bienes de un menor que no está bajo {{...}} ni habilitado para administrar sus negocios.",
+    "back": "patria potestad"
+  },
+  {
+    "front": "Según el artículo 313, la tutela es un cargo deferido por la {{...}} o en virtud de {{...}}.",
+    "back": "ley; autorización judicial"
+  },
+  {
+    "front": "La tutela es {{...}}: no pasa a los herederos y no puede ejercerse conjuntamente por más de una persona.",
+    "back": "personal"
+  },
+  {
+    "front": "La tutela es {{...}}: nadie puede excusarse de ella, salvo por una causa legítima.",
+    "back": "inexcusable"
+  },
+  {
+    "front": "La tutela es {{...}}: existe solo si los menores no están sometidos a patria potestad.",
+    "back": "supletoria"
+  },
+  {
+    "front": "La tutela debe ser {{...}}: debe haber una sentencia judicial que autorice al tutor a ejercer el cargo.",
+    "back": "discernida"
+  },
+  {
+    "front": "La tutela es un cargo remunerado cuando el menor tiene {{...}}.",
+    "back": "bienes"
+  },
+  {
+    "front": "Según el apunte, el tutor recibe el {{...}} de las ganancias que reciba el menor.",
+    "back": "10%"
+  },
+  {
+    "front": "El tutor debe {{...}} los bienes del menor.",
+    "back": "inventariar"
+  },
+  {
+    "front": "El tutor debe rendir {{...}}.",
+    "back": "cuentas"
+  },
+  {
+    "front": "El tutor debe solicitar {{...}} para los actos en que la ley la exige.",
+    "back": "autorización judicial"
+  },
+  {
+    "front": "Los tres tipos de tutela son la {{...}}, la {{...}} y la {{...}}.",
+    "back": "testamentaria; legítima; dativa"
+  },
+  {
+    "front": "La tutela testamentaria debe ser confirmada por el {{...}}.",
+    "back": "juez"
+  },
+  {
+    "front": "Puede nombrar tutor en testamento el padre o la madre, mayor o menor de edad, que muera {{...}}.",
+    "back": "último"
+  },
+  {
+    "front": "La tutela testamentaria puede hacerse bajo {{...}} o hasta cierto tiempo.",
+    "back": "condición"
+  },
+  {
+    "front": "Si en un testamento se nombran dos tutores, solo uno ejerce la tutela según el orden de {{...}}.",
+    "back": "nombramiento"
+  },
+  {
+    "front": "La tutela legítima existe cuando no hay tutela {{...}}, o cuando hay suspensión o pérdida de la patria potestad.",
+    "back": "testamentaria"
+  },
+  {
+    "front": "Son llamados a la tutela legítima los {{...}} paternos y maternos y los {{...}} mayores de edad.",
+    "back": "abuelos; hermanos y hermanas"
+  },
+  {
+    "front": "Entre los llamados a la tutela legítima se elige al más {{...}} y al que mayor {{...}} presente.",
+    "back": "apto; seguridad"
+  },
+  {
+    "front": "La tutela {{...}} solo existe cuando no existen la testamentaria ni la legítima.",
+    "back": "dativa"
+  },
+  {
+    "front": "En la tutela dativa, el {{...}} propone a dos o más sujetos idóneos.",
+    "back": "Ministerio Público y Fiscal"
+  },
+  {
+    "front": "En la tutela dativa, el {{...}} elige al tutor entre los propuestos.",
+    "back": "juez"
+  },
+  {
+    "front": "Según el apunte, pueden excusarse de la tutela el presidente de la República, los {{...}}, los {{...}} o los fiscales.",
+    "back": "ministros; jueces"
+  },
+  {
+    "front": "Según el apunte, pueden excusarse de la tutela los jefes de {{...}} de los departamentos.",
+    "back": "policía"
+  },
+  {
+    "front": "Según el apunte, puede excusarse de la tutela quien tiene una {{...}}.",
+    "back": "enfermedad grave"
+  },
+  {
+    "front": "Según el apunte, puede excusarse de la tutela quien ya es {{...}} o {{...}} de otra persona.",
+    "back": "tutor; curador"
+  },
+  {
+    "front": "Según el apunte, puede excusarse de la tutela quien tiene {{...}} años o más.",
+    "back": "60"
+  },
+  {
+    "front": "Según el apunte, puede excusarse de la tutela quien tiene {{...}} hijos o más.",
+    "back": "5"
+  },
+  {
+    "front": "Según el apunte, puede excusarse de la tutela quien se domicilia fuera del {{...}}.",
+    "back": "departamento"
+  },
+  {
+    "front": "Pueden ser removidos de la tutela los {{...}} para ejercerla.",
+    "back": "inhábiles"
+  },
+  {
+    "front": "El inhábil puede ser removido de la tutela desde que la causa {{...}} o se {{...}}.",
+    "back": "sobrevenga; averigüe"
+  },
+  {
+    "front": "La {{...}} es un cargo otorgado por sentencia a una persona para hacerse cargo de un incapaz adulto.",
+    "back": "curatela"
+  },
+  {
+    "front": "La curatela es personal e {{...}}.",
+    "back": "intransferible"
+  },
+  {
+    "front": "La curatela es inexcusable, salvo {{...}}.",
+    "back": "causa legal"
+  },
+  {
+    "front": "La curatela debe ser discernida {{...}}.",
+    "back": "judicialmente"
+  },
+  {
+    "front": "La curatela requiere {{...}} y sentencia de incapacidad.",
+    "back": "juicio de interdicción"
+  },
+  {
+    "front": "Los actos del incapaz posteriores a la inscripción de la sentencia en el Registro de Actos Personales son nulos {{...}}.",
+    "back": "de pleno derecho"
+  },
+  {
+    "front": "El orden de la curatela es: legítima, {{...}}, {{...}} y legal.",
+    "back": "testamentaria; dativa"
+  },
+  {
+    "front": "Son llamados a la curatela legítima los {{...}}, los hijos mayores de edad y los padres.",
+    "back": "cónyuges"
+  },
+  {
+    "front": "Los hijos mayores de edad son curadores legítimos cuando sus padres son {{...}}, {{...}} o {{...}}.",
+    "back": "solteros; viudos; divorciados"
+  },
+  {
+    "front": "Los padres son curadores legítimos de sus hijos solteros, viudos o divorciados que no tienen {{...}}.",
+    "back": "hijos adultos"
+  },
+  {
+    "front": "La curatela legal la ejerce el {{...}}.",
+    "back": "MIDES"
+  }
+]

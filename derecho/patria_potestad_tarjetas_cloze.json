@@ -1,0 +1,118 @@
+[
+  {
+    "front": "La {{...}} es el conjunto de derechos y deberes que la ley atribuye a los padres respecto de sus hijos menores, su persona y sus bienes.",
+    "back": "patria potestad"
+  },
+  {
+    "front": "La patria potestad surge como consecuencia de la {{...}}.",
+    "back": "filiación"
+  },
+  {
+    "front": "La patria potestad la ejercen los {{...}}.",
+    "back": "padres"
+  },
+  {
+    "front": "Los padres deben {{...}}, {{...}} y {{...}} a sus hijos.",
+    "back": "cuidar; proteger; educar"
+  },
+  {
+    "front": "Además de cuidar, proteger y educar, los padres deben proporcionar {{...}} a sus hijos.",
+    "back": "alimentos"
+  },
+  {
+    "front": "En sentido amplio, los alimentos comprenden comida, {{...}}, atención médica, vivienda, vestimenta, etc.",
+    "back": "esparcimiento"
+  },
+  {
+    "front": "Los padres tienen derecho a exigir {{...}} a sus hijos.",
+    "back": "respeto"
+  },
+  {
+    "front": "Los padres pueden solicitar a sus hijos colaboración en tareas del hogar acordes con su {{...}}.",
+    "back": "edad"
+  },
+  {
+    "front": "Los {{...}} son el conjunto de bienes que posee un menor de edad.",
+    "back": "peculios"
+  },
+  {
+    "front": "Los tres tipos de peculio son el profesional o industrial, el {{...}} y el {{...}}.",
+    "back": "ordinario; extraordinario"
+  },
+  {
+    "front": "En el peculio {{...}}, los bienes son patrimonio del menor, pero la administración y el usufructo corresponden a los padres.",
+    "back": "ordinario"
+  },
+  {
+    "front": "El peculio {{...}} está formado por bienes que el menor tiene por haber sido desheredados sus padres, o por donación o legado cuando se quitó el usufructo o la administración a los padres.",
+    "back": "extraordinario"
+  },
+  {
+    "front": "La propiedad del peculio extraordinario corresponde al {{...}}.",
+    "back": "menor"
+  },
+  {
+    "front": "En el peculio extraordinario, la {{...}} y el {{...}}, uno o ambos, no corresponden a los padres.",
+    "back": "administración; usufructo"
+  },
+  {
+    "front": "La patria potestad se puede perder {{...}} o {{...}}.",
+    "back": "de pleno derecho; a petición de parte"
+  },
+  {
+    "front": "La pérdida de la patria potestad de pleno derecho {{...}} requiere solicitud ni sentencia expresa.",
+    "back": "no"
+  },
+  {
+    "front": "La pérdida de la patria potestad a petición de parte requiere que alguien la {{...}} y una {{...}} expresa.",
+    "back": "solicite; sentencia"
+  },
+  {
+    "front": "Los padres pierden la patria potestad de pleno derecho si son condenados por un delito contra sus hijos {{...}} a pena de prisión o {{...}} a pena de penitenciaría.",
+    "back": "dos veces; una vez"
+  },
+  {
+    "front": "Según el apunte, la condena por el delito del artículo {{...}} del Código Penal causa la pérdida de la patria potestad de pleno derecho.",
+    "back": "274"
+  },
+  {
+    "front": "El abandono por al menos {{...}} es causal de pérdida de la patria potestad a petición de parte.",
+    "back": "un año"
+  },
+  {
+    "front": "Ser condenado dos veces a pena de prisión o una a pena de penitenciaría por un delito {{...}} es causal de pérdida de la patria potestad a petición de parte.",
+    "back": "común"
+  },
+  {
+    "front": "Son causal de pérdida de la patria potestad a petición de parte las acciones que, sin caer bajo la ley penal, comprometen la {{...}} e {{...}} de los hijos.",
+    "back": "moralidad; integridad"
+  },
+  {
+    "front": "En ambos casos de pérdida, los padres pueden solicitar al {{...}} recuperar sus derechos.",
+    "back": "juez"
+  },
+  {
+    "front": "La patria potestad termina con la {{...}} del menor.",
+    "back": "mayoría de edad"
+  },
+  {
+    "front": "La patria potestad termina con el {{...}} del menor.",
+    "back": "matrimonio civil"
+  },
+  {
+    "front": "La patria potestad termina con la muerte del {{...}} o de los {{...}}.",
+    "back": "menor; dos padres"
+  },
+  {
+    "front": "Los padres tienen prohibido vender o {{...}} los bienes inmuebles de sus hijos.",
+    "back": "hipotecar"
+  },
+  {
+    "front": "Los padres tienen prohibido contraer {{...}} en nombre de sus hijos.",
+    "back": "deudas"
+  },
+  {
+    "front": "Los padres tienen prohibido salir de {{...}} en nombre de sus hijos.",
+    "back": "fiadores"
+  }
+]

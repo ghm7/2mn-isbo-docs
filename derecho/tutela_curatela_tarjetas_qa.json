@@ -1,0 +1,170 @@
+[
+  {
+    "front": "Según el artículo 313 del Código Civil, ¿a qué está destinada la tutela?",
+    "back": "A la guarda de la persona y bienes de un menor que no está bajo patria potestad ni habilitado para administrar sus negocios."
+  },
+  {
+    "front": "Según el artículo 313 del Código Civil, ¿cómo se defiere la tutela?",
+    "back": "Por la ley o en virtud de autorización judicial."
+  },
+  {
+    "front": "¿Qué significa que la tutela es personal?",
+    "back": "Que no pasa a los herederos y no puede ejercerse conjuntamente por más de una persona."
+  },
+  {
+    "front": "¿Qué significa que la tutela es inexcusable?",
+    "back": "Que nadie puede excusarse de ella, salvo por una causa legítima."
+  },
+  {
+    "front": "¿Qué significa que la tutela es supletoria?",
+    "back": "Que existe solo si los menores no están sometidos a patria potestad."
+  },
+  {
+    "front": "¿Qué significa que la tutela debe ser discernida?",
+    "back": "Que debe haber una sentencia judicial que autorice al tutor a ejercer el cargo."
+  },
+  {
+    "front": "¿Cuándo es remunerada la tutela?",
+    "back": "Cuando el menor tiene bienes."
+  },
+  {
+    "front": "Según el apunte, ¿cuánto es la remuneración del tutor?",
+    "back": "El 10% de las ganancias que reciba el menor."
+  },
+  {
+    "front": "¿Qué debe hacer el tutor con los bienes del menor al asumir el cargo?",
+    "back": "Inventariarlos."
+  },
+  {
+    "front": "Además de inventariar los bienes, ¿qué debe rendir el tutor?",
+    "back": "Cuentas."
+  },
+  {
+    "front": "¿Qué debe solicitar el tutor para los actos en que la ley lo exige?",
+    "back": "Autorización judicial."
+  },
+  {
+    "front": "¿Cuáles son los tres tipos de tutela?",
+    "back": "Testamentaria, legítima y dativa."
+  },
+  {
+    "front": "¿Por quién debe ser confirmada la tutela testamentaria?",
+    "back": "Por el juez."
+  },
+  {
+    "front": "¿Quién puede nombrar tutor a sus hijos en testamento?",
+    "back": "El padre o la madre, mayor o menor de edad, que muera último."
+  },
+  {
+    "front": "¿Puede la tutela testamentaria hacerse bajo condición?",
+    "back": "Sí, bajo condición o hasta cierto tiempo."
+  },
+  {
+    "front": "Si en un testamento se nombran dos tutores, ¿quién ejerce la tutela?",
+    "back": "Solo uno, siguiendo el orden de nombramiento."
+  },
+  {
+    "front": "¿Cuándo existe la tutela legítima?",
+    "back": "Cuando no hay tutela testamentaria, o cuando hay suspensión o pérdida de la patria potestad."
+  },
+  {
+    "front": "¿Quiénes son llamados a la tutela legítima?",
+    "back": "Los abuelos paternos y maternos y los hermanos y hermanas mayores de edad."
+  },
+  {
+    "front": "¿Qué criterio se usa para elegir entre los llamados a la tutela legítima?",
+    "back": "El más apto y el que mayor seguridad presente."
+  },
+  {
+    "front": "¿Cuándo existe la tutela dativa?",
+    "back": "Solo cuando no existen la testamentaria ni la legítima."
+  },
+  {
+    "front": "En la tutela dativa, ¿quién propone a los candidatos?",
+    "back": "El Ministerio Público y Fiscal, que propone a dos o más sujetos idóneos."
+  },
+  {
+    "front": "En la tutela dativa, ¿quién elige al tutor?",
+    "back": "El juez."
+  },
+  {
+    "front": "Según el apunte, ¿qué cargos públicos de gobierno y justicia permiten excusarse de la tutela?",
+    "back": "Presidente de la República, ministros, jueces o fiscales."
+  },
+  {
+    "front": "Según el apunte, ¿qué cargo policial permite excusarse de la tutela?",
+    "back": "Jefe de policía de un departamento."
+  },
+  {
+    "front": "Según el apunte, ¿qué problema de salud permite excusarse de la tutela?",
+    "back": "Tener una enfermedad grave."
+  },
+  {
+    "front": "Según el apunte, ¿qué cargo previo permite excusarse de la tutela?",
+    "back": "Ser ya tutor o curador de otra persona."
+  },
+  {
+    "front": "Según el apunte, ¿a partir de qué edad se puede excusar de la tutela?",
+    "back": "60 años o más."
+  },
+  {
+    "front": "Según el apunte, ¿cuántos hijos permiten excusarse de la tutela?",
+    "back": "5 hijos o más."
+  },
+  {
+    "front": "Según el apunte, ¿qué domicilio permite excusarse de la tutela?",
+    "back": "Domiciliarse fuera del departamento."
+  },
+  {
+    "front": "¿Quiénes pueden ser removidos de la tutela?",
+    "back": "Los inhábiles para ejercerla."
+  },
+  {
+    "front": "¿Desde cuándo puede ser removido de la tutela un inhábil?",
+    "back": "Desde que la causa sobrevenga o se averigüe."
+  },
+  {
+    "front": "¿Qué es la curatela?",
+    "back": "Un cargo otorgado por sentencia a una persona para hacerse cargo de un incapaz adulto."
+  },
+  {
+    "front": "¿Puede transferirse la curatela?",
+    "back": "No, es personal e intransferible."
+  },
+  {
+    "front": "¿Puede excusarse quien es designado curador?",
+    "back": "No, salvo causa legal."
+  },
+  {
+    "front": "¿Cómo debe ser discernida la curatela?",
+    "back": "Judicialmente."
+  },
+  {
+    "front": "¿Qué requiere la curatela?",
+    "back": "Juicio de interdicción y sentencia de incapacidad."
+  },
+  {
+    "front": "¿Qué nulidad afecta a los actos del incapaz posteriores a la inscripción de la sentencia en el Registro de Actos Personales?",
+    "back": "Son nulos de pleno derecho."
+  },
+  {
+    "front": "¿Cuál es el orden de la curatela?",
+    "back": "Legítima, testamentaria, dativa y legal."
+  },
+  {
+    "front": "¿Quiénes son llamados a la curatela legítima?",
+    "back": "Los cónyuges, los hijos mayores de edad y los padres."
+  },
+  {
+    "front": "¿Cuándo son curadores legítimos los hijos mayores de edad?",
+    "back": "Cuando sus padres son solteros, viudos o divorciados."
+  },
+  {
+    "front": "¿De qué hijos son curadores legítimos los padres?",
+    "back": "De sus hijos solteros, viudos o divorciados que no tienen hijos adultos."
+  },
+  {
+    "front": "¿Quién ejerce la curatela legal?",
+    "back": "El MIDES."
+  }
+]
