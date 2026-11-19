@@ -1,0 +1,130 @@
+[
+  {
+    "front": "La inconstitucionalidad de los actos legislativos se plantea ante la {{...}}.",
+    "back": "Suprema Corte de Justicia"
+  },
+  {
+    "front": "La nulidad de los actos administrativos se plantea ante el {{...}}.",
+    "back": "Tribunal de lo Contencioso Administrativo"
+  },
+  {
+    "front": "Ley en sentido formal: norma sancionada por el {{...}} y promulgada por el {{...}}.",
+    "back": "Poder Legislativo; Poder Ejecutivo"
+  },
+  {
+    "front": "Ley en sentido material: toda norma jurídica {{...}}.",
+    "back": "general o abstracta"
+  },
+  {
+    "front": "Los decretos del Poder Ejecutivo son actos {{...}} (escalón 3).",
+    "back": "administrativos generales"
+  },
+  {
+    "front": "Las sentencias, resoluciones y contratos son actos {{...}} (escalón 4).",
+    "back": "particulares"
+  },
+  {
+    "front": "Constitución en sentido formal: norma creada por un {{...}} (artículo {{...}}).",
+    "back": "procedimiento especial; 331"
+  },
+  {
+    "front": "La reforma de la Constitución culmina en un {{...}}.",
+    "back": "plebiscito"
+  },
+  {
+    "front": "Derogación temporal: igual jerarquía y {{...}} órgano → prevalece la {{...}}.",
+    "back": "mismo; posterior"
+  },
+  {
+    "front": "Competencia: igual jerarquía y órganos {{...}} → prevalece el órgano competente para la {{...}}.",
+    "back": "diferentes; materia"
+  },
+  {
+    "front": "Jerarquía: entre normas de distinta jerarquía prevalece la {{...}}.",
+    "back": "superior"
+  },
+  {
+    "front": "La parte dogmática regula la relación Estado–habitantes: {{...}}, {{...}} y {{...}}.",
+    "back": "derechos, deberes y garantías"
+  },
+  {
+    "front": "La parte orgánica se refiere a la estructura del Estado: sus {{...}}, {{...}} y requisitos.",
+    "back": "órganos; funciones"
+  },
+  {
+    "front": "Un orden jurídico existe cuando las normas forman un sistema subordinado a la {{...}}.",
+    "back": "Constitución"
+  },
+  {
+    "front": "Escalones: Constitución → actos {{...}} → actos administrativos {{...}} → actos {{...}}.",
+    "back": "legislativos; generales; particulares"
+  },
+  {
+    "front": "Un código es una ley extensa o conjunto de leyes sobre una misma {{...}}.",
+    "back": "materia o temática jurídica"
+  },
+  {
+    "front": "Criterios para ordenar normas: fuerza jurídica, generalidad o abstracción y {{...}}.",
+    "back": "valor jurídico de la norma"
+  },
+  {
+    "front": "La Constitución es la norma de mayor {{...}} del orden jurídico interno y la fuente formal de {{...}} de las demás normas.",
+    "back": "fuerza; validez"
+  },
+  {
+    "front": "La fuerza jurídica es el poder que tiene una norma para {{...}} a otra.",
+    "back": "derogar"
+  },
+  {
+    "front": "Constitución en sentido material: norma referida a la estructura del {{...}} y a la relación entre el Estado y sus {{...}}.",
+    "back": "Estado; habitantes"
+  },
+  {
+    "front": "El segundo escalón son los actos {{...}}: leyes, códigos y decretos de las juntas {{...}}.",
+    "back": "legislativos; departamentales"
+  },
+  {
+    "front": "Los actos legislativos derivan de órganos {{...}}, como el Poder Legislativo o las juntas departamentales.",
+    "back": "legislativos"
+  },
+  {
+    "front": "Reglamentos, estatutos, ordenanzas, acordadas y {{...}} son actos administrativos generales.",
+    "back": "circulares"
+  },
+  {
+    "front": "Los decretos de las juntas departamentales los sanciona la {{...}} y los promulga el {{...}}.",
+    "back": "junta departamental; intendente"
+  },
+  {
+    "front": "El decreto de una junta departamental es un acto {{...}} (escalón 2); el decreto del intendente es un acto administrativo {{...}} (escalón 3).",
+    "back": "legislativo; general"
+  },
+  {
+    "front": "Lo único que puede estar por encima de la Constitución son los principios y valores del derecho {{...}}.",
+    "back": "natural"
+  },
+  {
+    "front": "Según Korzeniak, el Derecho es un sistema de {{...}} creadas por el Estado y de {{...}} reconocidos como jurídicos, basados en un ideal de {{...}} y orientados a la paz social.",
+    "back": "normas jurídicas; principios; justicia"
+  },
+  {
+    "front": "Si un decreto del Poder Ejecutivo contradice una ley, prevalece la {{...}} por el principio de {{...}}.",
+    "back": "ley; jerarquía"
+  },
+  {
+    "front": "Si una sentencia contradice un decreto del Poder Ejecutivo, prevalece el {{...}} por el principio de {{...}}.",
+    "back": "decreto; jerarquía"
+  },
+  {
+    "front": "Dos leyes contradictorias del Poder Legislativo en fechas distintas: prevalece la {{...}} por {{...}} temporal.",
+    "back": "posterior; derogación"
+  },
+  {
+    "front": "Una norma sancionada por el Legislativo y promulgada por el Ejecutivo que se refiere a una sola persona es ley en sentido {{...}}, pero no en sentido {{...}}.",
+    "back": "formal; material"
+  },
+  {
+    "front": "El sentido formal se define por el {{...}} de creación; el sentido material, por el {{...}} de la norma.",
+    "back": "procedimiento; contenido"
+  }
+]

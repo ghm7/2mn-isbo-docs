@@ -1,0 +1,130 @@
+[
+  {
+    "front": "¿Ante qué órgano se plantea la inconstitucionalidad de los actos legislativos?",
+    "back": "Ante la Suprema Corte de Justicia."
+  },
+  {
+    "front": "¿Ante qué órgano se plantea la nulidad de los actos administrativos?",
+    "back": "Ante el Tribunal de lo Contencioso Administrativo."
+  },
+  {
+    "front": "¿Qué es una ley en sentido formal?",
+    "back": "Toda norma jurídica sancionada (aprobada) por el Poder Legislativo y promulgada por el Poder Ejecutivo."
+  },
+  {
+    "front": "¿Qué es una ley en sentido material?",
+    "back": "Toda norma jurídica general o abstracta."
+  },
+  {
+    "front": "¿En qué escalón de la jerarquía están los decretos del Poder Ejecutivo y qué tipo de acto son?",
+    "back": "En el tercer escalón: son actos administrativos generales."
+  },
+  {
+    "front": "¿En qué escalón de la jerarquía están las sentencias, las resoluciones y los contratos y qué tipo de actos son?",
+    "back": "En el cuarto escalón: son actos particulares."
+  },
+  {
+    "front": "¿Cuándo la Constitución es una norma en sentido formal?",
+    "back": "Cuando fue creada según un procedimiento especial (artículo 331 de la Constitución)."
+  },
+  {
+    "front": "¿En qué culmina la reforma de la Constitución?",
+    "back": "En un plebiscito, luego de los mecanismos del artículo 331."
+  },
+  {
+    "front": "¿Qué principio resuelve la contradicción entre dos normas de igual jerarquía creadas por el mismo órgano?",
+    "back": "La derogación temporal: prevalece la norma posterior."
+  },
+  {
+    "front": "¿Qué principio resuelve la contradicción entre dos normas de igual jerarquía creadas por órganos diferentes?",
+    "back": "La competencia: prevalece la norma dictada por el órgano competente para la materia."
+  },
+  {
+    "front": "¿Qué principio resuelve la contradicción entre normas de distinta jerarquía?",
+    "back": "La jerarquía: prevalece la norma superior."
+  },
+  {
+    "front": "¿Qué regula la parte dogmática de la Constitución?",
+    "back": "La relación entre el Estado y sus habitantes: derechos, deberes y garantías."
+  },
+  {
+    "front": "¿Qué regula la parte orgánica de la Constitución?",
+    "back": "La estructura del Estado: sus órganos, funciones, requisitos, etc."
+  },
+  {
+    "front": "¿Cuándo existe un orden jurídico?",
+    "back": "Cuando todas las normas jurídicas de un Estado forman un sistema y se subordinan a una norma fundamental: la Constitución."
+  },
+  {
+    "front": "¿Cuál es la estructura jerárquica del orden jurídico, de mayor a menor?",
+    "back": "Constitución, actos legislativos, actos administrativos generales y actos particulares."
+  },
+  {
+    "front": "¿Qué es un código?",
+    "back": "Una ley extensa o un conjunto de leyes que se refieren a una misma materia o temática jurídica."
+  },
+  {
+    "front": "¿Cuáles son los criterios para ordenar las normas jurídicas?",
+    "back": "La fuerza jurídica, el grado de generalidad o abstracción y el valor jurídico de la norma."
+  },
+  {
+    "front": "¿Qué es la Constitución dentro del orden jurídico?",
+    "back": "La norma de mayor fuerza del orden jurídico interno y la fuente formal de validez de las demás normas."
+  },
+  {
+    "front": "¿Qué es la fuerza jurídica de una norma?",
+    "back": "El poder que tiene una norma para derogar a otra."
+  },
+  {
+    "front": "¿Qué es la Constitución en sentido material?",
+    "back": "La norma jurídica referida a la estructura del Estado (órganos, funciones, requisitos) y a la relación entre el Estado y sus habitantes (derechos, deberes y garantías)."
+  },
+  {
+    "front": "¿Qué actos forman el segundo escalón de la jerarquía?",
+    "back": "Los actos legislativos: leyes, códigos y decretos de las juntas departamentales."
+  },
+  {
+    "front": "¿De qué órganos derivan los actos legislativos?",
+    "back": "De órganos legislativos, como el Poder Legislativo o las juntas departamentales."
+  },
+  {
+    "front": "¿Qué actos, además de los decretos del Poder Ejecutivo o del intendente, forman parte de los actos administrativos generales?",
+    "back": "Los reglamentos, estatutos, ordenanzas, acordadas y circulares."
+  },
+  {
+    "front": "¿Quién sanciona y quién promulga los decretos de las juntas departamentales?",
+    "back": "Los sanciona la junta departamental (órgano legislativo departamental) y los promulga el intendente (ejecutivo departamental)."
+  },
+  {
+    "front": "¿En qué escalón está un decreto de una junta departamental y en cuál un decreto del intendente?",
+    "back": "El decreto de la junta es un acto legislativo (escalón 2); el decreto del intendente es un acto administrativo general (escalón 3)."
+  },
+  {
+    "front": "¿Qué es lo único que puede estar por encima de la Constitución?",
+    "back": "Los principios y valores del derecho natural, que no están escritos."
+  },
+  {
+    "front": "¿Cómo define José Korzeniak el Derecho?",
+    "back": "Como un sistema de normas jurídicas creadas por el Estado y de principios reconocidos como jurídicos, basados en un ideal de justicia y orientados a la paz social."
+  },
+  {
+    "front": "Un decreto del Poder Ejecutivo contradice una ley. ¿Cuál prevalece y por qué principio?",
+    "back": "La ley, porque es un acto legislativo (escalón 2) y el decreto es un acto administrativo general (escalón 3): principio de jerarquía."
+  },
+  {
+    "front": "Una sentencia contradice un decreto del Poder Ejecutivo. ¿Cuál prevalece y por qué principio?",
+    "back": "El decreto, porque es un acto administrativo general (escalón 3) y la sentencia es un acto particular (escalón 4): principio de jerarquía."
+  },
+  {
+    "front": "El Poder Legislativo aprueba dos leyes contradictorias en fechas distintas. ¿Cuál prevalece y por qué principio?",
+    "back": "La posterior, por derogación temporal: tienen igual jerarquía y las creó el mismo órgano."
+  },
+  {
+    "front": "El Poder Legislativo aprueba y el Ejecutivo promulga una norma que se refiere a una sola persona. ¿Es ley en sentido formal, material o ambos?",
+    "back": "Solo en sentido formal: cumple el procedimiento, pero no es general ni abstracta."
+  },
+  {
+    "front": "¿Qué distingue el sentido formal del sentido material, tanto en la ley como en la Constitución?",
+    "back": "El sentido formal se define por el procedimiento de creación; el sentido material, por el contenido de la norma."
+  }
+]
