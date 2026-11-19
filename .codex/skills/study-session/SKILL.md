@@ -56,34 +56,58 @@ Al terminar la evaluación:
 
 ## 6. Generación de tarjetas de estudio
 
-Genera tarjetas de estudio siguiendo este orden de prioridad:
+Genera DOS versiones de las tarjetas, con los mismos datos en ambas y en el mismo orden:
 
-1. Conceptos respondidos incorrectamente.
-2. Conceptos en los que el usuario mostró dudas.
-3. Conceptos fundamentales del tema.
-4. Aplicaciones prácticas importantes.
+1. Puntos débiles identificados: conceptos respondidos incorrectamente y conceptos en los que el usuario mostró dudas.
+2. Conceptos clave del tema, incluidas las aplicaciones prácticas importantes.
 
-Reglas para las tarjetas:
-- Cada tarjeta debe evaluar un único concepto.
-- El frente debe contener una pregunta clara y específica.
-- El reverso debe contener una respuesta breve y precisa.
+Reglas comunes:
+- Cada tarjeta contiene UN SOLO dato (un único concepto, definición o relación).
 - Evita preguntas ambiguas.
-- Evita duplicar conceptos.
-- Prioriza preguntas que requieran recordar o aplicar conocimientos.
-- Genera tantas tarjetas como sean necesarias para cubrir los conceptos relevantes, sin agregar contenido redundante.
+- Evita duplicar datos dentro de una misma versión.
+- Prioriza lo que requiera recordar o aplicar conocimientos.
+- Genera tantas tarjetas como sean necesarias para cubrir los puntos débiles y los conceptos clave, sin agregar contenido redundante.
+
+### Versión 1: pregunta y respuesta (`qa`)
+
+- El frente es una pregunta clara y específica.
+- El reverso es una respuesta breve y precisa.
+
+### Versión 2: espacios en blanco (`cloze`)
+
+- Prioriza oraciones con espacios en blanco para los términos importantes.
+- El frente es una oración que oculta el término clave con `{{...}}`.
+- El reverso contiene solo el término oculto. Si el dato necesita dos términos, usa un `{{...}}` por cada uno y sepáralos en el reverso con `; `, en el mismo orden.
+- Usa una pregunta solo cuando el dato no se pueda expresar bien como oración con espacios en blanco.
 
 ## 7. Exportación JSON
 
-Al finalizar la sesión, genera un archivo llamado `study-flashcards.json` en el directorio de trabajo actual.
+Al finalizar la sesión, genera DOS archivos, uno por cada versión de tarjetas.
 
-El contenido debe ser un array JSON con la siguiente estructura:
+### Ubicación
+
+Guarda los archivos en la carpeta de la materia, junto con los demás archivos de esa materia (por ejemplo, `derecho/`).
+
+Determina la carpeta así:
+1. La carpeta de la materia donde está el material de estudio o las notas que el usuario indicó.
+2. La carpeta de la materia que el usuario mencionó.
+3. El directorio de trabajo actual, solo si ya es una carpeta de materia.
+
+Si no puedes determinarla con certeza, pregúntale al usuario. No guardes los archivos en la raíz del repositorio.
+
+### Nombre
+
+`<tema>_tarjetas_qa.json` y `<tema>_tarjetas_cloze.json`
+
+- `<tema>` es el tema estudiado en minúsculas, con guiones bajos y sin tildes ni caracteres especiales (por ejemplo, `estructura_orden_juridico`).
+- Sigue la convención de los archivos de tarjetas que ya existan en esa carpeta.
+
+### Contenido
+
+Cada archivo es un array JSON. Ejemplo de la versión `qa`:
 
 ```json
 [
-  {
-    "front": "¿Qué es una función lineal?",
-    "back": "Es una función de la forma f(x) = mx + b, según la convención utilizada."
-  },
   {
     "front": "¿Qué representa la pendiente de una recta?",
     "back": "La variación de Y por cada unidad que aumenta X."
@@ -91,7 +115,18 @@ El contenido debe ser un array JSON con la siguiente estructura:
 ]
 ```
 
-Reglas estrictas del archivo:
+Ejemplo de la versión `cloze`:
+
+```json
+[
+  {
+    "front": "La pendiente de una recta representa la variación de {{...}} por cada unidad que aumenta {{...}}.",
+    "back": "Y; X"
+  }
+]
+```
+
+Reglas estrictas de los archivos:
 
 - El archivo debe ser JSON válido.
 - El elemento raíz debe ser un array.
@@ -105,7 +140,7 @@ Reglas estrictas del archivo:
 - Valida que el JSON sea correcto antes de finalizar.
 - No sobrescribas archivos existentes sin autorización; utiliza un nombre alternativo si es necesario.
 
-Si puedes escribir archivos, crea el JSON directamente. Si no puedes, muestra su contenido en un bloque de código JSON para que el usuario pueda guardarlo manualmente.
+Si puedes escribir archivos, crea los JSON directamente. Si no puedes, muestra el contenido de cada uno en un bloque de código JSON, indicando el nombre y la carpeta sugeridos, para que el usuario pueda guardarlos manualmente.
 
 ## Reglas generales
 
