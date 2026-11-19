@@ -73,7 +73,19 @@
   },
   {
     "front": "¿Qué es la fuerza jurídica de una norma?",
-    "back": "El poder que tiene una norma para derogar a otra."
+    "back": "La capacidad de una norma para modificar o derogar otras normas y resistir su modificación o derogación por normas de inferior jerarquía."
+  },
+  {
+    "front": "¿Qué es la generalidad de una norma?",
+    "back": "La característica de una norma que se dirige a un conjunto indeterminado de personas."
+  },
+  {
+    "front": "¿Qué es la abstracción de una norma?",
+    "back": "La característica de una norma que regula situaciones hipotéticas que pueden repetirse, y no casos concretos."
+  },
+  {
+    "front": "¿Qué es el valor jurídico de una norma?",
+    "back": "El régimen que determina las condiciones y procedimientos mediante los cuales una norma puede dejar de aplicarse por ser contraria al Derecho."
   },
   {
     "front": "¿Qué es la Constitución en sentido material?",
@@ -118,13 +130,5 @@
   {
     "front": "El Poder Legislativo aprueba dos leyes contradictorias en fechas distintas. ¿Cuál prevalece y por qué principio?",
     "back": "La posterior, por derogación temporal: tienen igual jerarquía y las creó el mismo órgano."
-  },
-  {
-    "front": "El Poder Legislativo aprueba y el Ejecutivo promulga una norma que se refiere a una sola persona. ¿Es ley en sentido formal, material o ambos?",
-    "back": "Solo en sentido formal: cumple el procedimiento, pero no es general ni abstracta."
-  },
-  {
-    "front": "¿Qué distingue el sentido formal del sentido material, tanto en la ley como en la Constitución?",
-    "back": "El sentido formal se define por el procedimiento de creación; el sentido material, por el contenido de la norma."
   }
 ]

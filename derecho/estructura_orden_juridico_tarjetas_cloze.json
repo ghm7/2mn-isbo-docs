@@ -72,8 +72,20 @@
     "back": "fuerza; validez"
   },
   {
-    "front": "La fuerza jurídica es el poder que tiene una norma para {{...}} a otra.",
-    "back": "derogar"
+    "front": "La fuerza jurídica es la capacidad de una norma para {{...}} o {{...}} otras normas y {{...}} su modificación o derogación por normas de {{...}} jerarquía.",
+    "back": "modificar; derogar; resistir; inferior"
+  },
+  {
+    "front": "La generalidad es la característica de una norma que se dirige a un conjunto {{...}} de personas.",
+    "back": "indeterminado"
+  },
+  {
+    "front": "La abstracción es la característica de una norma que regula situaciones {{...}} que pueden {{...}}, y no casos {{...}}.",
+    "back": "hipotéticas; repetirse; concretos"
+  },
+  {
+    "front": "El valor jurídico es el {{...}} que determina las condiciones y procedimientos mediante los cuales una norma puede dejar de {{...}} por ser contraria al {{...}}.",
+    "back": "régimen; aplicarse; Derecho"
   },
   {
     "front": "Constitución en sentido material: norma referida a la estructura del {{...}} y a la relación entre el Estado y sus {{...}}.",
@@ -118,13 +130,5 @@
   {
     "front": "Dos leyes contradictorias del Poder Legislativo en fechas distintas: prevalece la {{...}} por {{...}} temporal.",
     "back": "posterior; derogación"
-  },
-  {
-    "front": "Una norma sancionada por el Legislativo y promulgada por el Ejecutivo que se refiere a una sola persona es ley en sentido {{...}}, pero no en sentido {{...}}.",
-    "back": "formal; material"
-  },
-  {
-    "front": "El sentido formal se define por el {{...}} de creación; el sentido material, por el {{...}} de la norma.",
-    "back": "procedimiento; contenido"
   }
 ]
